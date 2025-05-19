@@ -7,6 +7,7 @@ on:
       - "src/**"
       - ".github/workflows/**"
       - "*.sln"
+      - "tools/**"
 
   push:
     branches:
@@ -15,6 +16,7 @@ on:
       - "src/**"
       - ".github/workflows/**"
       - "*.sln"
+      - "tools/**"
 
 env:
   DOTNET_NOLOGO: true
