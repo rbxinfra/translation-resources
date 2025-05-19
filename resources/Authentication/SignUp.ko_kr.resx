@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action.WeChatLogin" xml:space="preserve">
+    <value>WeChat 로그인</value>
+    <comment>button text to launch WeChat mobile app&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.GenderPickerFemaleContentDesc" xml:space="preserve">
+    <value>rbxGenderPickerFemale</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.PasswordHintTextLong" xml:space="preserve">
+    <value>비밀번호(영문 알파벳 4개 및 숫자 2개 이상)</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthJune" xml:space="preserve">
+    <value>6월</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PleaseEnterUsername" xml:space="preserve">
+    <value>사용자 이름을 입력하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CarouselChatText" xml:space="preserve">
+    <value>새로운 친구를 만들어 언제 어디서나 함께 플레이하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Continue" xml:space="preserve">
+    <value>계속</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthDecember" xml:space="preserve">
+    <value>12월</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.VerifyPhoneNumber" xml:space="preserve">
+    <value>전화번호 인증</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WelcomeToRoblox" xml:space="preserve">
+    <value>Roblox에 오신 것을 환영합니다</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordUsernameRequired" xml:space="preserve">
+    <value>사용자 이름은 필수입니다.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SignUpPasswordTooShortError" xml:space="preserve">
+    <value>비밀번호는 영문 알파벳 8자 이상이어야 합니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameExplicit" xml:space="preserve">
+    <value>사용할 수 없는 사용자 이름입니다. 다시 시도하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Verify" xml:space="preserve">
+    <value>인증</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.SignUpPasswordConfirmContentDesc" xml:space="preserve">
+    <value>signupPasswordConfirm</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date9" xml:space="preserve">
+    <value>9</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date15" xml:space="preserve">
+    <value>15</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date21" xml:space="preserve">
+    <value>21</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.NoGenderError" xml:space="preserve">
+    <value>성별을 지정하지 않았습니다. 성별을 선택하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UseEmailInstead" xml:space="preserve">
+    <value>전화번호 대신 이메일 사용</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfirmPassword" xml:space="preserve">
+    <value>비밀번호 확인</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date24" xml:space="preserve">
+    <value>24</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date27" xml:space="preserve">
+    <value>27</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.EnterCodeSentFormated" xml:space="preserve">
+    <value>{var1}(으)로 전송한 6자리 코드를 입력하세요</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PleaseEnterAnEmail" xml:space="preserve">
+    <value>이메일을 입력하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.UsernameHintTextLong" xml:space="preserve">
+    <value>사용자 이름 (6-20자, 공백 없음)</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date20" xml:space="preserve">
+    <value>20</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.HaveAnAccountAlready" xml:space="preserve">
+    <value>계정이 있으신가요?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Login" xml:space="preserve">
+    <value>로그인</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.VerifyEmail" xml:space="preserve">
+    <value>이메일 인증</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameInvalidFirstOrLastCharacter" xml:space="preserve">
+    <value>사용자 이름은 _으로 시작하거나 끝날 수 없습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CarouselAvatarTitle" xml:space="preserve">
+    <value>아바타 만들기</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date30" xml:space="preserve">
+    <value>30</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ResendCode" xml:space="preserve">
+    <value>코드 재전송</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthSeptember" xml:space="preserve">
+    <value>9월</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Start" xml:space="preserve">
+    <value>시작!</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateAccount" xml:space="preserve">
+    <value>계정 만들기</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date12" xml:space="preserve">
+    <value>12</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Email" xml:space="preserve">
+    <value>이메일</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MakeSureIs8CharsOrMore" xml:space="preserve">
+    <value>8자 이상 입력하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Skip" xml:space="preserve">
+    <value>건너뛰기</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.TooManyAccountsLinkedToEmail" xml:space="preserve">
+    <value>너무 많은 계정이 본 이메일과 연결되어 있습니다</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PhoneNumber" xml:space="preserve">
+    <value>전화번호</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.LinkAccount" xml:space="preserve">
+    <value>계정 연결</value>
+    <comment>Button text to link 3rd Party Account to a Roblox Account&#xA;Created by jwong@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by jwong@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.SubmitButtonContentDesc" xml:space="preserve">
+    <value>signupSubmitButton</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.UsernameHint" xml:space="preserve">
+    <value>실명을 사용하지 마세요</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.HowDoWeCallYou" xml:space="preserve">
+    <value>어떤 이름을 사용하시겠어요?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date3" xml:space="preserve">
+    <value>3</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date28" xml:space="preserve">
+    <value>28</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Male" xml:space="preserve">
+    <value>남성</value>
+    <comment>label&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WhensYourBirthday" xml:space="preserve">
+    <value>생일을 알려주시겠어요?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ApiUnavailable" xml:space="preserve">
+    <value>가입이 비활성화되었어요. 나중에 다시 시도하세요.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordPhoneNoRequired" xml:space="preserve">
+    <value>전화번호는 필수입니다.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UnableToAddPasskey" xml:space="preserve">
+    <value>패스키를 추가할 수 없습니다. 다시 시도하거나 비밀번호를 대신 만드세요.</value>
+    <comment>Error message presented to users when an attempt to add a passkey fails (due to either the user canceling the operation client-side or a some server error)</comment>
+  </data>
+  <data name="Action.SignUp" xml:space="preserve">
+    <value>회원가입</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.TermsOfServiceAndPrivacyPolicy" xml:space="preserve">
+    <value>&#39;회원가입&#39;을 누르면 {var1}이용 약관{var2} 및 {var3}개인정보 처리방침{var4}에 동의하는 것으로 간주됩니다.</value>
+    <comment>Terms of use and privacy policy with substitutions for urls&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date8" xml:space="preserve">
+    <value>8</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date23" xml:space="preserve">
+    <value>23</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LogInText" xml:space="preserve">
+    <value>로그인</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SignUp" xml:space="preserve">
+    <value>회원가입</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.BadServerResponseError" xml:space="preserve">
+    <value>서버에서 잘못된 응답을 받았습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordComplexity" xml:space="preserve">
+    <value>좀 더 복잡한 비밀번호를 만드세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.CreateAPassword" xml:space="preserve">
+    <value>Roblox 계정의 비밀번호를 만드세요</value>
+    <comment>Description to inform users to create a password during multi-step signup</comment>
+  </data>
+  <data name="Label.Date14" xml:space="preserve">
+    <value>14</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date25" xml:space="preserve">
+    <value>25</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthJuly" xml:space="preserve">
+    <value>7월</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthMarch" xml:space="preserve">
+    <value>3월</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SignUpWithPhone" xml:space="preserve">
+    <value>전화번호로 가입</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.InvalidCode" xml:space="preserve">
+    <value>유효하지 않은 코드.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordForbidden" xml:space="preserve">
+    <value>사용할 수 없는 비밀번호입니다. 다른 비밀번호를 선택하세요 </value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.VerificationPageMultiStep" xml:space="preserve">
+    <value>&#39;계속&#39;을 누르면 중재 조항을 포함한 이용 약관 및 개인정보 처리방침에 동의하는 것으로 간주됩니다.</value>
+    <comment>Legal text in the final step of multi step (e.g. passkey) sign up</comment>
+  </data>
+  <data name="Label.CarouselAvatarText" xml:space="preserve">
+    <value>본인의 취향에 맞게 아바타를 꾸며보세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CarouselGamesText" xml:space="preserve">
+    <value>친구들 및 수백만 명의 다른 가상 탐험가들과 다양한 소셜 게임을 즐겨보세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthApril" xml:space="preserve">
+    <value>4월</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordEmailRequired" xml:space="preserve">
+    <value>이메일은 필수입니다.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SignUpPopUpSignUpForAFreeAccount" xml:space="preserve">
+    <value>회원가입(무료)하여 계정을 만드세요</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameCannotContainSpaces" xml:space="preserve">
+    <value>사용자 이름은 공백을 포함할 수 없습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.Or" xml:space="preserve">
+    <value>또는</value>
+    <comment>Standalone text that divides two button options, i.e. Action1 ---OR--- Action2</comment>
+  </data>
+  <data name="Label.Date29" xml:space="preserve">
+    <value>29</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.OrCreateAPasskey" xml:space="preserve">
+    <value>비밀번호 대신 패스키 생성하기</value>
+    <comment>Button text that prompts passkey registration (as opposed to continuing with password) to complete the user signup process.</comment>
+  </data>
+  <data name="Response.PasswordVipLength" xml:space="preserve">
+    <value>비밀번호는 최소한 숫자 2개, 영문 알파벳 4개, 기호 1개를 포함해야 하고, 총 8자 이상이어야 합니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PhoneNumberAlreadyLinked" xml:space="preserve">
+    <value>이미 다른 계정에 연결된 전화번호입니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PleaseEnterPassword" xml:space="preserve">
+    <value>비밀번호를 입력하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SignUpPopUpCreateAnAccountOnRoblox" xml:space="preserve">
+    <value>체험 진행 상황을 저장하려면 Roblox 계정을 만드세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.TooManyAccountsCreatedTryAgainLater" xml:space="preserve">
+    <value>계정을 너무 많이 만들었습니다. 나중에 다시 시도해 주세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.AlreadyHaveAnAccount" xml:space="preserve">
+    <value>이미 계정이 있으시다구요?</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.BirthdayDaySpinnerContentDesc" xml:space="preserve">
+    <value>rbxBirthdayDaySpinner</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.PasswordMinLength" xml:space="preserve">
+    <value>8자 이상</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date2" xml:space="preserve">
+    <value>2</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordMismatch" xml:space="preserve">
+    <value>비밀번호가 일치하지 않습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UserAccountAlreadyCreated" xml:space="preserve">
+    <value>오류가 발생했어요. 회원가입 화면에서 나간 후 다시 시도하세요.</value>
+    <comment>Created by wyao@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by wyao@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.VoucherExpired" xml:space="preserve">
+    <value>가입 세션이 만료되었습니다. 가입 페이지를 다시 방문하세요.</value>
+    <comment>Only sued for Luobu, when Wechat/QQ voucher expired.&#xA;Created by twan@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by twan@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AlreadyHaveAnAccount" xml:space="preserve">
+    <value>이미 계정이 있으시다구요?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthFebruary" xml:space="preserve">
+    <value>2월</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthNovember" xml:space="preserve">
+    <value>11월</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthOctober" xml:space="preserve">
+    <value>10월</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.OptionalGender" xml:space="preserve">
+    <value>성별(선택 사항)</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ThisIsYourUsername" xml:space="preserve">
+    <value>사용자 이름:</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WhenIsYourBirthday" xml:space="preserve">
+    <value>생년월일을 알려주시겠어요?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.InvalidEmail" xml:space="preserve">
+    <value>유효하지 않은 이메일입니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.OneMoreStep" xml:space="preserve">
+    <value>한 단계 추가하기</value>
+    <comment>Heading prompting users to complete sign up by adding an authentication method</comment>
+  </data>
+  <data name="Description.Username" xml:space="preserve">
+    <value>사용자 이름</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date17" xml:space="preserve">
+    <value>17</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date18" xml:space="preserve">
+    <value>18</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date22" xml:space="preserve">
+    <value>22</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordInvalidCharacters" xml:space="preserve">
+    <value>비밀번호가 유효하지 않은 문자를 포함하고 있습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SignUpErrorGeneratingUsername" xml:space="preserve">
+    <value>죄송합니다. 사용자 이름을 만들지 못했습니다. 새로운 사용자 이름을 입력하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameAlreadyInUse" xml:space="preserve">
+    <value>이미 사용 중인 사용자 이름입니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CarouselGamesTitle" xml:space="preserve">
+    <value>사용자가 개발한 수백만 가지 게임</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SignUpWithEmail" xml:space="preserve">
+    <value>이메일로 가입</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SignUpWord" xml:space="preserve">
+    <value>회원가입</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TOSAndPrivacy" xml:space="preserve">
+    <value>&#39;회원가입&#39;을 누르면 중재 조항을 포함한 {var1} 및 {var2}에 동의하는 것으로 간주됩니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordUnknownError" xml:space="preserve">
+    <value>오류가 발생했어요. 다시 시도하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ServerError" xml:space="preserve">
+    <value>서버 오류.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.SignUpUsernameContentDesc" xml:space="preserve">
+    <value>signupUsername</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Next" xml:space="preserve">
+    <value>다음</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameRequired" xml:space="preserve">
+    <value>사용자 이름은 필수입니다.</value>
+    <comment>validation error message&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.BirthdayYearSpinnerContentDesc" xml:space="preserve">
+    <value>rbxBirthdayYearSpinner</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date7" xml:space="preserve">
+    <value>7</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date26" xml:space="preserve">
+    <value>26</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.EmailRequirementsUnder13" xml:space="preserve">
+    <value>보호자 이메일</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GenderRequired" xml:space="preserve">
+    <value>성별을 선택하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.BirthdayMustBeSetFirst" xml:space="preserve">
+    <value>먼저 생년월일을 설정해야 합니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.InvalidCodeTryAgain" xml:space="preserve">
+    <value>유효하지 않은 코드. 다시 시도하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordRequirements" xml:space="preserve">
+    <value>6-20자, 숫자 2개 이상 포함</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.SignUpPasswordContentDesc" xml:space="preserve">
+    <value>signupPassword</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.6DigitCode" xml:space="preserve">
+    <value>6자리 코드</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date5" xml:space="preserve">
+    <value>5</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date16" xml:space="preserve">
+    <value>16</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Gender" xml:space="preserve">
+    <value>성별</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.InvalidBirthday" xml:space="preserve">
+    <value>유효하지 않은 생년월일</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordMatchesUsername" xml:space="preserve">
+    <value>사용자 이름을 비밀번호로 사용할 수 없습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.RegisteringWord" xml:space="preserve">
+    <value>등록 중</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AlmostThere" xml:space="preserve">
+    <value>거의 다 되었습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Birthday" xml:space="preserve">
+    <value>생년월일</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date4" xml:space="preserve">
+    <value>4</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date11" xml:space="preserve">
+    <value>11</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date31" xml:space="preserve">
+    <value>31</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ErrorAcceptTermsToContinue" xml:space="preserve">
+    <value>계속하려면 이용 약관 및 개인정보 처리방침에 동의해야 합니다.</value>
+    <comment>Created by wlu@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by wlu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LoginWord" xml:space="preserve">
+    <value>로그인</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthAugust" xml:space="preserve">
+    <value>8월</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.NextWord" xml:space="preserve">
+    <value>다음</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.BirthdayMonthSpinnerContentDesc" xml:space="preserve">
+    <value>rbxBirthdayMonthSpinner</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CarouselChatTitle" xml:space="preserve">
+    <value>친구와 채팅하기</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PickUsername" xml:space="preserve">
+    <value>사용자 이름 선택</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TOSAndPrivacySMSFeeMayApply" xml:space="preserve">
+    <value>&#39;회원가입&#39;을 누르면 {var1} 및 {var2}에 동의하는 것으로 간주됩니다. 전화번호 확인을 위한 SMS가 전송됩니다. SMS 발송 수수료가 부과될 수 있습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ErrorMessage" xml:space="preserve">
+    <value>가입 오류.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UnexpectedErrorText" xml:space="preserve">
+    <value>어이쿠! 오류가 발생했어요. </value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameContainsInvalidCharacters" xml:space="preserve">
+    <value>사용자 이름이 유효하지 않은 문자를 포함하고 있습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Cancel" xml:space="preserve">
+    <value>취소</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.UserGreetingWithName" xml:space="preserve">
+    <value>{username}님 안녕하세요</value>
+    <comment>Used as a (standalone) heading for a screen with interactive UI and instructions on how to proceed with the signup process.</comment>
+  </data>
+  <data name="Label.ChoosePassword" xml:space="preserve">
+    <value>비밀번호 선택</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateYourAccount" xml:space="preserve">
+    <value>계정을 만드세요</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PleaseEnterAPhoneNumber" xml:space="preserve">
+    <value>전화번호를 입력하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameInvalid" xml:space="preserve">
+    <value>유효한 사용자 이름을 입력하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameUnknownError" xml:space="preserve">
+    <value>오류가 발생했어요. 다시 시도하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.CreateAPasskey" xml:space="preserve">
+    <value>패스키 생성</value>
+    <comment>Label for a button that, when pressed, initiates passkey creation process</comment>
+  </data>
+  <data name="Label.Female" xml:space="preserve">
+    <value>여성</value>
+    <comment>label&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthMay" xml:space="preserve">
+    <value>5월</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.InvalidPhoneNumber" xml:space="preserve">
+    <value>유효하지 않은 전화번호.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.LoginWord" xml:space="preserve">
+    <value>로그인</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.CancelButtonContentDesc" xml:space="preserve">
+    <value>signupCancelButton</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.GenderPickerMaleContentDesc" xml:space="preserve">
+    <value>rbxGenderPickerMale</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date1" xml:space="preserve">
+    <value>1</value>
+    <comment>1&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date10" xml:space="preserve">
+    <value>10</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date19" xml:space="preserve">
+    <value>19</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SelectCountry" xml:space="preserve">
+    <value>국가 선택</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.LooksGreat" xml:space="preserve">
+    <value>좋아요!</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.UsePasskey" xml:space="preserve">
+    <value>패스키 사용</value>
+    <comment>Button text to initiate passkey registration during signup</comment>
+  </data>
+  <data name="Label.Date13" xml:space="preserve">
+    <value>13</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PleaseAgreeToTerms" xml:space="preserve">
+    <value>이용 약관 및 개인정보 처리방침에 동의하시기 바랍니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ErrorTryAgain" xml:space="preserve">
+    <value>오류가 발생했어요. 나중에 다시 시도해 주세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameInvalidCharacters" xml:space="preserve">
+    <value>a-z, A-Z, 0-9 및 _만 사용할 수 있습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date6" xml:space="preserve">
+    <value>6</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthJanuary" xml:space="preserve">
+    <value>1월</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UsePhoneInstead" xml:space="preserve">
+    <value>이메일 대신 전화번호 사용</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.Error" xml:space="preserve">
+    <value>오류가 발생했어요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameTooManyUnderscores" xml:space="preserve">
+    <value>사용자 이름은 _을 하나만 포함할 수 있습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.SignUpPopUpNoThanks" xml:space="preserve">
+    <value>아니요</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SetUpPasskey" xml:space="preserve">
+    <value>또는 패스키 설정</value>
+    <comment>Button label for the button that initiates passkey registration (as an alternative to setting up a password)</comment>
+  </data>
+  <data name="Label.WhatIsYourGender" xml:space="preserve">
+    <value>성별을 알려주시겠어요?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameInvalidLength" xml:space="preserve">
+    <value>사용자 이름은 3~20자여야 합니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernamePrivateInfo" xml:space="preserve">
+    <value>사용자 이름에 개인 정보가 포함되어 있을 수 있습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.VerifyPassword" xml:space="preserve">
+    <value>비밀번호를 확인하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

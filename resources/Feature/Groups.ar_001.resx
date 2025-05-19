@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Heading.LeaveGroup" xml:space="preserve">
+    <value>مغادرة المجموعة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Store" xml:space="preserve">
+    <value>المتجر</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupAsset" xml:space="preserve">
+    <value>إنشاء أصول المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteEnemy" xml:space="preserve">
+    <value>حذف العدو</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupPremiumPayouts" xml:space="preserve">
+    <value>مجموعة المدفوعات المميزة</value>
+    <comment>Created by ychiu@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by ychiu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.JoinGroupPendingSuccess" xml:space="preserve">
+    <value>طلب الانضمام إلى المجموعة، طلبك معلق.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleUpdateFail" xml:space="preserve">
+    <value>غير قادر على تحديث الدور.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Transactions" xml:space="preserve">
+    <value>المعاملات</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Wall" xml:space="preserve">
+    <value>حائط</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeDescription" xml:space="preserve">
+    <value>تغيير الوصف</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.FundsVisible" xml:space="preserve">
+    <value>أموال المجموعة المرئية علنا</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Percentage" xml:space="preserve">
+    <value>النسبة المئوية</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToRemoveAffiliate" xml:space="preserve">
+    <value>غير قادر على إزالة انتساب المجموعة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetRank" xml:space="preserve">
+    <value>{actor} تم تحديث ترتيب {roleSetName}في مجموعة الأدوار من {oldRank} إلى {newRank}</value>
+    <comment>Used in AuditLog to let admin know some user in the group has changed the roleset&#39;s rank&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureGroupDevelopmentItem" xml:space="preserve">
+    <value>تكوين عنصر تطوير المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoGames" xml:space="preserve">
+    <value>لا توجد تجارب مرتبطة بهذه المجموعة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SaleOfGoods" xml:space="preserve">
+    <value>بيع السلع</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetDataNameOnly" xml:space="preserve">
+    <value>{actor} حدّث اسم مجموعة الأدوار {oldName}إلى {newName}</value>
+    <comment>Used in AuditLog to let admin knows some user in the group has updated a roleset&#39;s name&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.AuditLog" xml:space="preserve">
+    <value>سجل التدقيق</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.MakePrimaryGroup" xml:space="preserve">
+    <value>إنشاء مجموعة أساسية</value>
+    <comment>Heading of make primary group modal&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.ManagementPermissions" xml:space="preserve">
+    <value>متنوعات</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AdjustCurrencyAmounts" xml:space="preserve">
+    <value>ضبط مبالغ العملة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageGroupGames" xml:space="preserve">
+    <value>إنشاء وتحرير تجارب المجموعات</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ModerateDiscussion" xml:space="preserve">
+    <value>إدارة المناقشة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="NameChangeCooldown" xml:space="preserve">
+    <value>تم تغيير الاسم مؤخرا جدا.</value>
+    <comment>Created by fli@roblox.com&#xA;Modified by goesnowhere@roblox.com&#xA;Created by fli@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PendingRobux" xml:space="preserve">
+    <value>في انتظار روبوكس</value>
+    <comment>Created by ychiu@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by ychiu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.BuyClan" xml:space="preserve">
+    <value>اشترى {actor} عصابة مجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NoPendingRequests" xml:space="preserve">
+    <value>لا توجد طلبات أعضاء معلقة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToPurchaseRole" xml:space="preserve">
+    <value>فشل في معالجة الدفع لدور الشراء.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupResults" xml:space="preserve">
+    <value>نتائج المجموعة لـ {Search Term}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by ccui@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MustBeAccepted" xml:space="preserve">
+    <value>يجب قبول طلبات المستخدم للانضمام إلى المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PayingOut" xml:space="preserve">
+    <value>الدفع:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateEnemy" xml:space="preserve">
+    <value>أعلن {actor} المجموعة {group} كعدو</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteRoleset" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد حذف {role}؟</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteWallPostSuccess" xml:space="preserve">
+    <value>تم حذف رسالة الجدار بنجاح.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MaxRoles" xml:space="preserve">
+    <value>يسمح بـ 40 دور كحد أقصى.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.RemovePrimaryGroup" xml:space="preserve">
+    <value>إزالة المجموعة الأساسية</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateEnemy" xml:space="preserve">
+    <value>إنشاء عدو</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoMembersInRole" xml:space="preserve">
+    <value>لا يوجد أعضاء مجموعة في هذا الدور.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ViewStatus" xml:space="preserve">
+    <value>عرض تصريخ المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Amount" xml:space="preserve">
+    <value>المبلغ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.ExileUserWarning" xml:space="preserve">
+    <value>تحذير</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeclineJoinRequest" xml:space="preserve">
+    <value>رفض طلب الانضمام</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupFunds" xml:space="preserve">
+    <value>صناديق المجموعة:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.JoinRequirements" xml:space="preserve">
+    <value>متطلبات الانضمام</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DistributeBy" xml:space="preserve">
+    <value>توزيع Robux بواسطة:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PostToStatus" xml:space="preserve">
+    <value>مجموعة المشاركة يصرخ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SpendGroupFund" xml:space="preserve">
+    <value>إنفاق أموال المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AddGroupPlace" xml:space="preserve">
+    <value>أضاف {actor} تجربة {game} كتجربة جماعية</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Categories" xml:space="preserve">
+    <value>الفئات</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AcceptAllyRequest" xml:space="preserve">
+    <value>قبول طلب الحليف</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Member" xml:space="preserve">
+    <value>عضو</value>
+    <comment>Member roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoOne" xml:space="preserve">
+    <value>لا شيء!</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ViewAuditLogs" xml:space="preserve">
+    <value>عرض سجل المراجعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.RecurringPayout" xml:space="preserve">
+    <value>الدفع المتكرر</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Settings" xml:space="preserve">
+    <value>الإعدادات</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateItems" xml:space="preserve">
+    <value>{actor} أنشأ عنصر المجموعة {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeclineAllyRequest" xml:space="preserve">
+    <value>رفض {actor} طلب حليف المجموعة {group}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Delete" xml:space="preserve">
+    <value>{actor} حذف المجموعة الحالية</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ExileUserError" xml:space="preserve">
+    <value>غير قادر على إنهاء المستخدم.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MemberNotFound" xml:space="preserve">
+    <value>العضو غير موجود في هذا الدور.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Rank" xml:space="preserve">
+    <value>الرتبة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SavePlace" xml:space="preserve">
+    <value>حفظ المكان</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SpendGroupFunds" xml:space="preserve">
+    <value>انفاق أموال المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ClaimOwnershipSuccess" xml:space="preserve">
+    <value>تم المطالبة بنجاح بملكية المجموعة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureItems" xml:space="preserve">
+    <value>{actor} قام بتكوين عنصر المجموعة {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InsufficientRobux" xml:space="preserve">
+    <value>ليس لديك ما يكفي من الروبوكس لإنشاء المجموعة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleDescriptionTooLong" xml:space="preserve">
+    <value>وصف الأدوار طويل جداً.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteGroupPlace" xml:space="preserve">
+    <value>{actor} حذف التجربة {game} كتجربة جماعية</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GetGroupRelationshipsError" xml:space="preserve">
+    <value>غير قادر على تحميل فروع المجموعة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupIconTooLarge" xml:space="preserve">
+    <value>لا يمكن أن يكون الأيقونة أكبر من {maxSize} ميغابايت.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SendGroupShoutError" xml:space="preserve">
+    <value>غير قادر على إرسال صرخ المجموعة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToUpdateRole" xml:space="preserve">
+    <value>غير قادر على تحديث دور المستخدم.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PendingSales" xml:space="preserve">
+    <value>المبيعات المعلقة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PostToWall" xml:space="preserve">
+    <value>نشر على حائط المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupIconInvalid" xml:space="preserve">
+    <value>الأيقونة مفقودة أو غير صالحة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermCharactersLimit" xml:space="preserve">
+    <value>يجب أن يكون مصطلح البحث بين حرفين و 50 حرفاً</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageGroupCreations" xml:space="preserve">
+    <value>إنشاء أو إدارة عناصر المجموعة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoAllies" xml:space="preserve">
+    <value>هذه المجموعة ليس لديها أي حلفاء.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PremiumOnly" xml:space="preserve">
+    <value>مميز فقط</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemainingFunds" xml:space="preserve">
+    <value>الأموال المتبقية:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Rename" xml:space="preserve">
+    <value>إعادة تسمية</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WallPostsUnavailable" xml:space="preserve">
+    <value>مشاركة الحائط غير متوفرة مؤقتاً، يرجى التحقق مرة أخرى لاحقاً.</value>
+    <comment>Displayed in the group wall area when we cannot successfully load wall posts&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.BuyAd" xml:space="preserve">
+    <value>{actor} طلب {bid} على اعلان المجموعة {adName}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Member" xml:space="preserve">
+    <value>عضو عادي في المجموعة.</value>
+    <comment>Description of the member roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.MakePrimaryGroupWarning" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد جعل هذه المجموعة الأساسية الخاصة بك؟</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.NoneMaxGroups" xml:space="preserve">
+    <value>الترقية إلى Rblox Premium للانضمام إلى المزيد من المجموعات.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.RemovePrimaryGroupWarning" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد إزالة المجموعة الأساسية الخاصة بك؟</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AdjustCurrencyAmountsDecreased" xml:space="preserve">
+    <value>خفض {actor} أموال المجموعة بنسبة {amount}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AdjustCurrencyAmountsIncreased" xml:space="preserve">
+    <value>{actor} زيادة أموال المجموعة بواسطة {amount}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotDeleteThisRole" xml:space="preserve">
+    <value>لا يمكن حذف هذا الدور.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MaximumExceeded" xml:space="preserve">
+    <value>الحد الأقصى لمقدار Robux المؤهل للنقل هو {robux}</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PermissionUpdateSuccess" xml:space="preserve">
+    <value>تم تحديث الإذن بنجاح.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.UpgradeToJoin" xml:space="preserve">
+    <value>الترقية للانضمام</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.OneTimePayout" xml:space="preserve">
+    <value>الدفع لمرة واحدة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureItems" xml:space="preserve">
+    <value>تكوين العناصر</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoLongerModify" xml:space="preserve">
+    <value>إذا قمت بإيقاف هذا الإعداد، فلن تكون قادراً على تعديله</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemoveMembers" xml:space="preserve">
+    <value>طرد الأعضاء الأقل ترتيبا</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureBadgeDisabled" xml:space="preserve">
+    <value>{actor} قام بتعطيل الشارة {badge}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleNameTooLong" xml:space="preserve">
+    <value>اسم الدور طويل جداً.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SettingsLoadFail" xml:space="preserve">
+    <value>تعذر تحميل إعدادات المجموعة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddFundsPrompt" xml:space="preserve">
+    <value>التحويل من {userName} إلى {groupName}</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Warning" xml:space="preserve">
+    <value>تحذير</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.BuildGroupRolesListError" xml:space="preserve">
+    <value>غير قادر على تحميل الأعضاء للدور المحدد.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.JoinGroupError" xml:space="preserve">
+    <value>غير قادر على الانضمام إلى المجموعة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermEmpty" xml:space="preserve">
+    <value>ترك مصطلح البحث فارغاً.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TransactionBalance" xml:space="preserve">
+    <value>رصيدك بعد هذه المعاملة سيكون</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Delete" xml:space="preserve">
+    <value>حذف</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemoveGroupPlace" xml:space="preserve">
+    <value>إزالة مكان المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Username" xml:space="preserve">
+    <value>اسم المستخدم</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteWallPostsByUserError" xml:space="preserve">
+    <value>غير قادر على حذف المشاركات الجدارية من قبل المستخدم.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateAsset" xml:space="preserve">
+    <value>{actor} أنشأ الإصدار الجديد {version} من الأصل {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UsersInRole" xml:space="preserve">
+    <value>هناك مستخدمون في هذا الدور.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.AdvertiseGroup" xml:space="preserve">
+    <value>مجموعة الإعلانات</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.CreateRole" xml:space="preserve">
+    <value>إنشاء دور</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Shout" xml:space="preserve">
+    <value>رسالة</value>
+    <comment>To be displayed above the group shout (the current status for a group set by admins)&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GamesVisible" xml:space="preserve">
+    <value>تجارب المجموعة مرئية على الصفحة الرئيسية للمجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateAsset" xml:space="preserve">
+    <value>{actor} أنشأ الأصل {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleNameExists" xml:space="preserve">
+    <value>اسم الدور موجود مسبقا.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SendPostError" xml:space="preserve">
+    <value>غير قادر على إرسال المشاركة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.MembershipPermissions" xml:space="preserve">
+    <value>الأعضاء</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WallPostPlaceholder" xml:space="preserve">
+    <value>قل شيئاً...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Owner" xml:space="preserve">
+    <value>مالك المجموعة.</value>
+    <comment>description of the owner roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PaidOutRecently" xml:space="preserve">
+    <value>المجموعة قد سددت مؤخرا جدا. الرجاء الانتظار والمحاولة مرة أخرى.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetData" xml:space="preserve">
+    <value>قام {actor} بتحديث اسم مجموعة الأدوار {oldName}إلى {newName} وتغيير الوصف من&#34;{oldDescription}إلى &#34;{newDescription}&#34;</value>
+    <comment>Used in auditlog to let admin know that a user has modified a roleset&#39;s name and description&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.LeaveGroupWarning" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد مغادرة هذه المجموعة؟</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AllowDeclarations " xml:space="preserve">
+    <value>السماح بإعلانات العدو</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.OnlyBcCanJoin" xml:space="preserve">
+    <value>فقط أعضاء نادي البناء يمكنهم الانضمام</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InvalidTargetGroup" xml:space="preserve">
+    <value>مجموعة الهدف غير صالحة أو غير موجودة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PurchaseRole" xml:space="preserve">
+    <value>شراء دور جديد سيكلف {cost}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RankReserved" xml:space="preserve">
+    <value>يجب أن تكون الرتب بين {minRankPlusOne} و {maxRankMinusOne}. {minRank} و {maxRank} محجوزة للزوار و المالك.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Admin" xml:space="preserve">
+    <value>المشرف</value>
+    <comment>Admin roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupFee" xml:space="preserve">
+    <value>رسوم إنشاء المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Delete" xml:space="preserve">
+    <value>حذف</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PermDeleteRole" xml:space="preserve">
+    <value>حذف هذا الدور بشكل دائم</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotUpdateOwner" xml:space="preserve">
+    <value>لا يمكن تحديث رتبة دور المالك.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.KickFromClan" xml:space="preserve">
+    <value>{actor} طرد مستخدم {user} من العصابة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NameFieldEmpty" xml:space="preserve">
+    <value>لا يمكن أن يكون حقل الاسم فارغاً</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Rename" xml:space="preserve">
+    <value>{actor} أعاد تسمية المجموعة الحالية إلى {newName}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureGameDeveloperProduct" xml:space="preserve">
+    <value>{actor} تحديث منتج المطور {id}: {actions}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupCannotDeclareEnemies" xml:space="preserve">
+    <value>لا تسمح مجموعتك بإعلانات العدو.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermConstraint" xml:space="preserve">
+    <value>قد يكون طول مصطلحات البحث 2 إلى 50 حرفاً.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermFiltered" xml:space="preserve">
+    <value>مصطلح البحث غير مناسب لRoblox.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ClaimOwnership" xml:space="preserve">
+    <value>المطالبة بالملكية</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.LeaveGroupAsOwnerWarning" xml:space="preserve">
+    <value>وهذا سيجعل المجموعة غير مالكة لها.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.ObcMaxGroups" xml:space="preserve">
+    <value>لقد انضممت إلى الحد الأقصى لعدد المجموعات.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupTooltip" xml:space="preserve">
+    <value>إنشاء مجموعة جديدة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchGroups" xml:space="preserve">
+    <value>البحث عن مجموعات</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotChangeOwnRole" xml:space="preserve">
+    <value>لا يمكنك تغيير دورك الخاص.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureBadge" xml:space="preserve">
+    <value>تكوين الشارة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.CancelRequest" xml:space="preserve">
+    <value>إلغاء الطلب</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AcceptJoinRequest" xml:space="preserve">
+    <value>قبول طلب الانضمام</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroup" xml:space="preserve">
+    <value>إنشاء مجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotHaveRelationshipWithSelf" xml:space="preserve">
+    <value>لا يمكن لمجموعتك أن تقيم علاقة مع نفسها.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigMetadataLoadFail" xml:space="preserve">
+    <value>تعذر تحميل بيانات التعريف لتكوين المجموعة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadGroupMetadataError" xml:space="preserve">
+    <value>غير قادر على تحميل معلومات المجموعة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleUpdateSuccess" xml:space="preserve">
+    <value>تم تحديث الدور بنجاح.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SendAllyRequest" xml:space="preserve">
+    <value>أرسل {actor} طلب حليف إلى مجموعة {group}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PublicGroup" xml:space="preserve">
+    <value>عامة</value>
+    <comment>If group is open for anyone to join&#xA;Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AddFundsLimitMessage" xml:space="preserve">
+    <value>تخضع التحويلات للحجز. يمكنك فقط تحويل Robux إلى هذه المجموعة من حسابك مرة واحدة كل {limit} (يوم)</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DefaultError" xml:space="preserve">
+    <value>حدث خطأ.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PermissionUpdateFail" xml:space="preserve">
+    <value>غير قادر على تحديث الإذن.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermFilteredError" xml:space="preserve">
+    <value>تم تصفية مصطلح البحث</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TooManyRecipients" xml:space="preserve">
+    <value>عدد كبير جدا من المستلمين.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnauthorizedToEditPermissions" xml:space="preserve">
+    <value>غير مسموح لك بمشاهدة/تعديل الأذونات لهذا الدور.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.BuyAd" xml:space="preserve">
+    <value>شراء الإعلان</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Ownership" xml:space="preserve">
+    <value>الملكية</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadGroupMembershipsError" xml:space="preserve">
+    <value>غير قادر على تحميل معلومات عضوية المستخدم.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.BuyClan" xml:space="preserve">
+    <value>شراء عصابة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateItem" xml:space="preserve">
+    <value>إنشاء عناصر للأفاتار</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeclineAllyRequest" xml:space="preserve">
+    <value>رفض طلب الحليف</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnauthorizedToChangeOwner" xml:space="preserve">
+    <value>غير مسموح لك بتغيير مالك هذه المجموعة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddMember" xml:space="preserve">
+    <value>إضافة عضو</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteGroupPlace" xml:space="preserve">
+    <value>حذف مكان المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.MakePrimaryGroup" xml:space="preserve">
+    <value>إنشاء مجموعة أساسية</value>
+    <comment>Set the current group as the users primary group&#xA;Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.OtherBcMaxGroups" xml:space="preserve">
+    <value>قم بترقية نادي البناء الخاص بك للانضمام إلى المزيد من المجموعات.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteAllPostsByUser" xml:space="preserve">
+    <value>أيضا حذف جميع المشاركات من قبل هذا المستخدم.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateDeveloperProduct" xml:space="preserve">
+    <value>{actor} أنشأ منتج المطور مع المعرف {id}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MakePrimaryError" xml:space="preserve">
+    <value>غير قادر على إنشاء المجموعة الأساسية.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MissingRoleRank" xml:space="preserve">
+    <value>رتبة الدور مفقودة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Transaction" xml:space="preserve">
+    <value>بيع {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateItems" xml:space="preserve">
+    <value>إنشاء عناصر للأفاتار</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeletePost" xml:space="preserve">
+    <value>حذف المنشور</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Claim" xml:space="preserve">
+    <value>ادعى {actor} ملكية المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureAsset" xml:space="preserve">
+    <value>{actor} تحديث الأصل {item}: {actions}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateBadge" xml:space="preserve">
+    <value>{actor} أنشأ الشارة {badge}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TransactionForPlace" xml:space="preserve">
+    <value>بيع {item} لـ {place}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoWallPosts" xml:space="preserve">
+    <value>لا أحد قال أي شيء حتى الآن...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NoTransactions" xml:space="preserve">
+    <value>لم تكتمل أي معاملات.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SavePlace" xml:space="preserve">
+    <value>حفظ {actor} المكان في {game}</value>
+    <comment>Created by lmarques@roblox.com&#xA;Created by lmarques@roblox.com&#xA;Modified by lmarques@roblox.com</comment>
+  </data>
+  <data name="Message.UserIsOwner" xml:space="preserve">
+    <value>المستخدم هو المالك مسبقاً.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.ClothingRevenue" xml:space="preserve">
+    <value>المجموعات لديها القدرة على إنشاء وبيع قمصان رسمية وأنابيب وقمصان رسمية! كل الإيرادات تذهب إلى أموال المجموعة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Purchaser" xml:space="preserve">
+    <value>مشتر</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Abandon" xml:space="preserve">
+    <value>التخلي</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupDescription" xml:space="preserve">
+    <value>الوصف (اختياري)</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Owner" xml:space="preserve">
+    <value>المالك</value>
+    <comment>Owner roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NameInvalid" xml:space="preserve">
+    <value>الاسم مفقود أو يحتوي على أحرف غير صالحة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnkownError" xml:space="preserve">
+    <value>حدث خطأ غير معروف.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MissingRoleName" xml:space="preserve">
+    <value>اسم الدور مفقود.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PayoutRestricted" xml:space="preserve">
+    <value>تم تحويل الأموال الخاصة بك مؤخرا ويجري التحقق منها. الرجاء المحاولة مرة أخرى لاحقا.</value>
+    <comment>Created by rtong@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by rtong@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TargetUserNotInGroup" xml:space="preserve">
+    <value>المستخدم ليس عضوا في المجموعة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Description" xml:space="preserve">
+    <value>الوصف</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Lock" xml:space="preserve">
+    <value>قفل</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.PurchaseBody" xml:space="preserve">
+    <value>هل ترغب في إنشاء هذه المجموعة لـ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupName" xml:space="preserve">
+    <value>اسم مجموعتك</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoEnemies" xml:space="preserve">
+    <value>هذه المجموعة ليس لديها أي أعداء.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeletePost" xml:space="preserve">
+    <value>حذف {actor} مشاركة &#34;{postDesc}&#34; من قبل المستخدم {user}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Lock" xml:space="preserve">
+    <value>{actor} قفل المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SuccessfullyUpdatedRole" xml:space="preserve">
+    <value>تم تحديث دور المستخدم بنجاح</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.CreateGroup" xml:space="preserve">
+    <value>إنشاء مجموعة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Purchase" xml:space="preserve">
+    <value>شراء</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PrivateGroup" xml:space="preserve">
+    <value>خاص</value>
+    <comment>If group is invite only&#xA;Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeRank" xml:space="preserve">
+    <value>غيّر {actor} رتبة المستخدم {user}من {oldRoleSet} إلى {newRoleSet}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SpendGroupFunds" xml:space="preserve">
+    <value>أنفق {actor} {amount} من أموال المجموعة على: {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.DeleteAllPostsByUser" xml:space="preserve">
+    <value>أيضا حذف جميع المشاركات من قبل هذا المستخدم.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeRank" xml:space="preserve">
+    <value>تغيير الرتبة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGamePass" xml:space="preserve">
+    <value>إنشاء ممر</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PublishPlace" xml:space="preserve">
+    <value>نشر المكان</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteAlly" xml:space="preserve">
+    <value>{actor} قام بإزالة المجموعة {group} كحليف</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ValueMustBeWhole" xml:space="preserve">
+    <value>القيمة يجب أن تكون عددا صحيحا.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.RemovePrimary" xml:space="preserve">
+    <value>إزالة الأساسي</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeOwner" xml:space="preserve">
+    <value>تغيير المالك</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupSearchResults" xml:space="preserve">
+    <value>مجموعة النتائج ل {searchTerm}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManualApproval" xml:space="preserve">
+    <value>الموافقة اليدوية</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeOwnerEmpty" xml:space="preserve">
+    <value>لا يوجد مالك للمجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeclineJoinRequest" xml:space="preserve">
+    <value>رفض {actor} طلب انضمام المستخدم {user}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Date" xml:space="preserve">
+    <value>التاريخ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Funds" xml:space="preserve">
+    <value>الأموال</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Unlock" xml:space="preserve">
+    <value>فتح</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteEnemy" xml:space="preserve">
+    <value>قام {actor} بإزالة المجموعة {group} كعدو</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteWallPostError" xml:space="preserve">
+    <value>غير قادر على حذف منشور الحائط.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadGroupError" xml:space="preserve">
+    <value>تعذر تحميل المجموعة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RemovePrimaryError" xml:space="preserve">
+    <value>غير قادر على إزالة المجموعة الأساسية.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Upgrade" xml:space="preserve">
+    <value>ترقية</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AdvertiseGroup" xml:space="preserve">
+    <value>الإعلان عن المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureGroupGame" xml:space="preserve">
+    <value>تكوين خبرة المجموعة \n</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteFromWall" xml:space="preserve">
+    <value>حذف مشاركات جدار المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ShoutPlaceholder" xml:space="preserve">
+    <value>أدخل صرخك</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MemberAdded" xml:space="preserve">
+    <value>تمت إضافة العضو بالفعل إلى الدفع.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RemoveMember" xml:space="preserve">
+    <value>{actor} طرد مستخدم {user}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UserGroupPayoutIneligible" xml:space="preserve">
+    <value>المستخدم جديد للمجموعة وغير مؤهل بعد للحصول على المدفوعات. الرجاء المحاولة مرة أخرى لاحقاً.</value>
+    <comment>Created by rtong@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by rtong@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.GroupShout" xml:space="preserve">
+    <value>رسالة المجموعة</value>
+    <comment>Text on the button for sending / posting a group shout&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ReportAbuse" xml:space="preserve">
+    <value>الإبلاغ عن إساءة الاستخدام</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SendAllyRequest" xml:space="preserve">
+    <value>إرسال طلب الحليف</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Abandon" xml:space="preserve">
+    <value>{actor} (مالك المجموعة) تخلى عن المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NotEnoughFunds" xml:space="preserve">
+    <value>ليس لديك ما يكفي من الأموال لشراء هذا الدور</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PublishPlace" xml:space="preserve">
+    <value>نشر {actor} المكان في {game}</value>
+    <comment>Created by lmarques@roblox.com&#xA;Created by lmarques@roblox.com&#xA;Modified by lmarques@roblox.com</comment>
+  </data>
+  <data name="Message.RelationshipDoesNotExist" xml:space="preserve">
+    <value>العلاقة غير موجودة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddGroupPlace" xml:space="preserve">
+    <value>إضافة مكان للمجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DuplicateRelationship" xml:space="preserve">
+    <value>مجموعتك لديها بالفعل علاقة مع المجموعة المستهدفة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NoFundsDistribute" xml:space="preserve">
+    <value>ليس لديك أي أموال لتوزيعها.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Games" xml:space="preserve">
+    <value>الخبرات</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AnyoneCanJoin" xml:space="preserve">
+    <value>أي شخص يمكنه الانضمام</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InvalidGroupJoinRequest" xml:space="preserve">
+    <value>طلب الانضمام للمجموعة غير صالح.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PostStatus" xml:space="preserve">
+    <value>غيّر {actor} تصريخ المجموعة إلى &#34;{groupStatus}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.GroupShout" xml:space="preserve">
+    <value>رسالة المجموعة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchUsers" xml:space="preserve">
+    <value>البحث عن المستخدمين</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UpdateGroupAsset" xml:space="preserve">
+    <value>تحديث أصول المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotUpdateGuest" xml:space="preserve">
+    <value>لا يمكن تحديث دور الضيف.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ClaimOwnershipError" xml:space="preserve">
+    <value>تعذر المطالبة بملكية المجموعة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.WallPrivacySettings" xml:space="preserve">
+    <value>إعدادات الخصوصية الخاصة بك لا تسمح لك بالنشر إلى جدران المجموعة. انقر هنا لضبط هذه الإعدادات.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddFundsAmount" xml:space="preserve">
+    <value>المبلغ</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.InviteMembers" xml:space="preserve">
+    <value>قبول طلبات الانضمام</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RevenueToGroupFund" xml:space="preserve">
+    <value>الإيرادات التي ستذهب إلى صندوق المجموعة:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureBadgeEnabled" xml:space="preserve">
+    <value>{actor} قام بتفعيل الشارة {badge}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateGamePass" xml:space="preserve">
+    <value>أنشأ {actor} تمريرا لـ {game}: {gamePass}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DuplicateName" xml:space="preserve">
+    <value>الاسم مأخوذ بالفعل. الرجاء محاولة اسم آخر.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SettingUpdated" xml:space="preserve">
+    <value>تم تحديث الإعداد بنجاح</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.EconomyPermissions" xml:space="preserve">
+    <value>الأصول</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.PostsPermissions" xml:space="preserve">
+    <value>المشاركات</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateBadge" xml:space="preserve">
+    <value>إنشاء شارة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupBlocked" xml:space="preserve">
+    <value>تم حظرك من التواصل مع هذا المستخدم.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RelationshipRequestDoesNotExist" xml:space="preserve">
+    <value>طلب العلاقة غير موجود.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleDeleteFail" xml:space="preserve">
+    <value>غير قادر على حذف الصلاحية.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UserHasInsufficientMembership" xml:space="preserve">
+    <value>لا يملك المستخدم المستوى اللازم من العضوية المميزة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ExileUser" xml:space="preserve">
+    <value>مستخدم المنفى</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupDeveloperProduct" xml:space="preserve">
+    <value>إنشاء منتج مطور المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AcceptJoinRequest" xml:space="preserve">
+    <value>{actor} قبل طلب انضمام المستخدم {user}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadUserGroupMembershipError" xml:space="preserve">
+    <value>غير قادر على تحميل معلومات أعضاء المجموعة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Unlock" xml:space="preserve">
+    <value>{actor} فتح المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.GroupAdmin" xml:space="preserve">
+    <value>مشرف المجموعة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Primary" xml:space="preserve">
+    <value>اساسي</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureGroupAsset" xml:space="preserve">
+    <value>تكوين أصول المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Guest" xml:space="preserve">
+    <value>ضيف</value>
+    <comment>Guest roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureGame" xml:space="preserve">
+    <value>{actor} تحديث {game}: {actions}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Guest" xml:space="preserve">
+    <value>2- عضو غير عضو في المجموعة.</value>
+    <comment>Description of the guest roleset.&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RankOutOfBounds" xml:space="preserve">
+    <value>قيمة التصنيف خارج الحدود.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.YouAreOwner" xml:space="preserve">
+    <value>أنت بالفعل مالك هذه المجموعة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Funds" xml:space="preserve">
+    <value>الأموال</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeRanks" xml:space="preserve">
+    <value>إدارة رتب الأعضاء الدنيا</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchMembers" xml:space="preserve">
+    <value>البحث عن الأعضاء</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Admin" xml:space="preserve">
+    <value>مسؤول المجموعة.</value>
+    <comment>Description of the admin roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeDescription" xml:space="preserve">
+    <value>غيّر {actor} الوصف إلى &#34;{newDescription}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DescriptionEmpty" xml:space="preserve">
+    <value>وصف المجموعة الخاص بك فارغ.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NameChangeCooldown" xml:space="preserve">
+    <value>تم تغيير الاسم مؤخرا جدا.</value>
+    <comment>The name was changed too recently.&#xA;Created by fli@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by fli@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleLimitReached" xml:space="preserve">
+    <value>تم الوصول إلى حد أقصى للأدوار في هذه المجموعة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Post" xml:space="preserve">
+    <value>نشر</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CancelClanInvite" xml:space="preserve">
+    <value>ألغى {actor} دعوة عصابة {user}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NotEnoughFundsDistribute" xml:space="preserve">
+    <value>ليس لديك ما يكفي من الأموال لتوزيع هذا المبلغ.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToAcceptAllRequests" xml:space="preserve">
+    <value>غير قادر على قبول جميع الطلبات. الرجاء المحاولة مرة أخرى.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateAssetRevert" xml:space="preserve">
+    <value>{actor} قام بإرجاع الأصل {item} من الإصدار {version} إلى {oldVersion}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.ExileUserWarning" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد إنهاء هذا المستخدم؟</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupEmblem" xml:space="preserve">
+    <value>الشعار</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ImmutableRole" xml:space="preserve">
+    <value>لا يمكن تعديل أذونات هذا الدور.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadWallPostsError" xml:space="preserve">
+    <value>غير قادر على تحميل المشاركات الجدارية.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToLoadRevenue" xml:space="preserve">
+    <value>غير قادر على تحميل ملخص الإيرادات</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.DeleteRole" xml:space="preserve">
+    <value>حذف الدور</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.LeaveGroup" xml:space="preserve">
+    <value>مغادرة المجموعة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Members" xml:space="preserve">
+    <value>الأعضاء</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InvalidFileType" xml:space="preserve">
+    <value>نوع الملف غير صالح للأيقونة المجموعة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.JoinGroupSuccess" xml:space="preserve">
+    <value>تم الانضمام إلى المجموعة بنجاح.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LeaveGroupError" xml:space="preserve">
+    <value>تعذر مغادرة المجموعة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TransactionsBalance" xml:space="preserve">
+    <value>رصيدك بعد هذه المعاملة سيكون {balance}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.JoinGroup" xml:space="preserve">
+    <value>الانضمام إلى المجموعة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Loading" xml:space="preserve">
+    <value>تحميل...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoStoreItems" xml:space="preserve">
+    <value>لا توجد عناصر للبيع في هذه المجموعة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Success" xml:space="preserve">
+    <value>نجاح</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermEmptyError" xml:space="preserve">
+    <value>مصطلح البحث فارغ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SettingFail" xml:space="preserve">
+    <value>غير قادر على تحديث الإعداد</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Close" xml:space="preserve">
+    <value>أغلق</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Exile" xml:space="preserve">
+    <value>Exile</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Enemies" xml:space="preserve">
+    <value>Enemies</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.GroupProfile" xml:space="preserve">
+    <value>الملف الشخصي للمجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.All" xml:space="preserve">
+    <value>الكل</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.KickFromClan" xml:space="preserve">
+    <value>طرد من العصابة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageItems" xml:space="preserve">
+    <value>تهيئة عناصر الأفاتار</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageRelationships" xml:space="preserve">
+    <value>إدارة الحلفاء والأعداء</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.User" xml:space="preserve">
+    <value>المستخدم</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.InviteToClan" xml:space="preserve">
+    <value>دعوة للعصابة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MaxGroupsTooltip" xml:space="preserve">
+    <value>قد تكون فقط في عدد أقصى من المجموعات {maxGroups} في وقت واحد</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ViewWall" xml:space="preserve">
+    <value>عرض جدار المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleWithUsers" xml:space="preserve">
+    <value>هناك {amount, plural, =0 {هم # مستخدمين} =1 {هو # مستخدم} other {هم # مستخدمين}} في هذا الدور. لا يمكنك حذف رتبة مع المستخدمين</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SelectNewOwner" xml:space="preserve">
+    <value>حدد مالك المجموعة الجديد</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TooManyGroups" xml:space="preserve">
+    <value>لقد وصلت إلى سعة المجموعة. يرجى ترك مجموعة قبل إنشاء مجموعة جديدة.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToDeclineAllRequests" xml:space="preserve">
+    <value>غير قادر على رفض جميع الطلبات. الرجاء المحاولة مرة أخرى.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Yes" xml:space="preserve">
+    <value>نعم</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.GoToDetails" xml:space="preserve">
+    <value>الذهاب إلى التفاصيل</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.About" xml:space="preserve">
+    <value>حول</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AvailableFunds" xml:space="preserve">
+    <value>الأموال المتاحة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupClosed" xml:space="preserve">
+    <value>المجموعة مغلقة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemoveMember" xml:space="preserve">
+    <value>إزالة عضو</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.SeeNewWallPosts" xml:space="preserve">
+    <value>مشاهدة مشاركات الحائط الجديد</value>
+    <comment>Text on the button for loading new posts that have been added to the Group Wall since the page was loaded.&#xA;Created by sneth@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sneth@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Affiliates" xml:space="preserve">
+    <value>المنتسبين</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Allies" xml:space="preserve">
+    <value>الحلفاء</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Requests" xml:space="preserve">
+    <value>الطلبات</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteAlly" xml:space="preserve">
+    <value>حذف الحليف</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupPayouts" xml:space="preserve">
+    <value>مدفوعات إيرادات المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AcceptAllyRequest" xml:space="preserve">
+    <value>{actor} قبل طلب حليف المجموعة {group}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotDeleteRole" xml:space="preserve">
+    <value>لا يمكن حذف هذا الدور.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.GroupPurchase" xml:space="preserve">
+    <value>تأكيد شراء المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeGroupOwner" xml:space="preserve">
+    <value>تغيير مالك المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupLocked" xml:space="preserve">
+    <value>تم قفل هذه المجموعة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LastAddedFunds" xml:space="preserve">
+    <value>تم النقل بنجاح من {userName} إلى {groupName} في {transferDate}.</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UseGroupFunds" xml:space="preserve">
+    <value>استخدم أموال المجموعة لشراء هذا الدور</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotRemoveRole" xml:space="preserve">
+    <value>لا يمكن إزالة أي أدوار أخرى.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeOwner" xml:space="preserve">
+    <value>غيّر {actor} مالك المجموعة. {user} هو مالك المجموعة الجديد</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InviteToClan" xml:space="preserve">
+    <value>{actor} قام بدعوة المستخدم {user} إلى العصابة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CancelClanInvite" xml:space="preserve">
+    <value>إلغاء دعوة العصابة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Claim" xml:space="preserve">
+    <value>Claim</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupBuildersClubTooltip" xml:space="preserve">
+    <value>يتطلب إنشاء مجموعة عضوية مميزة لـ Roblox.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RevertGroupAsset" xml:space="preserve">
+    <value>إرجاع أصل المجموعة</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotHaveRelationshipWithGroup" xml:space="preserve">
+    <value>مجموعة أخرى لا تسمح بإعلانات العدو.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureBadgeUpdate" xml:space="preserve">
+    <value>{actor} قام بتكوين الشارة {badge}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleDeleteSuccess" xml:space="preserve">
+    <value>تم حذف الدور بنجاح.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetDataDescOnly" xml:space="preserve">
+    <value>{actor} تحديث وصف مجموعة الأدوار {newName}من &#34;{oldDescription}&#34; إلى &#34;{newDescription}&#34;</value>
+    <comment>Used in auditlog to let admin know a user has modified a roleset&#39;s description&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.MakePrimary" xml:space="preserve">
+    <value>اجعل الاساسي</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

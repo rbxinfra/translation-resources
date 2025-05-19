@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Heading.AddFriends" xml:space="preserve">
+    <value>إضافة أصدقاء</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.JoinGame" xml:space="preserve">
+    <value>إنضم إلى الخبرة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Playing" xml:space="preserve">
+    <value>زيارة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ChatNameFullyModerated" xml:space="preserve">
+    <value>تم إدارة اسم مجموعة الدردشة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.RemoveUser" xml:space="preserve">
+    <value>إزالة المستخدم؟</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.Sending" xml:space="preserve">
+    <value>إرسال</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Leave" xml:space="preserve">
+    <value>المغادرة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Report" xml:space="preserve">
+    <value>تقرير</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.ViewParticipants" xml:space="preserve">
+    <value>عرض المشاركين</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateChatGroup" xml:space="preserve">
+    <value>إنشاء مجموعة دردشة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MakeFriendsChat" xml:space="preserve">
+    <value>اصنع أصدقاء لبدء الدردشة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchWord" xml:space="preserve">
+    <value>البحث</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.FriendAlreadyInConversation" xml:space="preserve">
+    <value>هذا الصديق موجود بالفعل في المحادثة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.NoLongerParticipatingInChat" xml:space="preserve">
+    <value>لم تعد تشارك في هذه المحادثة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.CreateGroup" xml:space="preserve">
+    <value>إنشاء مجموعة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.LeaveGroup" xml:space="preserve">
+    <value>مغادرة المجموعة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.ViewProfile" xml:space="preserve">
+    <value>عرض الملف الشخصي</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NewChats" xml:space="preserve">
+    <value>دردشة جديدة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Send" xml:space="preserve">
+    <value>إرسال</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.NotEveryoneCanSeeMessage" xml:space="preserve">
+    <value>ليس كل شخص في هذه المحادثة يمكنه رؤية رسالتك.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.TypeMessageToSend" xml:space="preserve">
+    <value>الرجاء كتابة رسالة لإرسالها</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.WaitingForConnection" xml:space="preserve">
+    <value>في انتظار الاتصال…</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Remove" xml:space="preserve">
+    <value>إزالة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.SendMessageSmall" xml:space="preserve">
+    <value>إرسال رسالة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.InGame" xml:space="preserve">
+    <value>في التجربة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ChatNameUpdateFailed" xml:space="preserve">
+    <value>حدث خطأ. الرجاء المحاولة مرة أخرى لاحقاً.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ChatSysMsgTitleChangedNoUser" xml:space="preserve">
+    <value>تم تغيير اسم مجموعة الدردشة: {var1}</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.CopiedToClipboard" xml:space="preserve">
+    <value>نسخ إلى الحافظة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.RenameChatGroup" xml:space="preserve">
+    <value>إعادة تسمية مجموعة الدردشة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConnectingBannerText" xml:space="preserve">
+    <value>جارٍ الاتصال…</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Offline" xml:space="preserve">
+    <value>غير متصل</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TurnOnChatInSettings" xml:space="preserve">
+    <value>قم بتشغيل الدردشة في {var1} الخاص بك للدردشة مع أصدقائك</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ConversationNotFound" xml:space="preserve">
+    <value>عفوا! المحادثة غير متوفرة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.InStudio" xml:space="preserve">
+    <value>في الاستوديو</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NotImplementedMessageType" xml:space="preserve">
+    <value>لا يمكن عرض هذه الرسالة.</value>
+    <comment>This message is displayed in chat when user receives message type that can&#39;t be rendered by current app version and update is not available, yet (e.g. latest version was rolled back, or in deprecated Android native chat)&#xA;Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Online" xml:space="preserve">
+    <value>متصل</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ChatMsgSendFailed" xml:space="preserve">
+    <value>فشل الإرسال</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ChatSysMsgTitleChanged" xml:space="preserve">
+    <value>{var1} اسم مجموعة الدردشة: {var2}</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.NameGroupChat" xml:space="preserve">
+    <value>اسم مجموعة الدردشة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Create" xml:space="preserve">
+    <value>إنشاء</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DummyTime" xml:space="preserve">
+    <value>الساعة 3/24/16 الساعة 04:04</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Message" xml:space="preserve">
+    <value>رسالة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PrivacySettings" xml:space="preserve">
+    <value>إعدادات الخصوصية</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ChatMsgContentModerated" xml:space="preserve">
+    <value>تم إدارة المحتوى. لم يتم إرسال الرسالة.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ReportUser" xml:space="preserve">
+    <value>الإبلاغ عن المستخدم؟</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.SearchWordSmall" xml:space="preserve">
+    <value>البحث</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Conversation" xml:space="preserve">
+    <value>محادثة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupChatParticipants" xml:space="preserve">
+    <value>المشاركون</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ConversationFriendLimitReached" xml:space="preserve">
+    <value>لا يمكن إضافة المزيد من الأصدقاء إلى هذه المحادثة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.LeaveConversation" xml:space="preserve">
+    <value>ترك المحادثة؟</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SelectContact" xml:space="preserve">
+    <value>تحديد جهة اتصال</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Add" xml:space="preserve">
+    <value>إضافة</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

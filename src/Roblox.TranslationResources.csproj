@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+        <Description>Shared library for translation resources</Description>
+
+        <Version>1.2.4</Version>
+  </PropertyGroup>
+
+</Project>

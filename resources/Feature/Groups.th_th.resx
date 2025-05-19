@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action.CreateRole" xml:space="preserve">
+    <value>สร้างหน้าที่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Shout" xml:space="preserve">
+    <value>ประกาศ</value>
+    <comment>To be displayed above the group shout (the current status for a group set by admins)&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GamesVisible" xml:space="preserve">
+    <value>ประสบการณ์กลุ่มจะแสดงอยู่บนหน้าหลักของกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateAsset" xml:space="preserve">
+    <value>{actor} ได้สร้างทรัพยากร &#34;{item}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleNameExists" xml:space="preserve">
+    <value>มีชื่อหน้าที่นี้อยู่แล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SendPostError" xml:space="preserve">
+    <value>ไม่สามารถส่งโพสต์ได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.MembershipPermissions" xml:space="preserve">
+    <value>สมาชิก</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WallPostPlaceholder" xml:space="preserve">
+    <value>พูดอะไรสักหน่อยสิ...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Owner" xml:space="preserve">
+    <value>เจ้าของกลุ่ม</value>
+    <comment>description of the owner roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PaidOutRecently" xml:space="preserve">
+    <value>กลุ่มเพิ่งจ่ายเงินออกไปเมื่อไม่นานมานี้ โปรดรอสักครู่แล้วลองอีกครั้ง</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetData" xml:space="preserve">
+    <value>{actor} ได้อัปเดตชื่อของชุดหน้าที่ &#34;{oldName}&#34; เป็น &#34;{newName}&#34; และได้เปลี่ยนคำอธิบายจาก &#34;{oldDescription}&#34; เป็น &#34;{newDescription}&#34;</value>
+    <comment>Used in auditlog to let admin know that a user has modified a roleset&#39;s name and description&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.LeaveGroupWarning" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่าคุณต้องการออกจากกลุ่มนี้?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AllowDeclarations " xml:space="preserve">
+    <value>อนุญาตให้ประกาศศัตรู</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.OnlyBcCanJoin" xml:space="preserve">
+    <value>เฉพาะสมาชิก Builders Club เท่านั้นที่สามารถเข้าร่วมได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InvalidTargetGroup" xml:space="preserve">
+    <value>กลุ่มเป้าหมายไม่ถูกต้องหรือไม่มีอยู่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PurchaseRole" xml:space="preserve">
+    <value>ค่าใช้จ่ายในการซื้อหน้าที่ใหม่คือ {cost}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RankReserved" xml:space="preserve">
+    <value>สถานะต้องอยู่ระหว่าง {minRankPlusOne} และ {maxRankMinusOne} โดย {minRank} และ {maxRank} จะสงวนไว้สำหรับผู้เยี่ยมชมและเจ้าของ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Admin" xml:space="preserve">
+    <value>แอดมิน</value>
+    <comment>Admin roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupFee" xml:space="preserve">
+    <value>ค่าธรรมเนียมการสร้างกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Delete" xml:space="preserve">
+    <value>ลบ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PermDeleteRole" xml:space="preserve">
+    <value>ลบหน้าที่นี้อย่างถาวร</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotUpdateOwner" xml:space="preserve">
+    <value>ไม่สามารถอัปเดตสถานะสำหรับหน้าที่ของเจ้าของได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.KickFromClan" xml:space="preserve">
+    <value>{actor} ไล่ผู้ใช้ &#34;{user}&#34; ออกจากแคลน</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NameFieldEmpty" xml:space="preserve">
+    <value>จำเป็นต้องกรอกชื่อ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Rename" xml:space="preserve">
+    <value>{actor} ได้เปลี่ยนชื่อกลุ่มปัจจุบันเป็น &#34;{newName}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureGameDeveloperProduct" xml:space="preserve">
+    <value>{actor} ได้อัปเดตผลิตภัณฑ์นักพัฒนา &#34;{id}&#34;: {actions}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupCannotDeclareEnemies" xml:space="preserve">
+    <value>กลุ่มของคุณไม่อนุญาตให้มีการประกาศศัตรู</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermConstraint" xml:space="preserve">
+    <value>คำที่ใช้ค้นหามีความยาวได้ 2 ถึง 50 อักขระ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermFiltered" xml:space="preserve">
+    <value>คำที่ใช้ค้นหาไม่เหมาะสมสำหรับ Roblox</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ClaimOwnership" xml:space="preserve">
+    <value>อ้างสิทธิ์การเป็นเจ้าของ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.LeaveGroupAsOwnerWarning" xml:space="preserve">
+    <value>การดำเนินการนี้จะทำให้กลุ่มนี้ไม่มีเจ้าของ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.ObcMaxGroups" xml:space="preserve">
+    <value>คุณได้เข้าร่วมกลุ่มถึงจำนวนสูงสุดแล้ว</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupTooltip" xml:space="preserve">
+    <value>สร้างกลุ่มใหม่</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchGroups" xml:space="preserve">
+    <value>ค้นหากลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotChangeOwnRole" xml:space="preserve">
+    <value>คุณไม่สามารถเปลี่ยนหน้าที่ของตัวเองได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureBadge" xml:space="preserve">
+    <value>กำหนดค่าเหรียญตรา</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.CancelRequest" xml:space="preserve">
+    <value>ยกเลิกคำขอ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AcceptJoinRequest" xml:space="preserve">
+    <value>ยอมรับคำขอเข้าร่วม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroup" xml:space="preserve">
+    <value>สร้างกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotHaveRelationshipWithSelf" xml:space="preserve">
+    <value>กลุ่มของคุณไม่สามารถสร้างความสัมพันธ์กับกลุ่มตัวเองได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigMetadataLoadFail" xml:space="preserve">
+    <value>ไม่สามารถโหลดข้อมูลเมตาของการกำหนดค่ากลุ่มได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadGroupMetadataError" xml:space="preserve">
+    <value>ไม่สามารถโหลดข้อมูลกลุ่มได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleUpdateSuccess" xml:space="preserve">
+    <value>อัปเดตหน้าที่สำเร็จเรียบร้อยแล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SendAllyRequest" xml:space="preserve">
+    <value>{actor} ได้ส่งคำขอเป็นพันธมิตรไปยังกลุ่ม &#34;{group}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PublicGroup" xml:space="preserve">
+    <value>สาธารณะ</value>
+    <comment>If group is open for anyone to join&#xA;Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AddFundsLimitMessage" xml:space="preserve">
+    <value>การโอนอาจถูกพักไว้ชั่วคราว คุณสามารถโอน Robux จากบัญชีของคุณไปยังกลุ่มนี้ได้หนึ่งครั้งในทุกๆ {limit} วัน</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DefaultError" xml:space="preserve">
+    <value>เกิดข้อผิดพลาด</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PermissionUpdateFail" xml:space="preserve">
+    <value>ไม่สามารถอัปเดตสิทธิ์ได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermFilteredError" xml:space="preserve">
+    <value>คำที่ใช้ค้นหาถูกกรอง</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TooManyRecipients" xml:space="preserve">
+    <value>มีผู้รับจำนวนมากเกินไป</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnauthorizedToEditPermissions" xml:space="preserve">
+    <value>คุณไม่ได้รับอนุญาตให้ดู/แก้ไขสิทธิ์ของหน้าที่นี้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.BuyAd" xml:space="preserve">
+    <value>ซื้อโฆษณา</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Ownership" xml:space="preserve">
+    <value>การเป็นเจ้าของ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadGroupMembershipsError" xml:space="preserve">
+    <value>ไม่สามารถโหลดข้อมูลการเป็นสมาชิกของผู้ใช้ได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.BuyClan" xml:space="preserve">
+    <value>ซื้อแคลน</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateItem" xml:space="preserve">
+    <value>สร้างไอเท็มอวาตาร์</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeclineAllyRequest" xml:space="preserve">
+    <value>ปฏิเสธคำขอเป็นพันธมิตร</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnauthorizedToChangeOwner" xml:space="preserve">
+    <value>คุณไม่ได้รับอนุญาตให้เปลี่ยนเจ้าของของกลุ่มนี้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddMember" xml:space="preserve">
+    <value>เพิ่มสมาชิก</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteGroupPlace" xml:space="preserve">
+    <value>ลบสถานที่ของกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.MakePrimaryGroup" xml:space="preserve">
+    <value>กำหนดให้เป็นกลุ่มหลัก</value>
+    <comment>Set the current group as the users primary group&#xA;Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.OtherBcMaxGroups" xml:space="preserve">
+    <value>อัปเกรด Builders Club ของคุณเพื่อให้สามารถเข้าร่วมกลุ่มได้มากขึ้น</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteAllPostsByUser" xml:space="preserve">
+    <value>รวมทั้งลบโพสต์ทั้งหมดของผู้ใช้คนนี้ด้วย</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateDeveloperProduct" xml:space="preserve">
+    <value>{actor} สร้างผลิตภัณฑ์นักพัฒนาด้วย ID &#34;{id}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MakePrimaryError" xml:space="preserve">
+    <value>ไม่สามารถกำหนดให้เป็นกลุ่มหลักได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MissingRoleRank" xml:space="preserve">
+    <value>ไม่มีสถานะสำหรับหน้าที่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Transaction" xml:space="preserve">
+    <value>ขาย {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateItems" xml:space="preserve">
+    <value>สร้างไอเท็มอวาตาร์</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeletePost" xml:space="preserve">
+    <value>ลบโพสต์</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Claim" xml:space="preserve">
+    <value>{actor} ได้อ้างสิทธิ์การเป็นเจ้าของกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureAsset" xml:space="preserve">
+    <value>{actor} ได้อัปเดตทรัพยากร &#34;{item}&#34;: {actions}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateBadge" xml:space="preserve">
+    <value>{actor} ได้สร้างเหรียญตรา &#34;{badge}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TransactionForPlace" xml:space="preserve">
+    <value>ขาย {item} สำหรับ {place}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoWallPosts" xml:space="preserve">
+    <value>ยังไม่มีการพูดคุยใดๆ...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NoTransactions" xml:space="preserve">
+    <value>ไม่มีการทำธุรกรรมที่เสร็จสมบูรณ์</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SavePlace" xml:space="preserve">
+    <value>&#34;{actor}&#34; ได้บันทึกสถานที่ของ &#34;{game}&#34;</value>
+    <comment>Created by lmarques@roblox.com&#xA;Created by lmarques@roblox.com&#xA;Modified by lmarques@roblox.com</comment>
+  </data>
+  <data name="Message.UserIsOwner" xml:space="preserve">
+    <value>ผู้ใช้คนนี้เป็นเจ้าของอยู่แล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.ClothingRevenue" xml:space="preserve">
+    <value>กลุ่มสามารถสร้างและขายเสื้อเชิ้ต กางเกงขายาว และเสื้อยืดอย่างเป็นทางการได้! รายได้ทั้งหมดจะนำเข้าเงินทุนกลุ่ม</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Purchaser" xml:space="preserve">
+    <value>ผู้ซื้อ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Abandon" xml:space="preserve">
+    <value>ออก</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupDescription" xml:space="preserve">
+    <value>คำอธิบาย (ไม่จำเป็น)</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Owner" xml:space="preserve">
+    <value>เจ้าของ</value>
+    <comment>Owner roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NameInvalid" xml:space="preserve">
+    <value>ไม่มีชื่อหรือชื่อมีอักขระที่ไม่ถูกต้อง</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnkownError" xml:space="preserve">
+    <value>เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MissingRoleName" xml:space="preserve">
+    <value>ไม่มีชื่อหน้าที่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PayoutRestricted" xml:space="preserve">
+    <value>เงินทุนของคุณถูกโอนเมื่อไม่นานมานี้และอยู่ระหว่างการตรวจสอบยืนยัน โปรดลองอีกครั้งในภายหลัง</value>
+    <comment>Created by rtong@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by rtong@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TargetUserNotInGroup" xml:space="preserve">
+    <value>ผู้ใช้ไม่ได้เป็นสมาชิกของกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Description" xml:space="preserve">
+    <value>คำอธิบาย</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Lock" xml:space="preserve">
+    <value>ล็อค</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.PurchaseBody" xml:space="preserve">
+    <value>คุณต้องการสร้างกลุ่มนี้หรือไม่? ในราคา:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupName" xml:space="preserve">
+    <value>ตั้งชื่อกลุ่มของคุณ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoEnemies" xml:space="preserve">
+    <value>กลุ่มนี้ไม่มีศัตรู</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeletePost" xml:space="preserve">
+    <value>{actor} ได้ลบโพสต์ &#34;{postDesc}&#34; ของผู้ใช้ &#34;{user}&#34; ออก</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Lock" xml:space="preserve">
+    <value>{actor} ได้ล็อคกลุ่มแล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SuccessfullyUpdatedRole" xml:space="preserve">
+    <value>อัปเดตหน้าที่ของผู้ใช้สำเร็จเรียบร้อยแล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.CreateGroup" xml:space="preserve">
+    <value>สร้างกลุ่ม</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Purchase" xml:space="preserve">
+    <value>ซื้อ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PrivateGroup" xml:space="preserve">
+    <value>ส่วนตัว</value>
+    <comment>If group is invite only&#xA;Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeRank" xml:space="preserve">
+    <value>{actor} เปลี่ยนสถานะของผู้ใช้ &#34;{user}&#34; จาก {oldRoleSet} เป็น {newRoleSet}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SpendGroupFunds" xml:space="preserve">
+    <value>{actor} ใช้เงินทุนกลุ่มจำนวน {amount} สำหรับ &#34;{item}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.DeleteAllPostsByUser" xml:space="preserve">
+    <value>รวมทั้งลบโพสต์ทั้งหมดของผู้ใช้คนนี้ด้วย</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeRank" xml:space="preserve">
+    <value>เปลี่ยนสถานะ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGamePass" xml:space="preserve">
+    <value>สร้างบัตรผ่าน</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PublishPlace" xml:space="preserve">
+    <value>เผยแพร่สถานที่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteAlly" xml:space="preserve">
+    <value>{actor} ลบกลุ่ม &#34;{group}&#34; ออกจากการเป็นพันธมิตร</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ValueMustBeWhole" xml:space="preserve">
+    <value>ค่านี้ต้องเป็นจำนวนเต็ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.RemovePrimary" xml:space="preserve">
+    <value>ลบกลุ่มหลัก</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeOwner" xml:space="preserve">
+    <value>เปลี่ยนเจ้าของ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupSearchResults" xml:space="preserve">
+    <value>ผลการค้นหากลุ่ม: {searchTerm}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManualApproval" xml:space="preserve">
+    <value>อนุมัติด้วยตนเอง</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeOwnerEmpty" xml:space="preserve">
+    <value>ไม่มีผู้เป็นเจ้าของกลุ่มนี้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeclineJoinRequest" xml:space="preserve">
+    <value>{actor} ได้ปฏิเสธคำขอเข้าร่วมของผู้ใช้ &#34;{user}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Date" xml:space="preserve">
+    <value>วันที่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Funds" xml:space="preserve">
+    <value>เงินทุน</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Unlock" xml:space="preserve">
+    <value>ปลดล็อค</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteEnemy" xml:space="preserve">
+    <value>{actor} ลบกลุ่ม &#34;{group}&#34; ออกจากการเป็นศัตรู</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteWallPostError" xml:space="preserve">
+    <value>ไม่สามารถลบโพสต์บนกระดานได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadGroupError" xml:space="preserve">
+    <value>ไม่สามารถโหลดกลุ่มได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RemovePrimaryError" xml:space="preserve">
+    <value>ไม่สามารถลบกลุ่มหลักได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Upgrade" xml:space="preserve">
+    <value>อัปเกรด</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AdvertiseGroup" xml:space="preserve">
+    <value>โปรโมทกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureGroupGame" xml:space="preserve">
+    <value>กำหนดค่าประสบการณ์ \nกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteFromWall" xml:space="preserve">
+    <value>ลบโพสต์บนกระดานกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ShoutPlaceholder" xml:space="preserve">
+    <value>กรอกการประกาศของคุณ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MemberAdded" xml:space="preserve">
+    <value>สมาชิกคนนี้อยู่ในการจ่ายค่าตอบแทนแล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RemoveMember" xml:space="preserve">
+    <value>{actor} ไล่ผู้ใช้ &#34;{user}&#34; ออก</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UserGroupPayoutIneligible" xml:space="preserve">
+    <value>ผู้ใช้นี้เป็นผู้ใช้คนใหม่ของกลุ่มและยังไม่มีสิทธิ์ได้รับค่าตอบแทน โปรดลองอีกครั้งในภายหลัง</value>
+    <comment>Created by rtong@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by rtong@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.GroupShout" xml:space="preserve">
+    <value>ประกาศในกลุ่ม</value>
+    <comment>Text on the button for sending / posting a group shout&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ReportAbuse" xml:space="preserve">
+    <value>รายงานการกระทำผิด</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SendAllyRequest" xml:space="preserve">
+    <value>ส่งคำขอไปยังพันธมิตร</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Abandon" xml:space="preserve">
+    <value>{actor} (เจ้าของกลุ่ม) ออกจากกลุ่มแล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NotEnoughFunds" xml:space="preserve">
+    <value>คุณมีเงินทุนไม่เพียงพอที่จะซื้อหน้าที่นี้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PublishPlace" xml:space="preserve">
+    <value>&#34;{actor}&#34; ได้เผยแพร่สถานที่ของ &#34;{game}&#34;</value>
+    <comment>Created by lmarques@roblox.com&#xA;Created by lmarques@roblox.com&#xA;Modified by lmarques@roblox.com</comment>
+  </data>
+  <data name="Message.RelationshipDoesNotExist" xml:space="preserve">
+    <value>ไม่มีความสัมพันธ์</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddGroupPlace" xml:space="preserve">
+    <value>เพิ่มสถานที่ของกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DuplicateRelationship" xml:space="preserve">
+    <value>กลุ่มของคุณได้สร้างความสัมพันธ์กับกลุ่มเป้าหมายแล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NoFundsDistribute" xml:space="preserve">
+    <value>คุณไม่มีเงินทุนสำหรับแจกจ่าย</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Games" xml:space="preserve">
+    <value>ประสบการณ์</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AnyoneCanJoin" xml:space="preserve">
+    <value>ทุกคนสามารถเข้าร่วมได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InvalidGroupJoinRequest" xml:space="preserve">
+    <value>คำขอเข้าร่วมกลุ่มไม่ถูกต้อง</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PostStatus" xml:space="preserve">
+    <value>{actor} เปลี่ยนประกาศในกลุ่มเป็น &#34;{groupStatus}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.GroupShout" xml:space="preserve">
+    <value>ประกาศในกลุ่ม</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchUsers" xml:space="preserve">
+    <value>ค้นหาผู้ใช้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UpdateGroupAsset" xml:space="preserve">
+    <value>อัปเดตทรัพยากรกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotUpdateGuest" xml:space="preserve">
+    <value>ไม่สามารถอัปเดตหน้าที่ของผู้เยี่ยมชมได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ClaimOwnershipError" xml:space="preserve">
+    <value>ไม่สามารถอ้างสิทธิ์การเป็นเจ้าของกลุ่มได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.WallPrivacySettings" xml:space="preserve">
+    <value>การตั้งค่าความเป็นส่วนตัวของคุณไม่อนุญาตให้คุณโพสต์บนกระดานกลุ่ม คลิกที่นี่เพื่อปรับการตั้งค่าเหล่านี้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddFundsAmount" xml:space="preserve">
+    <value>จำนวน</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.InviteMembers" xml:space="preserve">
+    <value>ยอมรับคำขอเข้าร่วม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RevenueToGroupFund" xml:space="preserve">
+    <value>รายได้จะนำเข้าเงินทุนกลุ่ม:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureBadgeEnabled" xml:space="preserve">
+    <value>{actor} เปิดใช้งานเหรียญตรา &#34;{badge}&#34; แล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateGamePass" xml:space="preserve">
+    <value>{actor} ได้สร้างบัตรผ่านสำหรับ &#34;{game}&#34;: {gamePass}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DuplicateName" xml:space="preserve">
+    <value>ชื่อถูกใช้ไปแล้ว โปรดลองใช้ชื่ออื่น</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SettingUpdated" xml:space="preserve">
+    <value>อัปเดตการตั้งค่าสำเร็จเรียบร้อยแล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.EconomyPermissions" xml:space="preserve">
+    <value>ทรัพยากร</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.PostsPermissions" xml:space="preserve">
+    <value>โพสต์</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateBadge" xml:space="preserve">
+    <value>สร้างเหรียญตรา</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupBlocked" xml:space="preserve">
+    <value>คุณถูกบล็อคไม่ให้ทำการสื่อสารกับผู้ใช้นี้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RelationshipRequestDoesNotExist" xml:space="preserve">
+    <value>ไม่มีคำขอสร้างความสัมพันธ์</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleDeleteFail" xml:space="preserve">
+    <value>ไม่สามารถลบหน้าที่ได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UserHasInsufficientMembership" xml:space="preserve">
+    <value>ผู้ใช้ไม่ได้เป็นสมาชิก Premium ในระดับที่จำเป็นต้องใช้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ExileUser" xml:space="preserve">
+    <value>ไล่ผู้ใช้ออก</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupDeveloperProduct" xml:space="preserve">
+    <value>สร้างผลิตภัณฑ์นักพัฒนาสำหรับกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AcceptJoinRequest" xml:space="preserve">
+    <value>{actor} ได้ยอมรับคำขอเข้าร่วมของผู้ใช้ &#34;{user}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadUserGroupMembershipError" xml:space="preserve">
+    <value>ไม่สามารถโหลดข้อมูลของสมาชิกกลุ่มได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Unlock" xml:space="preserve">
+    <value>{actor} ได้ปลดล็อคกลุ่มแล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.GroupAdmin" xml:space="preserve">
+    <value>แอดมินกลุ่ม</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Primary" xml:space="preserve">
+    <value>กลุ่มหลัก</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureGroupAsset" xml:space="preserve">
+    <value>กำหนดค่าทรัพยากรกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Guest" xml:space="preserve">
+    <value>ผู้เยี่ยมชม</value>
+    <comment>Guest roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureGame" xml:space="preserve">
+    <value>{actor} ได้อัปเดต &#34;{game}&#34;: {actions}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Guest" xml:space="preserve">
+    <value>ไม่ใช่สมาชิกกลุ่ม</value>
+    <comment>Description of the guest roleset.&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RankOutOfBounds" xml:space="preserve">
+    <value>ค่าของสถานะอยู่นอกขอบเขต</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.YouAreOwner" xml:space="preserve">
+    <value>คุณเป็นเจ้าของกลุ่มนี้อยู่แล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Funds" xml:space="preserve">
+    <value>เงินทุน</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeRanks" xml:space="preserve">
+    <value>จัดการกับสถานะของสมาชิกที่มีสถานะต่ำ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchMembers" xml:space="preserve">
+    <value>ค้นหาสมาชิก</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Admin" xml:space="preserve">
+    <value>แอดมินกลุ่ม</value>
+    <comment>Description of the admin roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeDescription" xml:space="preserve">
+    <value>{actor} เปลี่ยนคำอธิบายเป็น &#34;{newDescription}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DescriptionEmpty" xml:space="preserve">
+    <value>ไม่ได้กรอกคำอธิบายกลุ่มของคุณ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NameChangeCooldown" xml:space="preserve">
+    <value>เพิ่งเปลี่ยนชื่อเมื่อไม่นานมานี้</value>
+    <comment>The name was changed too recently.&#xA;Created by fli@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by fli@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleLimitReached" xml:space="preserve">
+    <value>กลุ่มนี้มีจำนวนหน้าที่ถึงจำนวนสูงสุดแล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Post" xml:space="preserve">
+    <value>โพสต์</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CancelClanInvite" xml:space="preserve">
+    <value>{actor} ได้ยกเลิกคำเชิญเข้าแคลนของ &#34;{user}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NotEnoughFundsDistribute" xml:space="preserve">
+    <value>คุณมีเงินทุนไม่เพียงพอที่จะแจกจ่ายในจำนวนนี้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToAcceptAllRequests" xml:space="preserve">
+    <value>ไม่สามารถยอมรับคำขอทั้งหมดได้ โปรดลองอีกครั้ง</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateAssetRevert" xml:space="preserve">
+    <value>{actor} ได้แปลงกลับทรัพยากร &#34;{item}&#34; จากเวอร์ชัน {version} เป็น {oldVersion}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.ExileUserWarning" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่าคุณต้องการไล่ผู้ใช้คนนี้ออก?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupEmblem" xml:space="preserve">
+    <value>ตราสัญลักษณ์</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ImmutableRole" xml:space="preserve">
+    <value>ไม่สามารถแก้ไขสิทธิ์ของหน้าที่นี้ได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadWallPostsError" xml:space="preserve">
+    <value>ไม่สามารถโหลดโพสต์บนกระดานได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToLoadRevenue" xml:space="preserve">
+    <value>ไม่สามารถโหลดข้อมูลสรุปรายได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.DeleteRole" xml:space="preserve">
+    <value>ลบหน้าที่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.LeaveGroup" xml:space="preserve">
+    <value>ออกจากกลุ่ม</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Members" xml:space="preserve">
+    <value>สมาชิก</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InvalidFileType" xml:space="preserve">
+    <value>ประเภทไฟล์ของไอคอนกลุ่มไม่ถูกต้อง</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.JoinGroupSuccess" xml:space="preserve">
+    <value>เข้าร่วมกลุ่มสำเร็จเรียบร้อยแล้ว</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LeaveGroupError" xml:space="preserve">
+    <value>ไม่สามารถออกจากกลุ่มได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TransactionsBalance" xml:space="preserve">
+    <value>หลังการทำธุรกรรมนี้คุณจะมียอดคงเหลือ {balance}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.JoinGroup" xml:space="preserve">
+    <value>เข้าร่วมกลุ่ม</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Loading" xml:space="preserve">
+    <value>กำลังโหลด...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoStoreItems" xml:space="preserve">
+    <value>ไม่มีไอเท็มสำหรับขายในกลุ่มนี้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Success" xml:space="preserve">
+    <value>สำเร็จเรียบร้อย</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermEmptyError" xml:space="preserve">
+    <value>ไม่ได้กรอกคำที่ใช้ค้นหา</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SettingFail" xml:space="preserve">
+    <value>ไม่สามารถอัปเดตการตั้งค่าได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Close" xml:space="preserve">
+    <value>ปิด</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Exile" xml:space="preserve">
+    <value>ไล่ออก</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Enemies" xml:space="preserve">
+    <value>ศัตรู</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.GroupProfile" xml:space="preserve">
+    <value>โปรไฟล์กลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.All" xml:space="preserve">
+    <value>ทั้งหมด</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.KickFromClan" xml:space="preserve">
+    <value>ไล่ออกจากแคลน</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageItems" xml:space="preserve">
+    <value>กำหนดค่าไอเท็มอวาตาร์</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageRelationships" xml:space="preserve">
+    <value>จัดการพันธมิตรและศัตรู</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.User" xml:space="preserve">
+    <value>ผู้ใช้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.InviteToClan" xml:space="preserve">
+    <value>เชิญเข้าร่วมแคลน</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MaxGroupsTooltip" xml:space="preserve">
+    <value>คุณสามารถเข้าร่วมได้สูงสุด {maxGroups} กลุ่มเท่านั้นในเวลาเดียวกัน</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ViewWall" xml:space="preserve">
+    <value>ดูกระดานกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleWithUsers" xml:space="preserve">
+    <value>มีผู้ใช้ {amount, plural, =0 {# คน} =1 {# คน} other {# คน}}อยู่ในหน้าที่นี้ คุณไม่สามารถลบหน้าที่ที่มีผู้ใช้อยู่ได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SelectNewOwner" xml:space="preserve">
+    <value>เลือกเจ้าของกลุ่มคนใหม่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TooManyGroups" xml:space="preserve">
+    <value>คุณมีกลุ่มถึงจำนวนสูงสุดแล้ว โปรดออกจากกลุ่มก่อนที่จะสร้างกลุ่มใหม่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToDeclineAllRequests" xml:space="preserve">
+    <value>ไม่สามารถปฏิเสธคำขอทั้งหมดได้ โปรดลองอีกครั้ง</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Yes" xml:space="preserve">
+    <value>ใช่</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.GoToDetails" xml:space="preserve">
+    <value>ไปที่รายละเอียด</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.About" xml:space="preserve">
+    <value>รายละเอียด</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AvailableFunds" xml:space="preserve">
+    <value>เงินทุนที่สามารถใช้ได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupClosed" xml:space="preserve">
+    <value>ปิดกลุ่มแล้ว</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemoveMember" xml:space="preserve">
+    <value>ลบสมาชิก</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.SeeNewWallPosts" xml:space="preserve">
+    <value>ดูโพสต์ใหม่บนกระดาน</value>
+    <comment>Text on the button for loading new posts that have been added to the Group Wall since the page was loaded.&#xA;Created by sneth@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sneth@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Affiliates" xml:space="preserve">
+    <value>กลุ่มที่เกี่ยวข้อง</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Allies" xml:space="preserve">
+    <value>พันธมิตร</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Requests" xml:space="preserve">
+    <value>คำขอ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteAlly" xml:space="preserve">
+    <value>ลบพันธมิตร</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupPayouts" xml:space="preserve">
+    <value>การจ่ายค่าตอบแทนกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AcceptAllyRequest" xml:space="preserve">
+    <value>{actor} ยอมรับคำขอเป็นพันธมิตรของกลุ่ม &#34;{group}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotDeleteRole" xml:space="preserve">
+    <value>ไม่สามารถลบหน้าที่นี้ได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.GroupPurchase" xml:space="preserve">
+    <value>ยืนยันการซื้อกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeGroupOwner" xml:space="preserve">
+    <value>เปลี่ยนเจ้าของกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupLocked" xml:space="preserve">
+    <value>กลุ่มนี้ถูกล็อค</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LastAddedFunds" xml:space="preserve">
+    <value>โอนเงินทุนจาก &#34;{userName}&#34; ไปยัง &#34;{groupName}&#34; ในวันที่ {transferDate} สำเร็จเรียบร้อยแล้ว</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UseGroupFunds" xml:space="preserve">
+    <value>ใช้เงินทุนกลุ่มเพื่อซื้อหน้าที่นี้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotRemoveRole" xml:space="preserve">
+    <value>ไม่สามารถลบหน้าที่เพิ่มได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeOwner" xml:space="preserve">
+    <value>{actor} ได้เปลี่ยนเจ้าของกลุ่มแล้ว &#34;{user}&#34; คือเจ้าของกลุ่มคนใหม่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InviteToClan" xml:space="preserve">
+    <value>{actor} เชิญผู้ใช้ &#34;{user}&#34; เข้าแคลน</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CancelClanInvite" xml:space="preserve">
+    <value>ยกเลิกคำเชิญเข้าร่วมแคลน</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Claim" xml:space="preserve">
+    <value>อ้างสิทธิ์</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupBuildersClubTooltip" xml:space="preserve">
+    <value>ต้องเป็นสมาชิก Roblox Premium จึงจะสามารถสร้างกลุ่มได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RevertGroupAsset" xml:space="preserve">
+    <value>แปลงกลับทรัพยากรกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotHaveRelationshipWithGroup" xml:space="preserve">
+    <value>กลุ่มอื่นไม่อนุญาตให้มีการประกาศศัตรู</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureBadgeUpdate" xml:space="preserve">
+    <value>{actor} กำหนดค่าให้เหรียญตรา &#34;{badge}&#34; แล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleDeleteSuccess" xml:space="preserve">
+    <value>ลบหน้าที่สำเร็จเรียบร้อยแล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetDataDescOnly" xml:space="preserve">
+    <value>{actor} ได้อัปเดตคำอธิบายของชุดหน้าที่ &#34;{newName}&#34; จาก &#34;{oldDescription}&#34; เป็น &#34;{newDescription}&#34;</value>
+    <comment>Used in auditlog to let admin know a user has modified a roleset&#39;s description&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.MakePrimary" xml:space="preserve">
+    <value>กำหนดให้เป็นกลุ่มหลัก</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.LeaveGroup" xml:space="preserve">
+    <value>ออกจากกลุ่ม</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Store" xml:space="preserve">
+    <value>ร้านค้า</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupAsset" xml:space="preserve">
+    <value>สร้างทรัพยากรกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteEnemy" xml:space="preserve">
+    <value>ลบศัตรู</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupPremiumPayouts" xml:space="preserve">
+    <value>ค่าตอบแทนสมาชิก Premium ของกลุ่ม</value>
+    <comment>Created by ychiu@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by ychiu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.JoinGroupPendingSuccess" xml:space="preserve">
+    <value>ขอเข้าร่วมกลุ่ม คำขอของคุณอยู่ระหว่างดำเนินการ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleUpdateFail" xml:space="preserve">
+    <value>ไม่สามารถอัปเดตหน้าที่ได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Transactions" xml:space="preserve">
+    <value>ธุรกรรม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Wall" xml:space="preserve">
+    <value>กระดาน</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeDescription" xml:space="preserve">
+    <value>เปลี่ยนคำอธิบาย</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.FundsVisible" xml:space="preserve">
+    <value>ทุกคนสามารถเห็นเงินทุนกลุ่มได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Percentage" xml:space="preserve">
+    <value>เปอร์เซ็นต์</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToRemoveAffiliate" xml:space="preserve">
+    <value>ไม่สามารถลบกลุ่มที่เกี่ยวข้องได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetRank" xml:space="preserve">
+    <value>{actor} ได้อัปเดตสถานะของชุดหน้าที่ &#34;{roleSetName}&#34; จาก {oldRank} เป็น {newRank}</value>
+    <comment>Used in AuditLog to let admin know some user in the group has changed the roleset&#39;s rank&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureGroupDevelopmentItem" xml:space="preserve">
+    <value>กำหนดค่าไอเท็มการพัฒนากลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoGames" xml:space="preserve">
+    <value>ไม่มีประสบการณ์ใดๆ เชื่อมโยงอยู่กับกลุ่มนี้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SaleOfGoods" xml:space="preserve">
+    <value>การขายสินค้า</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetDataNameOnly" xml:space="preserve">
+    <value>{actor} ได้อัปเดตชื่อของชุดหน้าที่ &#34;{oldName}&#34; เป็น &#34;{newName}&#34;</value>
+    <comment>Used in AuditLog to let admin knows some user in the group has updated a roleset&#39;s name&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.AuditLog" xml:space="preserve">
+    <value>บันทึกการตรวจสอบ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.MakePrimaryGroup" xml:space="preserve">
+    <value>กำหนดให้เป็นกลุ่มหลัก</value>
+    <comment>Heading of make primary group modal&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.ManagementPermissions" xml:space="preserve">
+    <value>เบ็ดเตล็ด</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AdjustCurrencyAmounts" xml:space="preserve">
+    <value>ปรับจำนวนสกุลเงิน</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageGroupGames" xml:space="preserve">
+    <value>สร้างและแก้ไขประสบการณ์กลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ModerateDiscussion" xml:space="preserve">
+    <value>กลั่นกรองการสนทนา</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="NameChangeCooldown" xml:space="preserve">
+    <value>เพิ่งเปลี่ยนชื่อเมื่อไม่นานมานี้</value>
+    <comment>Created by fli@roblox.com&#xA;Modified by goesnowhere@roblox.com&#xA;Created by fli@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PendingRobux" xml:space="preserve">
+    <value>Robux ที่รอดำเนินการ</value>
+    <comment>Created by ychiu@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by ychiu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.BuyClan" xml:space="preserve">
+    <value>{actor} ซื้อแคลนกลุ่มแล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NoPendingRequests" xml:space="preserve">
+    <value>ไม่มีคำขอเป็นสมาชิกที่รอดำเนินการอยู่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToPurchaseRole" xml:space="preserve">
+    <value>ประมวลผลการชำระเงินเพื่อซื้อหน้าที่ไม่สำเร็จ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupResults" xml:space="preserve">
+    <value>ผลการค้นหากลุ่ม: {Search Term}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by ccui@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MustBeAccepted" xml:space="preserve">
+    <value>คำขอของผู้ใช้ต้องได้รับการยอมรับจึงจะสามารถเข้าร่วมกลุ่มได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PayingOut" xml:space="preserve">
+    <value>ค่าตอบแทน:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateEnemy" xml:space="preserve">
+    <value>{actor} ประกาศให้กลุ่ม &#34;{group}&#34; เป็นศัตรู</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteRoleset" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่าคุณต้องการลบ {role}?</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteWallPostSuccess" xml:space="preserve">
+    <value>ลบโพสต์บนกระดานสำเร็จเรียบร้อยแล้ว</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MaxRoles" xml:space="preserve">
+    <value>อนุญาตให้มีได้สูงสุด 40 หน้าที่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.RemovePrimaryGroup" xml:space="preserve">
+    <value>ลบกลุ่มหลัก</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateEnemy" xml:space="preserve">
+    <value>สร้างศัตรู</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoMembersInRole" xml:space="preserve">
+    <value>ไม่มีสมาชิกกลุ่มที่มีหน้าที่นี้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ViewStatus" xml:space="preserve">
+    <value>ดูประกาศกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Amount" xml:space="preserve">
+    <value>จำนวน</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.ExileUserWarning" xml:space="preserve">
+    <value>คำเตือน</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeclineJoinRequest" xml:space="preserve">
+    <value>ปฏิเสธคำขอเข้าร่วม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupFunds" xml:space="preserve">
+    <value>เงินทุนกลุ่ม:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.JoinRequirements" xml:space="preserve">
+    <value>คุณสมบัติในการเข้าร่วม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DistributeBy" xml:space="preserve">
+    <value>แจกจ่าย Robux โดย:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PostToStatus" xml:space="preserve">
+    <value>โพสต์ประกาศกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SpendGroupFund" xml:space="preserve">
+    <value>ใช้เงินทุนกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AddGroupPlace" xml:space="preserve">
+    <value>{actor} เพิ่มประสบการณ์ &#34;{game}&#34; เป็นประสบการณ์กลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Categories" xml:space="preserve">
+    <value>หมวดหมู่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AcceptAllyRequest" xml:space="preserve">
+    <value>ยอมรับคำขอเป็นพันธมิตร</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Member" xml:space="preserve">
+    <value>สมาชิก</value>
+    <comment>Member roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoOne" xml:space="preserve">
+    <value>ไม่มีเลย!</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ViewAuditLogs" xml:space="preserve">
+    <value>ดูบันทึกการตรวจสอบ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.RecurringPayout" xml:space="preserve">
+    <value>การจ่ายค่าตอบแทนแบบต่อเนื่อง</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Settings" xml:space="preserve">
+    <value>การตั้งค่า</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateItems" xml:space="preserve">
+    <value>{actor} สร้างไอเท็มกลุ่ม &#34;{item}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeclineAllyRequest" xml:space="preserve">
+    <value>{actor} ปฏิเสธคำขอเป็นพันธมิตรของกลุ่ม &#34;{group}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Delete" xml:space="preserve">
+    <value>{actor} ลบกลุ่มปัจจุบันแล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ExileUserError" xml:space="preserve">
+    <value>ไม่สามารถไล่ผู้ใช้ออกได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MemberNotFound" xml:space="preserve">
+    <value>ไม่มีสมาชิกที่รับผิดชอบหน้าที่นี้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Rank" xml:space="preserve">
+    <value>สถานะ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SavePlace" xml:space="preserve">
+    <value>บันทึกสถานที่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SpendGroupFunds" xml:space="preserve">
+    <value>ใช้เงินทุนกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ClaimOwnershipSuccess" xml:space="preserve">
+    <value>อ้างสิทธิ์การเป็นเจ้าของกลุ่มสำเร็จเรียบร้อยแล้ว</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureItems" xml:space="preserve">
+    <value>{actor} กำหนดค่าให้ไอเท็มกลุ่ม &#34;{item}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InsufficientRobux" xml:space="preserve">
+    <value>คุณมี Robux ไม่เพียงพอที่จะสร้างกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleDescriptionTooLong" xml:space="preserve">
+    <value>คำอธิบายหน้าที่ยาวเกินไป</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteGroupPlace" xml:space="preserve">
+    <value>{actor} ลบประสบการณ์ &#34;{game}&#34; ออกจากประการณ์กลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GetGroupRelationshipsError" xml:space="preserve">
+    <value>ไม่สามารถโหลดกลุ่มที่เกี่ยวข้องได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupIconTooLarge" xml:space="preserve">
+    <value>ไอคอนต้องมีขนาดไม่เกิน {maxSize} MB</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SendGroupShoutError" xml:space="preserve">
+    <value>ไม่สามารถส่งประกาศในกลุ่มได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToUpdateRole" xml:space="preserve">
+    <value>ไม่สามารถอัปเดตหน้าที่ของผู้ใช้ได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PendingSales" xml:space="preserve">
+    <value>การขายที่รอดำเนินการ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PostToWall" xml:space="preserve">
+    <value>โพสต์บนกระดานกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupIconInvalid" xml:space="preserve">
+    <value>ไอคอนไม่ถูกต้องหรือไม่มีอยู่</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermCharactersLimit" xml:space="preserve">
+    <value>คำที่ใช้ค้นหาต้องมีความยาวระหว่าง 2 ถึง 50 อักขระ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageGroupCreations" xml:space="preserve">
+    <value>สร้างหรือจัดการไอเท็มกลุ่ม</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoAllies" xml:space="preserve">
+    <value>กลุ่มนี้ไม่มีพันธมิตร</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PremiumOnly" xml:space="preserve">
+    <value>Premium เท่านั้น</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemainingFunds" xml:space="preserve">
+    <value>เงินทุนคงเหลือ:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Rename" xml:space="preserve">
+    <value>เปลี่ยนชื่อ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WallPostsUnavailable" xml:space="preserve">
+    <value>โพสต์บนกระดานไม่สามารถใช้งานได้ชั่วคราว โปรดกลับมาอีกครั้งในภายหลัง</value>
+    <comment>Displayed in the group wall area when we cannot successfully load wall posts&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.BuyAd" xml:space="preserve">
+    <value>{actor} ได้ประมูลโฆษณากลุ่ม &#34;{adName}&#34; ในราคา {bid}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Member" xml:space="preserve">
+    <value>สมาชิกทั่วไปของกลุ่ม</value>
+    <comment>Description of the member roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.MakePrimaryGroupWarning" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่าคุณต้องการกำหนดให้กลุ่มนี้เป็นกลุ่มหลักของคุณ?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.NoneMaxGroups" xml:space="preserve">
+    <value>อัปเกรดเป็น Roblox Premium เพื่อให้สามารถเข้าร่วมกลุ่มได้มากขึ้น</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.RemovePrimaryGroupWarning" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่าคุณต้องการลบกลุ่มหลักของคุณ?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AdjustCurrencyAmountsDecreased" xml:space="preserve">
+    <value>{actor} ได้ลดเงินทุนของกลุ่มลง {amount}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AdjustCurrencyAmountsIncreased" xml:space="preserve">
+    <value>{actor} ได้เพิ่มเงินทุนของกลุ่มขึ้น {amount}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotDeleteThisRole" xml:space="preserve">
+    <value>ไม่สามารถลบหน้าที่นี้ได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MaximumExceeded" xml:space="preserve">
+    <value>จำนวนสูงสุดของ Robux ที่สามารถโอนได้คือ {robux}</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PermissionUpdateSuccess" xml:space="preserve">
+    <value>อัปเดตสิทธิ์สำเร็จเรียบร้อยแล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.UpgradeToJoin" xml:space="preserve">
+    <value>อัปเกรดเพื่อเข้าร่วม</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.OneTimePayout" xml:space="preserve">
+    <value>การจ่ายค่าตอบแทนแบบครั้งเดียว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureItems" xml:space="preserve">
+    <value>กำหนดค่าไอเท็ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoLongerModify" xml:space="preserve">
+    <value>หากคุณปิดการตั้งค่านี้ คุณจะไม่สามารถปรับเปลี่ยนรายการนี้ได้อีกต่อไป</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemoveMembers" xml:space="preserve">
+    <value>ไล่สมาชิกที่มีสถานะต่ำออก</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureBadgeDisabled" xml:space="preserve">
+    <value>{actor} ปิดใช้งานเหรียญตรา &#34;{badge}&#34; แล้ว</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleNameTooLong" xml:space="preserve">
+    <value>ชื่อหน้าที่ยาวเกินไป</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SettingsLoadFail" xml:space="preserve">
+    <value>ไม่สามารถโหลดการตั้งค่ากลุ่มได้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddFundsPrompt" xml:space="preserve">
+    <value>โอนเงินทุนจาก &#34;{userName}&#34; ไปยัง &#34;{groupName}&#34;</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Warning" xml:space="preserve">
+    <value>คำเตือน</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.BuildGroupRolesListError" xml:space="preserve">
+    <value>ไม่สามารถโหลดสมาชิกสำหรับหน้าที่ที่เลือกได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.JoinGroupError" xml:space="preserve">
+    <value>ไม่สามารถเข้าร่วมกลุ่มได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermEmpty" xml:space="preserve">
+    <value>ไม่ได้กรอกคำที่ใช้ค้นหา</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TransactionBalance" xml:space="preserve">
+    <value>หลังการทำธุรกรรมนี้คุณจะมียอดคงเหลือ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Delete" xml:space="preserve">
+    <value>ลบ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemoveGroupPlace" xml:space="preserve">
+    <value>ลบสถานที่ของกลุ่ม</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Username" xml:space="preserve">
+    <value>ชื่อผู้ใช้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteWallPostsByUserError" xml:space="preserve">
+    <value>ไม่สามารถลบโพสต์ของผู้ใช้บนกระดานได้</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateAsset" xml:space="preserve">
+    <value>{actor} สร้างเวอร์ชันใหม่: {version} ของทรัพยากร &#34;{item}&#34;</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UsersInRole" xml:space="preserve">
+    <value>มีผู้ใช้อยู่ในหน้าที่นี้</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.AdvertiseGroup" xml:space="preserve">
+    <value>โปรโมทกลุ่ม</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

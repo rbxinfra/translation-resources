@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action.Cancel" xml:space="preserve">
+    <value>Batalkan</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by czhang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com&#xA;Modified by jwong@roblox.com</comment>
+  </data>
+  <data name="Action.UnfollowGame" xml:space="preserve">
+    <value>Berhenti Mengikuti {gameName}</value>
+    <comment>Label of menu item to unfollow the game&#xA;Created by &lt;Unknown&gt;&#xA;Modified by czhang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.View" xml:space="preserve">
+    <value>Lihat</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by czhang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GameNotPlayableOnDevice" xml:space="preserve">
+    <value>Tidak tersedia di perangkat ini</value>
+    <comment>Message displayed on game update card when the game is not playable on the device type.&#xA;Created by &lt;Unknown&gt;&#xA;Modified by czhang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Dismiss" xml:space="preserve">
+    <value>Tutup</value>
+    <comment>Label for button to dismiss a notification&#xA;Created by kerry.huang@roblox.com&#xA;Modified by kerry.huang@roblox.com&#xA;Created by kerry.huang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ReportAbuse" xml:space="preserve">
+    <value>Laporkan Penyalahgunaan</value>
+    <comment>Label for link to report a game update message&#xA;Created by &lt;Unknown&gt;&#xA;Modified by czhang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Undo" xml:space="preserve">
+    <value>Urungkan</value>
+    <comment>Label for Undo link to reverse the unfollow action&#xA;Created by &lt;Unknown&gt;&#xA;Modified by czhang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AggregatedGameUpdateDouble" xml:space="preserve">
+    <value>{gameOne} dan {gameTwo} mengeluarkan update.</value>
+    <comment>Message displayed on aggregated game update notification card, when there are exactly two games sending update.&#xA;Created by &lt;Unknown&gt;&#xA;Modified by czhang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AggregatedGameUpdateMultiple" xml:space="preserve">
+    <value>{gameOne}, {gameTwo}, dan {otherCount, plural, =1 {# game lainnya} other {# game lainnya}} mengeluarkan update.</value>
+    <comment>Message displayed on aggregated game update notification card, when there are more than two games sending update.&#xA;Created by &lt;Unknown&gt;&#xA;Modified by czhang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnfollowedGame" xml:space="preserve">
+    <value>Berhenti Mengikuti {gameName}</value>
+    <comment>Message displayed in game update card after user unfollowed the game&#xA;Created by &lt;Unknown&gt;&#xA;Modified by czhang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="ReportedCard.Title" xml:space="preserve">
+    <value>Terima kasih atas laporannya.</value>
+    <comment>Created by sshetty@roblox.com&#xA;Modified by sshetty@roblox.com&#xA;Created by sshetty@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Play" xml:space="preserve">
+    <value>Bergabung</value>
+    <comment>Label for button to launch game.&#xA;Created by &lt;Unknown&gt;&#xA;Modified by czhang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com&#xA;Modified by jwong@roblox.com</comment>
+  </data>
+  <data name="AriaText.MoreActions" xml:space="preserve">
+    <value>Tindakan lebih lanjut untuk notifikasi ini.</value>
+    <comment>Created by sshetty@roblox.com&#xA;Modified by sshetty@roblox.com&#xA;Created by sshetty@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.BackToAllNotifications" xml:space="preserve">
+    <value>Semua Notifikasi</value>
+    <comment>Heading displayed in game updates view, containing back link to notifications main view.&#xA;Created by &lt;Unknown&gt;&#xA;Modified by czhang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.NotificationStreamWord" xml:space="preserve">
+    <value>Stream Notifikasi</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="ReportedCard.Description" xml:space="preserve">
+    <value>Kami akan segera me-review laporan kamu dan mengambil tindakan lebih lanjut jika diperlukan.</value>
+    <comment>Created by sshetty@roblox.com&#xA;Modified by sshetty@roblox.com&#xA;Created by sshetty@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Read" xml:space="preserve">
+    <value>Baca</value>
+    <comment>Button on a notification to link to where you can read the contents in full</comment>
+  </data>
+</root>

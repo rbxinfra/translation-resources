@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Message.RemovePrimaryError" xml:space="preserve">
+    <value>Не удалось удалить основную группу.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Upgrade" xml:space="preserve">
+    <value>Обновить</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AdvertiseGroup" xml:space="preserve">
+    <value>Рекламировать группу</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureGroupGame" xml:space="preserve">
+    <value>Настроить \nплейс для группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteFromWall" xml:space="preserve">
+    <value>Удалить публикации со стены группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ShoutPlaceholder" xml:space="preserve">
+    <value>Введи сообщение</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MemberAdded" xml:space="preserve">
+    <value>Участник уже добавлен к выплате.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RemoveMember" xml:space="preserve">
+    <value>{actor} исключает пользователя {user}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UserGroupPayoutIneligible" xml:space="preserve">
+    <value>Пользователь в группе недавно и пока не имеет права на выплаты. Повтори попытку позже.</value>
+    <comment>Created by rtong@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by rtong@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.GroupShout" xml:space="preserve">
+    <value>Групповое сообщение</value>
+    <comment>Text on the button for sending / posting a group shout&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ReportAbuse" xml:space="preserve">
+    <value>Сообщить о нарушении</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SendAllyRequest" xml:space="preserve">
+    <value>Отправить запрос о дружбе</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Abandon" xml:space="preserve">
+    <value>{actor} (владелец) покидает группу</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NotEnoughFunds" xml:space="preserve">
+    <value>Недостаточно средств для покупки этой роли</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PublishPlace" xml:space="preserve">
+    <value>{actor} публикует локацию {game}</value>
+    <comment>Created by lmarques@roblox.com&#xA;Created by lmarques@roblox.com&#xA;Modified by lmarques@roblox.com</comment>
+  </data>
+  <data name="Message.RelationshipDoesNotExist" xml:space="preserve">
+    <value>Отношения не существуют.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddGroupPlace" xml:space="preserve">
+    <value>Добавить место группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DuplicateRelationship" xml:space="preserve">
+    <value>Твоя группа уже состоит в отношениях с выбранной группой.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NoFundsDistribute" xml:space="preserve">
+    <value>Нет средств для распределения.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Games" xml:space="preserve">
+    <value>Плейсы</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AnyoneCanJoin" xml:space="preserve">
+    <value>Любой может присоединиться</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InvalidGroupJoinRequest" xml:space="preserve">
+    <value>Запрос на вступление в группу недействителен.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PostStatus" xml:space="preserve">
+    <value>{actor} меняет групповое сообщение на «{groupStatus}»</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.GroupShout" xml:space="preserve">
+    <value>Групповое сообщение</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchUsers" xml:space="preserve">
+    <value>Поиск пользователей</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UpdateGroupAsset" xml:space="preserve">
+    <value>Обновить групповой ресурс</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotUpdateGuest" xml:space="preserve">
+    <value>Нельзя обновить роль гостя.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ClaimOwnershipError" xml:space="preserve">
+    <value>Не удалось заявить права собственности на группу.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.WallPrivacySettings" xml:space="preserve">
+    <value>Настройки конфиденциальности не позволяют публиковать сообщения на стенах группы. Нажми здесь, чтобы изменить эти настройки.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddFundsAmount" xml:space="preserve">
+    <value>Сумма</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.InviteMembers" xml:space="preserve">
+    <value>Принять запросы на вступление</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RevenueToGroupFund" xml:space="preserve">
+    <value>Доходы в фонд группы:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureBadgeEnabled" xml:space="preserve">
+    <value>{actor} включает значок {badge}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateGamePass" xml:space="preserve">
+    <value>{actor} создаёт пропуск для {game}: {gamePass}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DuplicateName" xml:space="preserve">
+    <value>Это название уже занято. Попробуй другое.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SettingUpdated" xml:space="preserve">
+    <value>Параметр обновлён</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.EconomyPermissions" xml:space="preserve">
+    <value>Ресурсы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.PostsPermissions" xml:space="preserve">
+    <value>Публикации</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateBadge" xml:space="preserve">
+    <value>Создать значок</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupBlocked" xml:space="preserve">
+    <value>Тебе запрещено общаться с этим пользователем.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RelationshipRequestDoesNotExist" xml:space="preserve">
+    <value>Запрос на установление отношений не существует.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleDeleteFail" xml:space="preserve">
+    <value>Не удалось удалить роль.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UserHasInsufficientMembership" xml:space="preserve">
+    <value>У пользователя нет необходимого уровня подписки Premium.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ExileUser" xml:space="preserve">
+    <value>Исключить пользователя</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupDeveloperProduct" xml:space="preserve">
+    <value>Создать групповой продукт разработчика</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AcceptJoinRequest" xml:space="preserve">
+    <value>{actor} принимает запрос пользователя {user} на вступление</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadUserGroupMembershipError" xml:space="preserve">
+    <value>Не удалось загрузить информацию об участниках группы.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Unlock" xml:space="preserve">
+    <value>{actor} разблокирует группу</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.GroupAdmin" xml:space="preserve">
+    <value>Администратор группы</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Primary" xml:space="preserve">
+    <value>Основная</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureGroupAsset" xml:space="preserve">
+    <value>Изменить групповой ресурс</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Guest" xml:space="preserve">
+    <value>Гость</value>
+    <comment>Guest roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureGame" xml:space="preserve">
+    <value>{actor} обновляет {game}: {actions}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Guest" xml:space="preserve">
+    <value>Пользователь, не являющийся участником группы.</value>
+    <comment>Description of the guest roleset.&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RankOutOfBounds" xml:space="preserve">
+    <value>Значение ранга находится за пределами допустимого диапазона.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.YouAreOwner" xml:space="preserve">
+    <value>Ты уже являешься владельцем этой группы.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Funds" xml:space="preserve">
+    <value>Средства</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeRanks" xml:space="preserve">
+    <value>Управление участниками с низкими рангами</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchMembers" xml:space="preserve">
+    <value>Поиск участников</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Admin" xml:space="preserve">
+    <value>Администратор группы.</value>
+    <comment>Description of the admin roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeDescription" xml:space="preserve">
+    <value>{actor} меняет описание на {newDescription}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DescriptionEmpty" xml:space="preserve">
+    <value>Описание группы пустое.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NameChangeCooldown" xml:space="preserve">
+    <value>Название было изменено недавно.</value>
+    <comment>The name was changed too recently.&#xA;Created by fli@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by fli@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleLimitReached" xml:space="preserve">
+    <value>В этой группе достигнут максимум ролей.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Post" xml:space="preserve">
+    <value>Опубликовать</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CancelClanInvite" xml:space="preserve">
+    <value>{actor} отменяет приглашение в клан для пользователя {user}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NotEnoughFundsDistribute" xml:space="preserve">
+    <value>Недостаточно средств для распределения этой суммы.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToAcceptAllRequests" xml:space="preserve">
+    <value>Не удалось принять все запросы. Повтори попытку.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateAssetRevert" xml:space="preserve">
+    <value>{actor} возвращает ресурс {item} с версии {version} на версию {oldVersion}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.ExileUserWarning" xml:space="preserve">
+    <value>Исключить этого пользователя?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupEmblem" xml:space="preserve">
+    <value>Иконка</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ImmutableRole" xml:space="preserve">
+    <value>Разрешения этой роли нельзя изменить.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadWallPostsError" xml:space="preserve">
+    <value>Не удаётся загрузить публикации на стене.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToLoadRevenue" xml:space="preserve">
+    <value>Не удалось загрузить сводку доходов</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.DeleteRole" xml:space="preserve">
+    <value>Удалить роль</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.LeaveGroup" xml:space="preserve">
+    <value>Покинуть группу</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Members" xml:space="preserve">
+    <value>Участники</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InvalidFileType" xml:space="preserve">
+    <value>Неверный тип файла для иконки группы.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.JoinGroupSuccess" xml:space="preserve">
+    <value>Вступление в группу выполнено.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LeaveGroupError" xml:space="preserve">
+    <value>Не удалось покинуть группу.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TransactionsBalance" xml:space="preserve">
+    <value>После этой транзакции баланс составит {balance}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.JoinGroup" xml:space="preserve">
+    <value>Вступить в группу</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Loading" xml:space="preserve">
+    <value>Загрузка...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoStoreItems" xml:space="preserve">
+    <value>В этой группе нет предметов на продажу.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Success" xml:space="preserve">
+    <value>Готово</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermEmptyError" xml:space="preserve">
+    <value>Поисковый запрос пуст</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SettingFail" xml:space="preserve">
+    <value>Не удалось обновить параметр</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Close" xml:space="preserve">
+    <value>Закрыть</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Exile" xml:space="preserve">
+    <value>Исключить</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Enemies" xml:space="preserve">
+    <value>Враги</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.GroupProfile" xml:space="preserve">
+    <value>Профиль группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.All" xml:space="preserve">
+    <value>Все</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.KickFromClan" xml:space="preserve">
+    <value>Выгнать из клана</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageItems" xml:space="preserve">
+    <value>Настройка предметов аватара</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageRelationships" xml:space="preserve">
+    <value>Управление друзьями и врагами</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.User" xml:space="preserve">
+    <value>Пользователь</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.InviteToClan" xml:space="preserve">
+    <value>Пригласить в клан</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MaxGroupsTooltip" xml:space="preserve">
+    <value>Ты можешь состоять максимум в {maxGroups} группах одновременно</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ViewWall" xml:space="preserve">
+    <value>Смотреть стену группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleWithUsers" xml:space="preserve">
+    <value>Существует {amount, plural, one { #пользователь} few {# пользователя} many { # пользователей} =0 {# пользователей} =1 {# пользователь} other {# пользователей}} в этой роли. Нельзя удалить роль, которая есть у пользователей.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SelectNewOwner" xml:space="preserve">
+    <value>Выбрать нового владельца группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TooManyGroups" xml:space="preserve">
+    <value>Достигнуто максимальное количество участников. Покинь группу, прежде чем создать новую.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToDeclineAllRequests" xml:space="preserve">
+    <value>Не удалось отклонить все запросы. Повтори попытку.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Yes" xml:space="preserve">
+    <value>Да</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.GoToDetails" xml:space="preserve">
+    <value>Подробнее</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.About" xml:space="preserve">
+    <value>Описание</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AvailableFunds" xml:space="preserve">
+    <value>Доступные средства</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupClosed" xml:space="preserve">
+    <value>Группа закрыта</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemoveMember" xml:space="preserve">
+    <value>Удалить участника</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.SeeNewWallPosts" xml:space="preserve">
+    <value>Новые публикации на стене</value>
+    <comment>Text on the button for loading new posts that have been added to the Group Wall since the page was loaded.&#xA;Created by sneth@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sneth@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Affiliates" xml:space="preserve">
+    <value>Партнёры</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Allies" xml:space="preserve">
+    <value>Союзники</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Requests" xml:space="preserve">
+    <value>Запросы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteAlly" xml:space="preserve">
+    <value>Удалить друга</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupPayouts" xml:space="preserve">
+    <value>Выплаты группового дохода</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AcceptAllyRequest" xml:space="preserve">
+    <value>{actor} принимает запрос о дружбе от группы {group}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotDeleteRole" xml:space="preserve">
+    <value>Нельзя удалить эту роль.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.GroupPurchase" xml:space="preserve">
+    <value>Подтверждение покупки группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeGroupOwner" xml:space="preserve">
+    <value>Сменить владельца группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupLocked" xml:space="preserve">
+    <value>Эта группа заблокирована</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LastAddedFunds" xml:space="preserve">
+    <value>Успешный перевод от пользователя {userName} в группу {groupName}. Дата: {transferDate}.</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UseGroupFunds" xml:space="preserve">
+    <value>Использовать фонд группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotRemoveRole" xml:space="preserve">
+    <value>Нельзя удалить больше ролей.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeOwner" xml:space="preserve">
+    <value>{actor} изменяет владельца группы. Новый владелец: {user}.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InviteToClan" xml:space="preserve">
+    <value>{actor} приглашает пользователя {user} в клан</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CancelClanInvite" xml:space="preserve">
+    <value>Отменить приглашение в клан</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Claim" xml:space="preserve">
+    <value>Заявить о правах</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupBuildersClubTooltip" xml:space="preserve">
+    <value>Для создания группы необходима подписка Roblox Premium.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RevertGroupAsset" xml:space="preserve">
+    <value>Вернуть групповой ресурс</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotHaveRelationshipWithGroup" xml:space="preserve">
+    <value>Другая группа не допускает объявлений о вражде.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureBadgeUpdate" xml:space="preserve">
+    <value>{actor} меняет значок {badge}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleDeleteSuccess" xml:space="preserve">
+    <value>Роль удалена.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetDataDescOnly" xml:space="preserve">
+    <value>{actor} меняет описание набора ролей {newName} с «{oldDescription}» на «{newDescription}»</value>
+    <comment>Used in auditlog to let admin know a user has modified a roleset&#39;s description&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.MakePrimary" xml:space="preserve">
+    <value>Сделать основной</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.LeaveGroup" xml:space="preserve">
+    <value>Покинуть группу</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Store" xml:space="preserve">
+    <value>Магазин</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupAsset" xml:space="preserve">
+    <value>Создать групповой ресурс</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteEnemy" xml:space="preserve">
+    <value>Удалить врага</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupPremiumPayouts" xml:space="preserve">
+    <value>Групповые выплаты Premium</value>
+    <comment>Created by ychiu@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by ychiu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.JoinGroupPendingSuccess" xml:space="preserve">
+    <value>Отправлен запрос на вступление в группу, запрос на рассмотрении.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleUpdateFail" xml:space="preserve">
+    <value>Не удалось обновить роль.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Transactions" xml:space="preserve">
+    <value>Транзакции</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Wall" xml:space="preserve">
+    <value>Стена</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeDescription" xml:space="preserve">
+    <value>Изменить описание</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.FundsVisible" xml:space="preserve">
+    <value>Фонд группы виден всем</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Percentage" xml:space="preserve">
+    <value>Процент</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToRemoveAffiliate" xml:space="preserve">
+    <value>Не удалось удалить партнёра группы.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetRank" xml:space="preserve">
+    <value>{actor} меняет ранг набора ролей {roleSetName} с {oldRank} на {newRank}</value>
+    <comment>Used in AuditLog to let admin know some user in the group has changed the roleset&#39;s rank&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureGroupDevelopmentItem" xml:space="preserve">
+    <value>Изменить групповой продукт разработчика</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoGames" xml:space="preserve">
+    <value>Нет плейсов, связанных с этой группой.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SaleOfGoods" xml:space="preserve">
+    <value>Продажа товаров</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetDataNameOnly" xml:space="preserve">
+    <value>{actor} меняет название набора ролей {oldName} на {newName}</value>
+    <comment>Used in AuditLog to let admin knows some user in the group has updated a roleset&#39;s name&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.AuditLog" xml:space="preserve">
+    <value>Журнал аудита</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.MakePrimaryGroup" xml:space="preserve">
+    <value>Сделать основной группой</value>
+    <comment>Heading of make primary group modal&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.ManagementPermissions" xml:space="preserve">
+    <value>Прочее</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AdjustCurrencyAmounts" xml:space="preserve">
+    <value>Изменить валютные суммы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageGroupGames" xml:space="preserve">
+    <value>Создать и редактировать плейсы для групп</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ModerateDiscussion" xml:space="preserve">
+    <value>Модерировать чат</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="NameChangeCooldown" xml:space="preserve">
+    <value>Название было изменено недавно.</value>
+    <comment>Created by fli@roblox.com&#xA;Modified by goesnowhere@roblox.com&#xA;Created by fli@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PendingRobux" xml:space="preserve">
+    <value>Ожидаемые Robux</value>
+    <comment>Created by ychiu@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by ychiu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.BuyClan" xml:space="preserve">
+    <value>{actor} покупает групповой клан</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NoPendingRequests" xml:space="preserve">
+    <value>Нет необработанных запросов на вступление.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToPurchaseRole" xml:space="preserve">
+    <value>Не удалось обработать платёж для покупки роли.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupResults" xml:space="preserve">
+    <value>Результаты по запросу «{Search Term}»</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by ccui@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MustBeAccepted" xml:space="preserve">
+    <value>Для вступления в группу необходимо принять запросы пользователей</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PayingOut" xml:space="preserve">
+    <value>Выплаты:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateEnemy" xml:space="preserve">
+    <value>{actor} объявляет группу {group} своим врагом</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteRoleset" xml:space="preserve">
+    <value>Удалить роль: {role}?</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteWallPostSuccess" xml:space="preserve">
+    <value>Публикация на стене удалена.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MaxRoles" xml:space="preserve">
+    <value>Разрешено не более 40 ролей.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.RemovePrimaryGroup" xml:space="preserve">
+    <value>Удалить основную группу</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateEnemy" xml:space="preserve">
+    <value>Создать врага</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoMembersInRole" xml:space="preserve">
+    <value>Нет участников группы с такой ролью.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ViewStatus" xml:space="preserve">
+    <value>Смотреть групповое сообщение</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Amount" xml:space="preserve">
+    <value>Количество</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.ExileUserWarning" xml:space="preserve">
+    <value>Предупреждение</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeclineJoinRequest" xml:space="preserve">
+    <value>Отклонить запрос на вступление</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupFunds" xml:space="preserve">
+    <value>Фонд группы:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.JoinRequirements" xml:space="preserve">
+    <value>Условия вступления</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DistributeBy" xml:space="preserve">
+    <value>Распределение Robux:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PostToStatus" xml:space="preserve">
+    <value>Опубликовать групповое сообщение</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SpendGroupFund" xml:space="preserve">
+    <value>Потратить фонд группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AddGroupPlace" xml:space="preserve">
+    <value>{actor} добавляет {game} как плейс для группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Categories" xml:space="preserve">
+    <value>Категории</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AcceptAllyRequest" xml:space="preserve">
+    <value>Принять запрос о дружбе</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Member" xml:space="preserve">
+    <value>Участник</value>
+    <comment>Member roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoOne" xml:space="preserve">
+    <value>Никто!</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ViewAuditLogs" xml:space="preserve">
+    <value>Смотреть журнал аудита</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Cancel" xml:space="preserve">
+    <value>Отмена</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.RecurringPayout" xml:space="preserve">
+    <value>Циклические выплаты</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Settings" xml:space="preserve">
+    <value>Настройки</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateItems" xml:space="preserve">
+    <value>{actor} создаёт групповой предмет: {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeclineAllyRequest" xml:space="preserve">
+    <value>{actor} отклоняет запрос о дружбе от группы {group}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Delete" xml:space="preserve">
+    <value>{actor} удаляет текущую группу</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ExileUserError" xml:space="preserve">
+    <value>Не удалось исключить пользователя.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MemberNotFound" xml:space="preserve">
+    <value>Участника с этой ролью не существует.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Rank" xml:space="preserve">
+    <value>Ранг</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SavePlace" xml:space="preserve">
+    <value>Сохранить локацию</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SpendGroupFunds" xml:space="preserve">
+    <value>Потратить фонд группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ClaimOwnershipSuccess" xml:space="preserve">
+    <value>Право собственности на группу заявлено.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureItems" xml:space="preserve">
+    <value>{actor} изменяет групповой предмет: {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InsufficientRobux" xml:space="preserve">
+    <value>Недостаточно Robux, чтобы создать группу.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleDescriptionTooLong" xml:space="preserve">
+    <value>Описание роли слишком длинное.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteGroupPlace" xml:space="preserve">
+    <value>{actor} удалляет {game} как плейс для группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GetGroupRelationshipsError" xml:space="preserve">
+    <value>Не удаётся загрузить партнёров группы.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupIconTooLarge" xml:space="preserve">
+    <value>Размер значка не может превышать {maxSize} МБ.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SendGroupShoutError" xml:space="preserve">
+    <value>Не удалось отправить групповое сообщение.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToUpdateRole" xml:space="preserve">
+    <value>Не удалось обновить роль пользователя.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PendingSales" xml:space="preserve">
+    <value>Продажи в обработке</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PostToWall" xml:space="preserve">
+    <value>Опубликовать на стене группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupIconInvalid" xml:space="preserve">
+    <value>Иконка отсутствует или неверна.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermCharactersLimit" xml:space="preserve">
+    <value>Поисковый запрос должен содержать от 2 до 50 символов</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageGroupCreations" xml:space="preserve">
+    <value>Создать или управлять предметами группы.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoAllies" xml:space="preserve">
+    <value>У этой группы нет союзников.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PremiumOnly" xml:space="preserve">
+    <value>Только подписка Premium</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemainingFunds" xml:space="preserve">
+    <value>Остаток:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Rename" xml:space="preserve">
+    <value>Переименовать</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WallPostsUnavailable" xml:space="preserve">
+    <value>Публикации на стене временно недоступны, повтори попытку позже.</value>
+    <comment>Displayed in the group wall area when we cannot successfully load wall posts&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.BuyAd" xml:space="preserve">
+    <value>{actor} предлагает цену в {bid} на рекламу группы {adName}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Member" xml:space="preserve">
+    <value>Постоянный участник группы.</value>
+    <comment>Description of the member roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.MakePrimaryGroupWarning" xml:space="preserve">
+    <value>Сделать эту группу основной?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.NoneMaxGroups" xml:space="preserve">
+    <value>Активируй подписку Premium, чтобы вступить в большее количество групп.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.RemovePrimaryGroupWarning" xml:space="preserve">
+    <value>Удалить основную группу?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AdjustCurrencyAmountsDecreased" xml:space="preserve">
+    <value>{actor} уменьшает фонд группы на {amount}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AdjustCurrencyAmountsIncreased" xml:space="preserve">
+    <value>{actor} увеличивает фонд группы на {amount}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotDeleteThisRole" xml:space="preserve">
+    <value>Нельзя удалить эту роль.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MaximumExceeded" xml:space="preserve">
+    <value>Максимальная сумма Robux для перевода: {robux}</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PermissionUpdateSuccess" xml:space="preserve">
+    <value>Разрешение обновлено.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.UpgradeToJoin" xml:space="preserve">
+    <value>Улучшить, чтобы войти</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.OneTimePayout" xml:space="preserve">
+    <value>Разовая выплата</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureItems" xml:space="preserve">
+    <value>Настроить предметы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoLongerModify" xml:space="preserve">
+    <value>При отключении этого параметра изменить его больше будет нельзя.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemoveMembers" xml:space="preserve">
+    <value>Исключить участников с низким рангом</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureBadgeDisabled" xml:space="preserve">
+    <value>{actor} отключает значок {badge}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleNameTooLong" xml:space="preserve">
+    <value>Название роли слишком длинное.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SettingsLoadFail" xml:space="preserve">
+    <value>Не удалось загрузить настройки группы.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddFundsPrompt" xml:space="preserve">
+    <value>Перевод от пользователя {userName} в группу {groupName}</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.BuildGroupRolesListError" xml:space="preserve">
+    <value>Не удаётся загрузить участников для выбранной роли.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.JoinGroupError" xml:space="preserve">
+    <value>Не удалось вступить в группу.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermEmpty" xml:space="preserve">
+    <value>Поисковый запрос пустой.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TransactionBalance" xml:space="preserve">
+    <value>После этой транзакции баланс составит</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Delete" xml:space="preserve">
+    <value>Удалить</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemoveGroupPlace" xml:space="preserve">
+    <value>Удалить локацию группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Username" xml:space="preserve">
+    <value>Имя пользователя</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteWallPostsByUserError" xml:space="preserve">
+    <value>Не удаётся удалить публикации пользователя на стене.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateAsset" xml:space="preserve">
+    <value>{actor} создаёт новую версию {version} ресурса {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UsersInRole" xml:space="preserve">
+    <value>В этой роли есть пользователи.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.AdvertiseGroup" xml:space="preserve">
+    <value>Рекламировать группу</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.CreateRole" xml:space="preserve">
+    <value>Создать роль</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Shout" xml:space="preserve">
+    <value>Сообщение</value>
+    <comment>To be displayed above the group shout (the current status for a group set by admins)&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GamesVisible" xml:space="preserve">
+    <value>Плейсы для группы видны на главной странице группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateAsset" xml:space="preserve">
+    <value>{actor} создаёт ресурс {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleNameExists" xml:space="preserve">
+    <value>Роль с таким названием уже существует.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SendPostError" xml:space="preserve">
+    <value>Не удаётся отправить публикацию.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.MembershipPermissions" xml:space="preserve">
+    <value>Участники</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WallPostPlaceholder" xml:space="preserve">
+    <value>Напиши что-нибудь...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Owner" xml:space="preserve">
+    <value>Владелец группы.</value>
+    <comment>description of the owner roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PaidOutRecently" xml:space="preserve">
+    <value>Слишком частые выплаты. Подожди и попробуй снова.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetData" xml:space="preserve">
+    <value>{actor} меняет название набора ролей {oldName} на {newName} и меняет описание с «{oldDescription}» на «{newDescription}»</value>
+    <comment>Used in auditlog to let admin know that a user has modified a roleset&#39;s name and description&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.LeaveGroupWarning" xml:space="preserve">
+    <value>Покинуть группу?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AllowDeclarations " xml:space="preserve">
+    <value>Разрешить объявление вражды</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.OnlyBcCanJoin" xml:space="preserve">
+    <value>Только для подписчиков Клуба создателей</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InvalidTargetGroup" xml:space="preserve">
+    <value>Выбранная группа недействительна или не существует</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PurchaseRole" xml:space="preserve">
+    <value>Новая роль стоит {cost}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RankReserved" xml:space="preserve">
+    <value>Ранги должны быть между {minRankPlusOne} и {maxRankMinusOne}. {minRank} и {maxRank} зарезервированы для гостей и владельца.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Admin" xml:space="preserve">
+    <value>Администратор</value>
+    <comment>Admin roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupFee" xml:space="preserve">
+    <value>Комиссия за создание группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Delete" xml:space="preserve">
+    <value>Удалить</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PermDeleteRole" xml:space="preserve">
+    <value>Навсегда удалить эту роль</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotUpdateOwner" xml:space="preserve">
+    <value>Нельзя обновить ранг для роли владельца.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.KickFromClan" xml:space="preserve">
+    <value>{actor} исключает пользователя {user} из клана</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NameFieldEmpty" xml:space="preserve">
+    <value>Поле имени не может быть пустым</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Rename" xml:space="preserve">
+    <value>{actor} меняет название группы на {newName}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureGameDeveloperProduct" xml:space="preserve">
+    <value>{actor} обновляет продукт разработчика {id}: {actions}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupCannotDeclareEnemies" xml:space="preserve">
+    <value>Твоя группа не допускает объявлений о вражде.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermConstraint" xml:space="preserve">
+    <value>Поисковый запрос может содержать от 2 до 50 символов.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermFiltered" xml:space="preserve">
+    <value>Поисковый запрос не подходит для Roblox.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ClaimOwnership" xml:space="preserve">
+    <value>Заявить о праве собственности</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.LeaveGroupAsOwnerWarning" xml:space="preserve">
+    <value>Группу останется без владельца.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.ObcMaxGroups" xml:space="preserve">
+    <value>Ты состоишь в максимальном количестве групп.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupTooltip" xml:space="preserve">
+    <value>Создать новую группу</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchGroups" xml:space="preserve">
+    <value>Поиск по группам</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotChangeOwnRole" xml:space="preserve">
+    <value>Ты не можешь изменить собственную роль.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureBadge" xml:space="preserve">
+    <value>Изменить значок</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.CancelRequest" xml:space="preserve">
+    <value>Отменить запрос</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AcceptJoinRequest" xml:space="preserve">
+    <value>Принять запрос на вступление</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroup" xml:space="preserve">
+    <value>Создать группу</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotHaveRelationshipWithSelf" xml:space="preserve">
+    <value>Твоя группа не может установить отношения сама с собой.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigMetadataLoadFail" xml:space="preserve">
+    <value>Не удалось загрузить метаданные конфигурации группы.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadGroupMetadataError" xml:space="preserve">
+    <value>Не удалось загрузить информацию о группе.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleUpdateSuccess" xml:space="preserve">
+    <value>Роль обновлена.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SendAllyRequest" xml:space="preserve">
+    <value>{actor} отправляет запрос на дружбу группе {group}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PublicGroup" xml:space="preserve">
+    <value>Открытая</value>
+    <comment>If group is open for anyone to join&#xA;Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AddFundsLimitMessage" xml:space="preserve">
+    <value>Перевод удержан. Ты можешь переводить Robux в эту группу со своего аккаунта только каждые {limit} дн.</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DefaultError" xml:space="preserve">
+    <value>Произошла ошибка.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PermissionUpdateFail" xml:space="preserve">
+    <value>Не удалось обновить разрешение.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermFilteredError" xml:space="preserve">
+    <value>Поисковый запрос был отфильтрован</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TooManyRecipients" xml:space="preserve">
+    <value>Слишком много получателей.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnauthorizedToEditPermissions" xml:space="preserve">
+    <value>У вас нет прав на просмотр/редактирование разрешений для этой роли.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.BuyAd" xml:space="preserve">
+    <value>Купить рекламу</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Ownership" xml:space="preserve">
+    <value>Право собственности</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadGroupMembershipsError" xml:space="preserve">
+    <value>Не удалось загрузить информацию об участии пользователя.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.BuyClan" xml:space="preserve">
+    <value>Купить клан</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateItem" xml:space="preserve">
+    <value>Создать предметы для аватара</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeclineAllyRequest" xml:space="preserve">
+    <value>Отклонить запрос о дружбе</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnauthorizedToChangeOwner" xml:space="preserve">
+    <value>У тебя нет прав на смену владельца этой группы.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddMember" xml:space="preserve">
+    <value>Добавить участника</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteGroupPlace" xml:space="preserve">
+    <value>Удалить место группы</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.MakePrimaryGroup" xml:space="preserve">
+    <value>Сделать основной группой</value>
+    <comment>Set the current group as the users primary group&#xA;Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.OtherBcMaxGroups" xml:space="preserve">
+    <value>Улучши свой Клуб создателей, чтобы вступить в большее количество групп.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteAllPostsByUser" xml:space="preserve">
+    <value>Также удалить все публикации этого пользователя.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateDeveloperProduct" xml:space="preserve">
+    <value>{actor} создаёт продукт разработчика с ID {id}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MakePrimaryError" xml:space="preserve">
+    <value>Не удалось сделать основную группу.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MissingRoleRank" xml:space="preserve">
+    <value>Нет ранга роли.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Transaction" xml:space="preserve">
+    <value>Продано: {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateItems" xml:space="preserve">
+    <value>Создать предметы для аватара</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeletePost" xml:space="preserve">
+    <value>Удалить публикацию</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Claim" xml:space="preserve">
+    <value>{actor} заявляет права на группу</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureAsset" xml:space="preserve">
+    <value>{actor} обновляет ресурс {item}: {actions}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateBadge" xml:space="preserve">
+    <value>{actor} создаёт значок {badge}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TransactionForPlace" xml:space="preserve">
+    <value>Продано: {item} за {place}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoWallPosts" xml:space="preserve">
+    <value>Пока никто ничего не написал...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NoTransactions" xml:space="preserve">
+    <value>Нет завершённых транзакций.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SavePlace" xml:space="preserve">
+    <value>{actor} сохраняет локацию {game}</value>
+    <comment>Created by lmarques@roblox.com&#xA;Created by lmarques@roblox.com&#xA;Modified by lmarques@roblox.com</comment>
+  </data>
+  <data name="Message.UserIsOwner" xml:space="preserve">
+    <value>Пользователь уже является владельцем.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.ClothingRevenue" xml:space="preserve">
+    <value>Группы имеют возможность создавать и продавать официальные рубашки, брюки и футболки! Вся прибыль идёт в фонд группы.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Purchaser" xml:space="preserve">
+    <value>Покупатель</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Abandon" xml:space="preserve">
+    <value>Покинуть</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupDescription" xml:space="preserve">
+    <value>Описание (необязательно)</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Owner" xml:space="preserve">
+    <value>Владелец</value>
+    <comment>Owner roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NameInvalid" xml:space="preserve">
+    <value>Нет названия или присутствуют недопустимые символы.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnkownError" xml:space="preserve">
+    <value>Произошла неизвестная ошибка.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MissingRoleName" xml:space="preserve">
+    <value>Нет названия роли.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PayoutRestricted" xml:space="preserve">
+    <value>Средства недавно были переведены. Идёт проверка. Повтори попытку позже.</value>
+    <comment>Created by rtong@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by rtong@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TargetUserNotInGroup" xml:space="preserve">
+    <value>Пользователь не состоит в этой группе.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Description" xml:space="preserve">
+    <value>Описание</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Lock" xml:space="preserve">
+    <value>Заблокировать</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.PurchaseBody" xml:space="preserve">
+    <value>Ты хочешь создать эту группу за</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupName" xml:space="preserve">
+    <value>Назови свою группу</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoEnemies" xml:space="preserve">
+    <value>У этой группы нет врагов.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeletePost" xml:space="preserve">
+    <value>{actor} удаляет публикацию «{postDesc}» пользователя {user}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Lock" xml:space="preserve">
+    <value>{actor} блокирует группу</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SuccessfullyUpdatedRole" xml:space="preserve">
+    <value>Роль пользователя обновлена</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.CreateGroup" xml:space="preserve">
+    <value>Создать группу</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Purchase" xml:space="preserve">
+    <value>Купить</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PrivateGroup" xml:space="preserve">
+    <value>Закрытая</value>
+    <comment>If group is invite only&#xA;Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeRank" xml:space="preserve">
+    <value>{actor} меняет ранг пользователя {user} с {oldRoleSet} на {newRoleSet}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SpendGroupFunds" xml:space="preserve">
+    <value>{actor} тратит {amount} из фонда группы на: {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.DeleteAllPostsByUser" xml:space="preserve">
+    <value>Также удалятся все публикации этого пользователя.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeRank" xml:space="preserve">
+    <value>Сменить ранг</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGamePass" xml:space="preserve">
+    <value>Создать пропуск</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PublishPlace" xml:space="preserve">
+    <value>Опубликовать локацию</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteAlly" xml:space="preserve">
+    <value>{actor} удаляет группу {group} из друзей</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ValueMustBeWhole" xml:space="preserve">
+    <value>Значение должно быть целым числом.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.RemovePrimary" xml:space="preserve">
+    <value>Удалить основную</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeOwner" xml:space="preserve">
+    <value>Сменить владельца</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupSearchResults" xml:space="preserve">
+    <value>Результаты по запросу «{searchTerm}»</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManualApproval" xml:space="preserve">
+    <value>Добавлять участников вручную</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeOwnerEmpty" xml:space="preserve">
+    <value>У группы нет владельца</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeclineJoinRequest" xml:space="preserve">
+    <value>{actor} отклоняет запрос пользователя {user} на вступление</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Date" xml:space="preserve">
+    <value>Дата</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Funds" xml:space="preserve">
+    <value>Средства</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Unlock" xml:space="preserve">
+    <value>Разблокировать</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteEnemy" xml:space="preserve">
+    <value>{actor} удаляет группу {group} из врагов</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteWallPostError" xml:space="preserve">
+    <value>Не удаётся удалить публикацию на стене.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadGroupError" xml:space="preserve">
+    <value>Не удалось загрузить группу.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

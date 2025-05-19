@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label.HaveAnAccountAlready" xml:space="preserve">
+    <value>Hesabın var mı?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Login" xml:space="preserve">
+    <value>Giriş yap</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.VerifyEmail" xml:space="preserve">
+    <value>E-postayı Doğrula</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameInvalidFirstOrLastCharacter" xml:space="preserve">
+    <value>Kullanıcı adı _ ile başlayamaz veya bitemez.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CarouselAvatarTitle" xml:space="preserve">
+    <value>Avatarını Oluştur</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date30" xml:space="preserve">
+    <value>30</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ResendCode" xml:space="preserve">
+    <value>Kodu Tekrar Gönder</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthSeptember" xml:space="preserve">
+    <value>Eyl.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Start" xml:space="preserve">
+    <value>Başla!</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateAccount" xml:space="preserve">
+    <value>Bir Hesap oluştur</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date12" xml:space="preserve">
+    <value>12</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Email" xml:space="preserve">
+    <value>E-posta</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MakeSureIs8CharsOrMore" xml:space="preserve">
+    <value>8 karakter veya daha fazla olduğundan emin ol.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Skip" xml:space="preserve">
+    <value>Atla</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.TooManyAccountsLinkedToEmail" xml:space="preserve">
+    <value>Bu e-postayla ilişkilendirilmiş çok fazla hesap var.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PhoneNumber" xml:space="preserve">
+    <value>Telefon Numarası</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.LinkAccount" xml:space="preserve">
+    <value>Hesabı Bağla</value>
+    <comment>Button text to link 3rd Party Account to a Roblox Account&#xA;Created by jwong@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by jwong@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.SubmitButtonContentDesc" xml:space="preserve">
+    <value>signupSubmitButton</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.UsernameHint" xml:space="preserve">
+    <value>Gerçek adını kullanma.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.HowDoWeCallYou" xml:space="preserve">
+    <value>Sana nasıl seslenelim?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date3" xml:space="preserve">
+    <value>3</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date28" xml:space="preserve">
+    <value>28</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Male" xml:space="preserve">
+    <value>Erkek</value>
+    <comment>label&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WhensYourBirthday" xml:space="preserve">
+    <value>Doğum günün ne zaman?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ApiUnavailable" xml:space="preserve">
+    <value>Kaydolma devre dışı bırakıldı. Lütfen daha sonra tekrar dene.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordPhoneNoRequired" xml:space="preserve">
+    <value>Telefon Numarası gereklidir.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UnableToAddPasskey" xml:space="preserve">
+    <value>Geçiş anahtarı eklenemiyor. Lütfen tekrar dene veya bunun yerine bir şifre oluştur.</value>
+    <comment>Error message presented to users when an attempt to add a passkey fails (due to either the user canceling the operation client-side or a some server error)</comment>
+  </data>
+  <data name="Action.SignUp" xml:space="preserve">
+    <value>Kaydol</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.TermsOfServiceAndPrivacyPolicy" xml:space="preserve">
+    <value>Yukarıdaki &#34;Kaydol&#34; düğmesine dokunarak {var1}Kullanım Koşullarımızı{var2} ve {var3}Gizlilik Politikamızı{var4} kabul etmiş olursun.</value>
+    <comment>Terms of use and privacy policy with substitutions for urls&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date8" xml:space="preserve">
+    <value>8</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date23" xml:space="preserve">
+    <value>23</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LogInText" xml:space="preserve">
+    <value>Giriş Yap</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SignUp" xml:space="preserve">
+    <value>Kaydol</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.BadServerResponseError" xml:space="preserve">
+    <value>Sunucudan kötü yanıt.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordComplexity" xml:space="preserve">
+    <value>Lütfen daha karmaşık bir şifre oluştur.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.CreateAPassword" xml:space="preserve">
+    <value>Roblox hesabın için bir şifre oluştur</value>
+    <comment>Description to inform users to create a password during multi-step signup</comment>
+  </data>
+  <data name="Label.Date14" xml:space="preserve">
+    <value>14</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date25" xml:space="preserve">
+    <value>25</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthJuly" xml:space="preserve">
+    <value>Tem.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthMarch" xml:space="preserve">
+    <value>Mar.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SignUpWithPhone" xml:space="preserve">
+    <value>Telefonla Kaydol</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.InvalidCode" xml:space="preserve">
+    <value>Geçersiz kod.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordForbidden" xml:space="preserve">
+    <value>Bu şifre kullanılamaz. Lütfen başka bir şifre seç</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.VerificationPageMultiStep" xml:space="preserve">
+    <value>Devam Et&#39;e tıklayarak tahkim maddesi de dâhil olmak üzere Kullanım Koşullarını kabul etmiş ve Gizlilik Politikasını onaylamış sayılırsın.</value>
+    <comment>Legal text in the final step of multi step (e.g. passkey) sign up</comment>
+  </data>
+  <data name="Label.CarouselAvatarText" xml:space="preserve">
+    <value>Avatarını özelleştirerek eşsiz tarzını yansıt.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CarouselGamesText" xml:space="preserve">
+    <value>Arkadaşlarınla ve çeşitli sosyal oyunlardaki diğer milyonlarca sanal kâşif ile takıl.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthApril" xml:space="preserve">
+    <value>Nis.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordEmailRequired" xml:space="preserve">
+    <value>E-posta gereklidir.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SignUpPopUpSignUpForAFreeAccount" xml:space="preserve">
+    <value>Ücretsiz bir hesap için kaydol</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameCannotContainSpaces" xml:space="preserve">
+    <value>Kullanıcı adı boşluk içeremez</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.Or" xml:space="preserve">
+    <value>VEYA</value>
+    <comment>Standalone text that divides two button options, i.e. Action1 ---OR--- Action2</comment>
+  </data>
+  <data name="Label.Date29" xml:space="preserve">
+    <value>29</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.OrCreateAPasskey" xml:space="preserve">
+    <value>Veya bir geçiş anahtarı oluştur</value>
+    <comment>Button text that prompts passkey registration (as opposed to continuing with password) to complete the user signup process.</comment>
+  </data>
+  <data name="Response.PasswordVipLength" xml:space="preserve">
+    <value>Şifre en az 2 rakam, 4 harf, 1 sembol içermeli ve en az 8 karakterden oluşmalıdır</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PhoneNumberAlreadyLinked" xml:space="preserve">
+    <value>Numara zaten başka bir hesapla ilişkilendirilmiş.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PleaseEnterPassword" xml:space="preserve">
+    <value>Lütfen bir şifre gir.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SignUpPopUpCreateAnAccountOnRoblox" xml:space="preserve">
+    <value>Oyunlardaki ilerlemeni kaydetmeye başlamak için Roblox&#39;ta bir hesap oluştur.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.TooManyAccountsCreatedTryAgainLater" xml:space="preserve">
+    <value>Çok fazla hesap oluşturdun. Lütfen daha sonra tekrar dene.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.AlreadyHaveAnAccount" xml:space="preserve">
+    <value>Zaten hesabın var mı?</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.BirthdayDaySpinnerContentDesc" xml:space="preserve">
+    <value>rbxBirthdayDaySpinner</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.PasswordMinLength" xml:space="preserve">
+    <value>En az 8 karakter</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date2" xml:space="preserve">
+    <value>2</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordMismatch" xml:space="preserve">
+    <value>Şifreler eşleşmiyor.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UserAccountAlreadyCreated" xml:space="preserve">
+    <value>Bir şeyler yanlış gitti. Lütfen Kaydolma ekranından çık ve tekrar dene.</value>
+    <comment>Created by wyao@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by wyao@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.VoucherExpired" xml:space="preserve">
+    <value>Kayıt oturumunun süresi doldu. Lütfen kayıt sayfasını tekrar ziyaret et.</value>
+    <comment>Only sued for Luobu, when Wechat/QQ voucher expired.&#xA;Created by twan@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by twan@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AlreadyHaveAnAccount" xml:space="preserve">
+    <value>Zaten hesabın var mı?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthFebruary" xml:space="preserve">
+    <value>Şub.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthNovember" xml:space="preserve">
+    <value>Kas.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthOctober" xml:space="preserve">
+    <value>Eki.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.OptionalGender" xml:space="preserve">
+    <value>Cinsiyet (isteğe bağlı)</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ThisIsYourUsername" xml:space="preserve">
+    <value>Bu senin kullanıcı adın</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WhenIsYourBirthday" xml:space="preserve">
+    <value>Doğum günün ne zaman?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.InvalidEmail" xml:space="preserve">
+    <value>Geçersiz e-posta adresi.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.OneMoreStep" xml:space="preserve">
+    <value>Bir adım daha</value>
+    <comment>Heading prompting users to complete sign up by adding an authentication method</comment>
+  </data>
+  <data name="Description.Username" xml:space="preserve">
+    <value>Kullanıcı adı</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date17" xml:space="preserve">
+    <value>17</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date18" xml:space="preserve">
+    <value>18</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date22" xml:space="preserve">
+    <value>22</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordInvalidCharacters" xml:space="preserve">
+    <value>Şifre, geçersiz karakterler içeriyor.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SignUpErrorGeneratingUsername" xml:space="preserve">
+    <value>Üzgünüz, senin için bir kullanıcı adı oluşturamadık. Lütfen yeni bir kullanıcı adı gir.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameAlreadyInUse" xml:space="preserve">
+    <value>Bu kullanıcı adı zaten kullanılıyor.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CarouselGamesTitle" xml:space="preserve">
+    <value>Kullanıcı Tarafından Oluşturulan Milyonlarca Oyun</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SignUpWithEmail" xml:space="preserve">
+    <value>E-posta ile Kaydol</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SignUpWord" xml:space="preserve">
+    <value>KAYDOL</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TOSAndPrivacy" xml:space="preserve">
+    <value>&#34;Kaydol&#34; düğmesine dokunarak tahkim maddesi de dâhil olmak üzere {var1} ve {var2} belgelerini kabul etmiş ve onaylamış sayılırsın.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordUnknownError" xml:space="preserve">
+    <value>Bir şeyler yanlış gitti. Lütfen tekrar dene.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ServerError" xml:space="preserve">
+    <value>Sunucu hatası.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.SignUpUsernameContentDesc" xml:space="preserve">
+    <value>signupUsername</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Next" xml:space="preserve">
+    <value>İleri</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameRequired" xml:space="preserve">
+    <value>Kullanıcı adı gereklidir.</value>
+    <comment>validation error message&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.BirthdayYearSpinnerContentDesc" xml:space="preserve">
+    <value>rbxBirthdayYearSpinner</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date7" xml:space="preserve">
+    <value>7</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date26" xml:space="preserve">
+    <value>26</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.EmailRequirementsUnder13" xml:space="preserve">
+    <value>Ebeveyn E-postası</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GenderRequired" xml:space="preserve">
+    <value>Cinsiyet gereklidir.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.BirthdayMustBeSetFirst" xml:space="preserve">
+    <value>Önce doğum günü ayarlanmalı.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.InvalidCodeTryAgain" xml:space="preserve">
+    <value>Geçersiz kod. Tekrar dene.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordRequirements" xml:space="preserve">
+    <value>En az 2 rakam içeren 6-20 karakter</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.SignUpPasswordContentDesc" xml:space="preserve">
+    <value>signupPassword</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.6DigitCode" xml:space="preserve">
+    <value>6 basamaklı kod</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date5" xml:space="preserve">
+    <value>5</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date16" xml:space="preserve">
+    <value>16</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Gender" xml:space="preserve">
+    <value>Cinsiyet</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.InvalidBirthday" xml:space="preserve">
+    <value>Geçersiz doğum günü.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordMatchesUsername" xml:space="preserve">
+    <value>Şifre, kullanıcı adın ile aynı olmamalıdır.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.RegisteringWord" xml:space="preserve">
+    <value>Kaydediliyor</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AlmostThere" xml:space="preserve">
+    <value>Az kaldı!</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Birthday" xml:space="preserve">
+    <value>Doğum Günü</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date4" xml:space="preserve">
+    <value>4</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date11" xml:space="preserve">
+    <value>11</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date31" xml:space="preserve">
+    <value>31</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ErrorAcceptTermsToContinue" xml:space="preserve">
+    <value>Devam etmek için Kullanım Koşullarını kabul etmelisin ve Gizlilik Politikasını onaylamalısın</value>
+    <comment>Created by wlu@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by wlu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LoginWord" xml:space="preserve">
+    <value>GİRİŞ YAP</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthAugust" xml:space="preserve">
+    <value>Ağu.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.NextWord" xml:space="preserve">
+    <value>İleri</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.BirthdayMonthSpinnerContentDesc" xml:space="preserve">
+    <value>rbxBirthdayMonthSpinner</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CarouselChatTitle" xml:space="preserve">
+    <value>Arkadaşlarla Sohbet Et</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PickUsername" xml:space="preserve">
+    <value>Kullanıcı adını seç</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TOSAndPrivacySMSFeeMayApply" xml:space="preserve">
+    <value>&#34;Kaydol&#34; düğmesine dokunarak {var1} ve {var2} belgelerini kabul etmiş ve onaylamış sayılırsın. Telefon numaranı doğrulamak için bir SMS alacaksın. SMS ücreti uygulanabilir.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ErrorMessage" xml:space="preserve">
+    <value>Kaydolma hatası.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UnexpectedErrorText" xml:space="preserve">
+    <value>Hay aksi! Bir şeyler yanlış gitti.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameContainsInvalidCharacters" xml:space="preserve">
+    <value>Kullanıcı adı, geçersiz karakterler içeriyor.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Cancel" xml:space="preserve">
+    <value>İptal Et</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.UserGreetingWithName" xml:space="preserve">
+    <value>Merhaba {username}</value>
+    <comment>Used as a (standalone) heading for a screen with interactive UI and instructions on how to proceed with the signup process.</comment>
+  </data>
+  <data name="Label.ChoosePassword" xml:space="preserve">
+    <value>Bir şifre seç</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateYourAccount" xml:space="preserve">
+    <value>Hesabını oluştur</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PleaseEnterAPhoneNumber" xml:space="preserve">
+    <value>Lütfen bir telefon numarası gir.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameInvalid" xml:space="preserve">
+    <value>Lütfen geçerli bir kullanıcı adı gir.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameUnknownError" xml:space="preserve">
+    <value>Bir şeyler yanlış gitti. Lütfen tekrar dene.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.CreateAPasskey" xml:space="preserve">
+    <value>Bir geçiş anahtarı oluştur</value>
+    <comment>Label for a button that, when pressed, initiates passkey creation process</comment>
+  </data>
+  <data name="Label.Female" xml:space="preserve">
+    <value>Kadın</value>
+    <comment>label&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthMay" xml:space="preserve">
+    <value>May.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.InvalidPhoneNumber" xml:space="preserve">
+    <value>Geçersiz telefon numarası.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.LoginWord" xml:space="preserve">
+    <value>GİRİŞ YAP</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.CancelButtonContentDesc" xml:space="preserve">
+    <value>signupCancelButton</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.GenderPickerMaleContentDesc" xml:space="preserve">
+    <value>rbxGenderPickerMale</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date1" xml:space="preserve">
+    <value>1</value>
+    <comment>1&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date10" xml:space="preserve">
+    <value>10</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date19" xml:space="preserve">
+    <value>19</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SelectCountry" xml:space="preserve">
+    <value>Ülke Seç</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.LooksGreat" xml:space="preserve">
+    <value>Harika görünüyor!</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.UsePasskey" xml:space="preserve">
+    <value>Geçiş Anahtarı Kullan</value>
+    <comment>Button text to initiate passkey registration during signup</comment>
+  </data>
+  <data name="Label.Date13" xml:space="preserve">
+    <value>13</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PleaseAgreeToTerms" xml:space="preserve">
+    <value>Lütfen Kullanım Koşullarımızı ve Gizlilik Politikamızı kabul et.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ErrorTryAgain" xml:space="preserve">
+    <value>Bir şeyler yanlış gitti. Lütfen daha sonra tekrar dene.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameInvalidCharacters" xml:space="preserve">
+    <value>Yalnızca &#34;a-z&#34;, &#34;A-Z&#34;, &#34;0-9&#34; ve &#34;_&#34; kullanılabilir.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date6" xml:space="preserve">
+    <value>6</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthJanuary" xml:space="preserve">
+    <value>Oca.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UsePhoneInstead" xml:space="preserve">
+    <value>bunun yerine telefon kullan</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.Error" xml:space="preserve">
+    <value>Bir hata oluştu.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameTooManyUnderscores" xml:space="preserve">
+    <value>Kullanıcı adında en fazla bir tane _ olabilir.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.SignUpPopUpNoThanks" xml:space="preserve">
+    <value>Hayır, Teşekkürler</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SetUpPasskey" xml:space="preserve">
+    <value>Veya bir geçiş anahtarı ayarla</value>
+    <comment>Button label for the button that initiates passkey registration (as an alternative to setting up a password)</comment>
+  </data>
+  <data name="Label.WhatIsYourGender" xml:space="preserve">
+    <value>Cinsiyetin nedir?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameInvalidLength" xml:space="preserve">
+    <value>Kullanıcı adları 3 ila 20 karakter uzunluğunda olabilir.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernamePrivateInfo" xml:space="preserve">
+    <value>Kullanıcı adı özel bilgiler içerebilir.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.VerifyPassword" xml:space="preserve">
+    <value>Lütfen şifreni doğrula.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.WeChatLogin" xml:space="preserve">
+    <value>WeChat Girişi</value>
+    <comment>button text to launch WeChat mobile app&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.GenderPickerFemaleContentDesc" xml:space="preserve">
+    <value>rbxGenderPickerFemale</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.PasswordHintTextLong" xml:space="preserve">
+    <value>Şifre (En az 4 harf ve 2 rakam)</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthJune" xml:space="preserve">
+    <value>Haz.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PleaseEnterUsername" xml:space="preserve">
+    <value>Lütfen bir kullanıcı adı gir.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CarouselChatText" xml:space="preserve">
+    <value>Yeni arkadaşlar edin ve her yerde, her zaman birlikte oyna.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Continue" xml:space="preserve">
+    <value>Devam Et</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MonthDecember" xml:space="preserve">
+    <value>Ara.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.VerifyPhoneNumber" xml:space="preserve">
+    <value>Telefon Numarasını Doğrula</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WelcomeToRoblox" xml:space="preserve">
+    <value>Roblox&#39;a Hoş Geldin</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PasswordUsernameRequired" xml:space="preserve">
+    <value>Kullanıcı adı gereklidir.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SignUpPasswordTooShortError" xml:space="preserve">
+    <value>Şifre en az 8 karakter olmalıdır.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UsernameExplicit" xml:space="preserve">
+    <value>Bu kullanıcı adına izin verilmiyor, lütfen başka bir kullanıcı adı dene.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Verify" xml:space="preserve">
+    <value>Doğrula</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.SignUpPasswordConfirmContentDesc" xml:space="preserve">
+    <value>signupPasswordConfirm</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date9" xml:space="preserve">
+    <value>9</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date15" xml:space="preserve">
+    <value>15</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date21" xml:space="preserve">
+    <value>21</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.NoGenderError" xml:space="preserve">
+    <value>Cinsiyet belirtilmedi, lütfen bir cinsiyet seç.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UseEmailInstead" xml:space="preserve">
+    <value>bunun yerine e-posta kullan</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfirmPassword" xml:space="preserve">
+    <value>Şifreyi onayla</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date24" xml:space="preserve">
+    <value>24</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date27" xml:space="preserve">
+    <value>27</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.EnterCodeSentFormated" xml:space="preserve">
+    <value>{var1} iletişim bilgisine gönderdiğimiz 6 basamaklı kodu gir.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PleaseEnterAnEmail" xml:space="preserve">
+    <value>Lütfen bir e-posta gir.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.UsernameHintTextLong" xml:space="preserve">
+    <value>Kullanıcı adı (6-20 karakter, boşluksuz)</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Date20" xml:space="preserve">
+    <value>20</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

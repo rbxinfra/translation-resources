@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Heading.FriendVisited" xml:space="preserve">
+    <value>Teman Mengunjungi</value>
+    <comment>Created by vsu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by vsu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="HeadingFriendSingular" xml:space="preserve">
+    <value>Teman</value>
+    <comment>Created by mdaniel@roblox.com&#xA;Modified by mdaniel@roblox.com&#xA;Created by mdaniel@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="LabelGetStartedOnRoblox" xml:space="preserve">
+    <value>Mulai Di Roblox</value>
+    <comment>This string is the header (title) for a sort on the Homepage that displays experiences for new users to play to Get Started on Roblox.</comment>
+  </data>
+  <data name="LabelMoreToExplore" xml:space="preserve">
+    <value>Jelajahi Lebih Banyak</value>
+    <comment>This string is the header (title) for a sort on the Homepage that displays additional experiences for the users to explore.</comment>
+  </data>
+  <data name="SingularFriend" xml:space="preserve">
+    <value>1 Teman</value>
+    <comment>Created by vsu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by vsu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="LabelYouMightAlsoLike" xml:space="preserve">
+    <value>Kamu Mungkin Suka</value>
+    <comment>Title of homepage carousel of experiences users may like related to what they have played before.</comment>
+  </data>
+  <data name="NFriendsVisited" xml:space="preserve">
+    <value>{friendCount, plural, =0 {# teman mengunjungi} =1 {# teman mengunjungi} other {# teman mengunjungi}}</value>
+    <comment>Indicates how many friends visited an experience. If it&#39;s singular (1 friend), it should display &#34;1 friend visited&#34;. When it&#39;s plural, it&#39;d be &#34;5 friends visited&#34;.&#xA;Created by vsu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by vsu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="NFriendsVisitedUpperCase" xml:space="preserve">
+    <value>{friendCount, plural, =0 {# Teman Mengunjungi} =1 {# Teman Mengunjungi} other {# Teman Mengunjungi}}</value>
+    <comment>Indicates how many friends visited an experience. If it&#39;s singular (1 friend), it should display &#34;1 Friend Visited&#34;. When it&#39;s plural, it&#39;d be &#34;5 Friends Visited&#34;.&#xA;Created by vsu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by vsu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="PluralFriend" xml:space="preserve">
+    <value>{friendCount} Teman</value>
+    <comment>Created by vsu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by vsu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="PluralFriendsVisited" xml:space="preserve">
+    <value>{friendCount} teman mengunjungi</value>
+    <comment>Plural friend count visited an experience, i.e. 2 friends visited, 10 friends visited, etc.&#xA;Created by vsu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by vsu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="SingularFriendVisited" xml:space="preserve">
+    <value>1 teman mengunjungi</value>
+    <comment>1 single friend visited an experience&#xA;Created by vsu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by vsu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.JoinYourFriends" xml:space="preserve">
+    <value>Bergabung dengan Teman Kamu</value>
+    <comment>Heading for the Join Your Friends carousel on home page&#xA;Created by pyu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by pyu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="HeadingFriendPlural" xml:space="preserve">
+    <value>Teman</value>
+    <comment>Created by mdaniel@roblox.com&#xA;Modified by mdaniel@roblox.com&#xA;Created by mdaniel@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="HeadingMyFavorites" xml:space="preserve">
+    <value>Favorit Saya</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vsu@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="NFriendsVisitedSentenceCase" xml:space="preserve">
+    <value>{friendCount, plural, =0 {Tidak ada teman mengunjungi} =1 {# Teman mengunjungi} other {# Teman mengunjungi}}</value>
+    <comment>Created by vsu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by vsu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="PluralFriendsVisitedUpperCase" xml:space="preserve">
+    <value>{friendCount} Teman Mengunjungi</value>
+    <comment>Plural friend count visited an experience, i.e. 2 Friends Visited, 10 Friends Visited, etc.&#xA;Created by vsu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by vsu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="SingularFriendVisitedSentenceCase" xml:space="preserve">
+    <value>1 Teman mengunjungi</value>
+    <comment>Created by vsu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by vsu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="XFriendsVisited" xml:space="preserve">
+    <value>{friendCount} teman mengunjungi</value>
+    <comment>Indicates how many friends visited an experience. If it&#39;s singular (1 friend), it should display &#34;1 friend visited&#34;. When it&#39;s plural, it&#39;d be &#34;5 friends visited&#34;.&#xA;Created by vsu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by vsu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="HeadingFriendActivity" xml:space="preserve">
+    <value>Aktivitas Teman</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vsu@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="PluralFriendsVisitedSentenceCase" xml:space="preserve">
+    <value>{friendCount} Teman mengunjungi</value>
+    <comment>friendCount will always be &gt; 1&#xA;Created by vsu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by vsu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="SingularFriendVisitedUpperCase" xml:space="preserve">
+    <value>1 Teman Mengunjungi</value>
+    <comment>1 single friend visited an experience&#xA;Created by vsu@roblox.com&#xA;Modified by vsu@roblox.com&#xA;Created by vsu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

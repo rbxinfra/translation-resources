@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Response.TooManyAttemptsText" xml:space="preserve">
+    <value>시도 가능 횟수를 초과했습니다</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UnexpectedErrorFormatted" xml:space="preserve">
+    <value>죄송합니다. 예기치 못한 오류가 발생했어요: {var1}</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Close" xml:space="preserve">
+    <value>닫기</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Validating" xml:space="preserve">
+    <value>인증 중</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Loading" xml:space="preserve">
+    <value>불러오는 중</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Roblox" xml:space="preserve">
+    <value>Roblox</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Working" xml:space="preserve">
+    <value>작업 중</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.CheckingMessage" xml:space="preserve">
+    <value>확인 중...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.InstallEmailClient" xml:space="preserve">
+    <value>이메일 앱 실행에 실패했습니다. info@roblox.com으로 이메일을 보내 주세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.RestartRequiredTitle" xml:space="preserve">
+    <value>앱을 다시 시작해야 합니다</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ActionNotAvailableOnVRHeadsetDevice" xml:space="preserve">
+    <value>아직 헤드셋 기기에서 지원되지 않는 기능입니다. 다른 기기에서 시도하세요.</value>
+    <comment>A toast text to show user when certain actions (e.g opening a webpage) is not available for VR head set device.&#xA;Created by jzhao@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by jzhao@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.OperationUnavailable" xml:space="preserve">
+    <value>작업이 일시적으로 불가능합니다. 나중에 다시 시도하세요.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ClearAppAndRestart" xml:space="preserve">
+    <value>최근 앱 메뉴에서 앱을 삭제하고 앱을 다시 시작하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.NoOpenLinkAppInstalled" xml:space="preserve">
+    <value>본 링크를 열 수 있는 앱이 없습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.RobloxSupport" xml:space="preserve">
+    <value>Roblox 지원 센터</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SSLHandshakeException" xml:space="preserve">
+    <value>서버 연결 불가: SSL 핸드셰이크 예외입니다!</value>
+    <comment>SSL Handshake Exception error message&#xA;Created by dgriffin@roblox.com&#xA;Modified by dgriffin@roblox.com&#xA;Created by dgriffin@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ServiceNotAvailable" xml:space="preserve">
+    <value>서비스를 사용할 수 없습니다. 나중에 다시 시도하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UnsupportedDevice" xml:space="preserve">
+    <value>죄송합니다. 기기가 Roblox 체험에 참가하기 위한 최소 요구 사항을 충족하지 않습니다.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by lchang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Password" xml:space="preserve">
+    <value>비밀번호</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by hkim@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TextWasModerated" xml:space="preserve">
+    <value>텍스트가 검열을 통과하지 못했어요.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SettingsSavedTitle" xml:space="preserve">
+    <value>설정 저장 완료</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="VR_Application_Upgrade_Label" xml:space="preserve">
+    <value>이용 중인 Roblox의 버전이 오래되어 제대로 작동하지 않습니다.</value>
+    <comment>A shorter version of the upgrade text for VR notification where expanded text is not available.&#xA;Created by jzhao@roblox.com&#xA;Modified by jzhao@roblox.com&#xA;Created by jzhao@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Working.InProgress" xml:space="preserve">
+    <value>작업 중...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RequestSizeOverLimit" xml:space="preserve">
+    <value>요청 크기가 한도를 초과했습니다.</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.99.Plus" xml:space="preserve">
+    <value>99+</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ConnectionError" xml:space="preserve">
+    <value>서버에 연결할 수 없습니다. 인터넷 연결을 확인하세요!</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.RequiresNEONInstructions" xml:space="preserve">
+    <value>NEON 명령어 필요</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SystemErrorTryLater" xml:space="preserve">
+    <value>시스템 오류. 나중에 다시 시도하세요.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

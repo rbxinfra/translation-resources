@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label.BuyClan" xml:space="preserve">
+    <value>クランを買う</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateItem" xml:space="preserve">
+    <value>アバターアイテムを作成</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeclineAllyRequest" xml:space="preserve">
+    <value>同盟リクエストを却下</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnauthorizedToChangeOwner" xml:space="preserve">
+    <value>このグループの所有者を変更する権限がありません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddMember" xml:space="preserve">
+    <value>メンバーを追加</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteGroupPlace" xml:space="preserve">
+    <value>グループプレースを削除</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.MakePrimaryGroup" xml:space="preserve">
+    <value>メイングループに設定</value>
+    <comment>Set the current group as the users primary group&#xA;Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.OtherBcMaxGroups" xml:space="preserve">
+    <value>他のグループにも参加するには、Builders Clubをアップグレードしてください。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteAllPostsByUser" xml:space="preserve">
+    <value>このユーザーのすべての投稿も削除します。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateDeveloperProduct" xml:space="preserve">
+    <value>{actor} がID {id} の開発者製品を作成しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MakePrimaryError" xml:space="preserve">
+    <value>メイングループに設定できません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MissingRoleRank" xml:space="preserve">
+    <value>役割のランクがありません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Transaction" xml:space="preserve">
+    <value>{item} を売りました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateItems" xml:space="preserve">
+    <value>アバターアイテムを作成</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeletePost" xml:space="preserve">
+    <value>投稿を削除</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Claim" xml:space="preserve">
+    <value>{actor} がグループの所有権を取得しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureAsset" xml:space="preserve">
+    <value>{actor} が {item} のアセットを更新しました: {actions}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateBadge" xml:space="preserve">
+    <value>{actor} が {badge} バッジを作成しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TransactionForPlace" xml:space="preserve">
+    <value>{place} のための {item} を売りました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoWallPosts" xml:space="preserve">
+    <value>まだ誰も発言していません...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NoTransactions" xml:space="preserve">
+    <value>完了済みの取引はありません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SavePlace" xml:space="preserve">
+    <value>{actor} さんが {game} のプレースを保存済み</value>
+    <comment>Created by lmarques@roblox.com&#xA;Created by lmarques@roblox.com&#xA;Modified by lmarques@roblox.com</comment>
+  </data>
+  <data name="Message.UserIsOwner" xml:space="preserve">
+    <value>ユーザーはすでに所有者です。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.ClothingRevenue" xml:space="preserve">
+    <value>グループでは、公式シャツ、ズボン、Tシャツなどを作ったり販売ができます！売上はグループの資金となります。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Purchaser" xml:space="preserve">
+    <value>購入者</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Abandon" xml:space="preserve">
+    <value>破棄</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupDescription" xml:space="preserve">
+    <value>詳細（任意）</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Owner" xml:space="preserve">
+    <value>所有者</value>
+    <comment>Owner roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NameInvalid" xml:space="preserve">
+    <value>名前が無効であるか、存在しません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnkownError" xml:space="preserve">
+    <value>不明なエラーが発生しました。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MissingRoleName" xml:space="preserve">
+    <value>役割名がありません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PayoutRestricted" xml:space="preserve">
+    <value>あなたの資金が最近、転送されましたが現在、認証中です。後でもう一度お試しください。</value>
+    <comment>Created by rtong@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by rtong@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TargetUserNotInGroup" xml:space="preserve">
+    <value>ユーザーはグループのメンバーではありません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Description" xml:space="preserve">
+    <value>詳細</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Lock" xml:space="preserve">
+    <value>ロック</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.PurchaseBody" xml:space="preserve">
+    <value>以下でこのグループを作成しますか：</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupName" xml:space="preserve">
+    <value>グループに名前を付ける</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoEnemies" xml:space="preserve">
+    <value>このグループには敵がいません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeletePost" xml:space="preserve">
+    <value>{actor} がユーザーの {user} が投稿した「{postDesc}」を削除しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Lock" xml:space="preserve">
+    <value>{actor} がグループをロックしました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SuccessfullyUpdatedRole" xml:space="preserve">
+    <value>ユーザーの役割を更新できました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.CreateGroup" xml:space="preserve">
+    <value>グループを作成</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Purchase" xml:space="preserve">
+    <value>購入</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PrivateGroup" xml:space="preserve">
+    <value>プライベート</value>
+    <comment>If group is invite only&#xA;Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeRank" xml:space="preserve">
+    <value>{actor} がユーザーの {user} のランクを {oldRoleSet} から {newRoleSet} に変更しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SpendGroupFunds" xml:space="preserve">
+    <value>{actor} がグループ資金を {amount} 使ったアイテムは: {item}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.DeleteAllPostsByUser" xml:space="preserve">
+    <value>このユーザーのすべての投稿も削除します。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeRank" xml:space="preserve">
+    <value>ランクを変更</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGamePass" xml:space="preserve">
+    <value>パスを作成</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PublishPlace" xml:space="preserve">
+    <value>プレースを公開する</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteAlly" xml:space="preserve">
+    <value>{actor} が {group} グループを同盟から削除しました　</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ValueMustBeWhole" xml:space="preserve">
+    <value>値は整数である必要があります。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.RemovePrimary" xml:space="preserve">
+    <value>メイングループを削除</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeOwner" xml:space="preserve">
+    <value>所有者を変更</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupSearchResults" xml:space="preserve">
+    <value>{searchTerm} のグループでの結果</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManualApproval" xml:space="preserve">
+    <value>手動による承認</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeOwnerEmpty" xml:space="preserve">
+    <value>グループの所有者がいません</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeclineJoinRequest" xml:space="preserve">
+    <value>{actor} が ユーザーの {user} の参加リクエストを却下しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Date" xml:space="preserve">
+    <value>日付</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Funds" xml:space="preserve">
+    <value>資金</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Unlock" xml:space="preserve">
+    <value>アンロック</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteEnemy" xml:space="preserve">
+    <value>{actor} が {group} グループを敵から削除しました　</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteWallPostError" xml:space="preserve">
+    <value>掲示板投稿を削除できません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadGroupError" xml:space="preserve">
+    <value>グループをロードできません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RemovePrimaryError" xml:space="preserve">
+    <value>メイングループを削除できません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Upgrade" xml:space="preserve">
+    <value>アップグレード</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AdvertiseGroup" xml:space="preserve">
+    <value>グループを宣伝する</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureGroupGame" xml:space="preserve">
+    <value>グループを環境設定 \nバーチャル空間</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteFromWall" xml:space="preserve">
+    <value>グループ掲示板への投稿を削除</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ShoutPlaceholder" xml:space="preserve">
+    <value>告知を入力してください</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MemberAdded" xml:space="preserve">
+    <value>メンバーはすでにペイアウトに追加されています。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RemoveMember" xml:space="preserve">
+    <value>{actor} がユーザーの {user} を追放しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UserGroupPayoutIneligible" xml:space="preserve">
+    <value>ユーザーは、グループの新規参加者なため、ペイアウトの資格がまだありません。また後でお試しください。</value>
+    <comment>Created by rtong@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by rtong@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.GroupShout" xml:space="preserve">
+    <value>グループへの告知</value>
+    <comment>Text on the button for sending / posting a group shout&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ReportAbuse" xml:space="preserve">
+    <value>規約違反を報告</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SendAllyRequest" xml:space="preserve">
+    <value>同盟リクエストを送信</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Abandon" xml:space="preserve">
+    <value>{actor} （グループ所有者）がグループを破棄しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NotEnoughFunds" xml:space="preserve">
+    <value>この役割を購入する資金が足りません</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PublishPlace" xml:space="preserve">
+    <value>{actor} さんが {game} のプレースを公開済み</value>
+    <comment>Created by lmarques@roblox.com&#xA;Created by lmarques@roblox.com&#xA;Modified by lmarques@roblox.com</comment>
+  </data>
+  <data name="Message.RelationshipDoesNotExist" xml:space="preserve">
+    <value>関連性が存在しません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddGroupPlace" xml:space="preserve">
+    <value>グループプレースを追加</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DuplicateRelationship" xml:space="preserve">
+    <value>お持ちのグループはターゲットグループとすでに関連性があります。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NoFundsDistribute" xml:space="preserve">
+    <value>給付する資金がありません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Games" xml:space="preserve">
+    <value>バーチャル空間</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AnyoneCanJoin" xml:space="preserve">
+    <value>誰でも参加できる</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InvalidGroupJoinRequest" xml:space="preserve">
+    <value>グループ参加リクエストは無効です。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PostStatus" xml:space="preserve">
+    <value>{actor} がグループ告知を「{groupStatus}」に変更しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.GroupShout" xml:space="preserve">
+    <value>グループへの告知</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchUsers" xml:space="preserve">
+    <value>ユーザーをサーチ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UpdateGroupAsset" xml:space="preserve">
+    <value>グループアセットを更新</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotUpdateGuest" xml:space="preserve">
+    <value>ゲストの役割を更新できません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ClaimOwnershipError" xml:space="preserve">
+    <value>グループの所有権を取得できません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.WallPrivacySettings" xml:space="preserve">
+    <value>プライバシー設定により、グループ掲示板への投稿が許可されていません。こちらをクリックして、設定を変更してください。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddFundsAmount" xml:space="preserve">
+    <value>金額</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.InviteMembers" xml:space="preserve">
+    <value>参加リクエストを承認する</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RevenueToGroupFund" xml:space="preserve">
+    <value>グループ資金に行く収入：</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureBadgeEnabled" xml:space="preserve">
+    <value>{actor} が {badge} バッジを有効化しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateGamePass" xml:space="preserve">
+    <value>{actor} が {game} のパスを作成しました: {gamePass}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DuplicateName" xml:space="preserve">
+    <value>名前はすでに使われています。他の名前をお試しください。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SettingUpdated" xml:space="preserve">
+    <value>設定を更新できました。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.EconomyPermissions" xml:space="preserve">
+    <value>アセット</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.PostsPermissions" xml:space="preserve">
+    <value>投稿</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateBadge" xml:space="preserve">
+    <value>バッジを作成</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupBlocked" xml:space="preserve">
+    <value>このユーザーとのコミュニケーションはブロックされています。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RelationshipRequestDoesNotExist" xml:space="preserve">
+    <value>関連リクエストが存在しません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleDeleteFail" xml:space="preserve">
+    <value>役割を削除できません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UserHasInsufficientMembership" xml:space="preserve">
+    <value>そのユーザーには必要なレベルのプレミアムのメンバーシップがありません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ExileUser" xml:space="preserve">
+    <value>ユーザーを追放</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupDeveloperProduct" xml:space="preserve">
+    <value>グループ開発者製品を作成</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AcceptJoinRequest" xml:space="preserve">
+    <value>{actor} が ユーザーの {user} の参加リクエストを承認しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadUserGroupMembershipError" xml:space="preserve">
+    <value>グループのメンバー情報をロードできません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Unlock" xml:space="preserve">
+    <value>{actor} がグループをアンロックしました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.GroupAdmin" xml:space="preserve">
+    <value>グループ管理</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Primary" xml:space="preserve">
+    <value>メイン</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureGroupAsset" xml:space="preserve">
+    <value>グループアセットの環境設定</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Guest" xml:space="preserve">
+    <value>ゲスト</value>
+    <comment>Guest roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureGame" xml:space="preserve">
+    <value>{actor} が {game} を更新しました: {actions}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Guest" xml:space="preserve">
+    <value>非グループメンバー。</value>
+    <comment>Description of the guest roleset.&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RankOutOfBounds" xml:space="preserve">
+    <value>ランク値が規格を超えています。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.YouAreOwner" xml:space="preserve">
+    <value>すでにこのグループの所有者です。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Funds" xml:space="preserve">
+    <value>資金</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeRanks" xml:space="preserve">
+    <value>低ランクメンバーのランクを管理</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchMembers" xml:space="preserve">
+    <value>メンバーをサーチ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Admin" xml:space="preserve">
+    <value>グループ管理者。</value>
+    <comment>Description of the admin roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeDescription" xml:space="preserve">
+    <value>{actor} が詳細を 「{newDescription}」に変更しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DescriptionEmpty" xml:space="preserve">
+    <value>グループの詳細が空欄です。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NameChangeCooldown" xml:space="preserve">
+    <value>名前の変更のタイミングが早すぎます。</value>
+    <comment>The name was changed too recently.&#xA;Created by fli@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by fli@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleLimitReached" xml:space="preserve">
+    <value>このグループで役割の上限を超えました。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Post" xml:space="preserve">
+    <value>投稿</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CancelClanInvite" xml:space="preserve">
+    <value>{actor} が {user} へのクランへの招待状をキャンセルしました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NotEnoughFundsDistribute" xml:space="preserve">
+    <value>この額を給付するには資金が足りません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToAcceptAllRequests" xml:space="preserve">
+    <value>すべてのリクエストを承認できません。もう一度お試しください。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateAssetRevert" xml:space="preserve">
+    <value>{actor} が {item} のアセットをバージョン {version} から {oldVersion} に戻しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.ExileUserWarning" xml:space="preserve">
+    <value>このユーザーを追放しますか？</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupEmblem" xml:space="preserve">
+    <value>エンブレム</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ImmutableRole" xml:space="preserve">
+    <value>この役割の権限は変更できません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadWallPostsError" xml:space="preserve">
+    <value>掲示板投稿をロードできません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToLoadRevenue" xml:space="preserve">
+    <value>収入の明細をロードできません</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.DeleteRole" xml:space="preserve">
+    <value>役割を削除</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.LeaveGroup" xml:space="preserve">
+    <value>グループを抜ける</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Members" xml:space="preserve">
+    <value>メンバー</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InvalidFileType" xml:space="preserve">
+    <value>グループアイコンのファイルタイプが無効です。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.JoinGroupSuccess" xml:space="preserve">
+    <value>グループに参加しました。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LeaveGroupError" xml:space="preserve">
+    <value>グループを終了できません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TransactionsBalance" xml:space="preserve">
+    <value>この取引後の残高は {balance} になります</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.JoinGroup" xml:space="preserve">
+    <value>グループに参加</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Loading" xml:space="preserve">
+    <value>ロード中...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoStoreItems" xml:space="preserve">
+    <value>このグループで販売中のアイテムはありません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Success" xml:space="preserve">
+    <value>成功</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermEmptyError" xml:space="preserve">
+    <value>サーチする語句がありません</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SettingFail" xml:space="preserve">
+    <value>設定を更新できません</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Close" xml:space="preserve">
+    <value>閉鎖する</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Exile" xml:space="preserve">
+    <value>追放</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Enemies" xml:space="preserve">
+    <value>敵</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.GroupProfile" xml:space="preserve">
+    <value>グループのプロフィール</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.All" xml:space="preserve">
+    <value>すべて</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.KickFromClan" xml:space="preserve">
+    <value>クランから追放</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageItems" xml:space="preserve">
+    <value>アバターアイテムを環境設定</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageRelationships" xml:space="preserve">
+    <value>同盟と敵を管理</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.User" xml:space="preserve">
+    <value>ユーザー</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.InviteToClan" xml:space="preserve">
+    <value>クランに招待</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MaxGroupsTooltip" xml:space="preserve">
+    <value>同時に参加できるのは、最大 {maxGroups} グループまでです</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ViewWall" xml:space="preserve">
+    <value>グループ掲示板を表示</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleWithUsers" xml:space="preserve">
+    <value>この役割をしている人が {amount, plural, =0 { # 人} =1 { # 人} other { # 人}} います。役割があるユーザーを削除することはできません</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SelectNewOwner" xml:space="preserve">
+    <value>新しいグループ所有者を選択</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TooManyGroups" xml:space="preserve">
+    <value>グループ数が上限に達しました。新しいものを作成する前にグループから抜けてください。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToDeclineAllRequests" xml:space="preserve">
+    <value>すべてのリクエストを却下できません。もう一度お試しください。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Yes" xml:space="preserve">
+    <value>はい</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.GoToDetails" xml:space="preserve">
+    <value>詳細へ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.About" xml:space="preserve">
+    <value>情報</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AvailableFunds" xml:space="preserve">
+    <value>利用できる資金</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupClosed" xml:space="preserve">
+    <value>グループを閉鎖しました</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemoveMember" xml:space="preserve">
+    <value>メンバーを削除</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.SeeNewWallPosts" xml:space="preserve">
+    <value>新しい掲示板投稿を表示</value>
+    <comment>Text on the button for loading new posts that have been added to the Group Wall since the page was loaded.&#xA;Created by sneth@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sneth@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Affiliates" xml:space="preserve">
+    <value>アフィリエイト</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Allies" xml:space="preserve">
+    <value>仲間</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Requests" xml:space="preserve">
+    <value>リクエスト</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteAlly" xml:space="preserve">
+    <value>同盟を削除</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupPayouts" xml:space="preserve">
+    <value>グループ収入ペイアウト</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AcceptAllyRequest" xml:space="preserve">
+    <value>{actor} が {group} グループの同盟リクエストを承認しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotDeleteRole" xml:space="preserve">
+    <value>この役割を削除できません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.GroupPurchase" xml:space="preserve">
+    <value>グループ購入の確認</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeGroupOwner" xml:space="preserve">
+    <value>グループの所有者を変更</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupLocked" xml:space="preserve">
+    <value>このグループはロックされています</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LastAddedFunds" xml:space="preserve">
+    <value>{transferDate} に {userName} から {groupName} に転送できました。</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UseGroupFunds" xml:space="preserve">
+    <value>この役割の購入にグループ資金を使う</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotRemoveRole" xml:space="preserve">
+    <value>これ以上、役割を削除できません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ChangeOwner" xml:space="preserve">
+    <value>{actor} がグループ所有者を変更しました。 {user} が新しいグループ所有者です</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InviteToClan" xml:space="preserve">
+    <value>{actor} がユーザーの {user} をクランに招待しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CancelClanInvite" xml:space="preserve">
+    <value>クランの招待状をキャンセル</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Claim" xml:space="preserve">
+    <value>取得</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupBuildersClubTooltip" xml:space="preserve">
+    <value>グループを作成するには、Robloxプレミアム会員になることが必要です。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RevertGroupAsset" xml:space="preserve">
+    <value>グループアセットを元に戻す</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotHaveRelationshipWithGroup" xml:space="preserve">
+    <value>ほかのグループは敵宣言を許可していません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureBadgeUpdate" xml:space="preserve">
+    <value>{actor} が {badge} バッジを環境設定しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleDeleteSuccess" xml:space="preserve">
+    <value>役割を削除できました。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetDataDescOnly" xml:space="preserve">
+    <value>{actor} が役割セット {newName} の説明を「{oldDescription}」から「{newDescription}」にアップデートしました</value>
+    <comment>Used in auditlog to let admin know a user has modified a roleset&#39;s description&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.MakePrimary" xml:space="preserve">
+    <value>メイングループに設定</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.LeaveGroup" xml:space="preserve">
+    <value>グループを抜ける</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Store" xml:space="preserve">
+    <value>ストア</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupAsset" xml:space="preserve">
+    <value>グループアセットを作成</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeleteEnemy" xml:space="preserve">
+    <value>敵を削除</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupPremiumPayouts" xml:space="preserve">
+    <value>グループ・プレミアム・ペイアウト</value>
+    <comment>Created by ychiu@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by ychiu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.JoinGroupPendingSuccess" xml:space="preserve">
+    <value>グループへの参加をリクエストしました。リクエストは承認待ちです。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleUpdateFail" xml:space="preserve">
+    <value>役割を更新できません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Transactions" xml:space="preserve">
+    <value>取引</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Wall" xml:space="preserve">
+    <value>掲示板</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ChangeDescription" xml:space="preserve">
+    <value>詳細を変更</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.FundsVisible" xml:space="preserve">
+    <value>グループ資金を一般公開する</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Percentage" xml:space="preserve">
+    <value>パーセンテージ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToRemoveAffiliate" xml:space="preserve">
+    <value>グループの仲間を削除できません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetRank" xml:space="preserve">
+    <value>{actor} が役割セット {roleSetName} のランクを {oldRank} から {newRank} にアップデートしました</value>
+    <comment>Used in AuditLog to let admin know some user in the group has changed the roleset&#39;s rank&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureGroupDevelopmentItem" xml:space="preserve">
+    <value>グループ開発アイテムを環境設定する</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoGames" xml:space="preserve">
+    <value>このグループに関連付けられたバーチャル空間はありません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SaleOfGoods" xml:space="preserve">
+    <value>商品の売却</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetDataNameOnly" xml:space="preserve">
+    <value>{actor} が役割セット {oldName} の名前を{newName} にアップデートしました</value>
+    <comment>Used in AuditLog to let admin knows some user in the group has updated a roleset&#39;s name&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.AuditLog" xml:space="preserve">
+    <value>監査ログ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.MakePrimaryGroup" xml:space="preserve">
+    <value>メイングループに設定</value>
+    <comment>Heading of make primary group modal&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.ManagementPermissions" xml:space="preserve">
+    <value>その他</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AdjustCurrencyAmounts" xml:space="preserve">
+    <value>通貨の額を調整</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageGroupGames" xml:space="preserve">
+    <value>グループバーチャル空間を制作して編集</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ModerateDiscussion" xml:space="preserve">
+    <value>ディスカッションをモデレートする</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="NameChangeCooldown" xml:space="preserve">
+    <value>名前の変更のタイミングが早すぎます。</value>
+    <comment>Created by fli@roblox.com&#xA;Modified by goesnowhere@roblox.com&#xA;Created by fli@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PendingRobux" xml:space="preserve">
+    <value>承認待ちRobux</value>
+    <comment>Created by ychiu@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by ychiu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.BuyClan" xml:space="preserve">
+    <value>{actor} がグループクランを購入しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NoPendingRequests" xml:space="preserve">
+    <value>承認待ちのメンバーリクエストはありません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToPurchaseRole" xml:space="preserve">
+    <value>役割購入の支払いを処理できませんでした。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupResults" xml:space="preserve">
+    <value>{Search Term} のグループでの結果</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by ccui@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MustBeAccepted" xml:space="preserve">
+    <value>グループに参加するには、ユーザーのリクエストが承認される必要があります</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PayingOut" xml:space="preserve">
+    <value>ペイアウト中：</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateEnemy" xml:space="preserve">
+    <value>{actor} が {group} グループに敵宣言しました　</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteRoleset" xml:space="preserve">
+    <value>{role} を削除しますか？</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteWallPostSuccess" xml:space="preserve">
+    <value>掲示板投稿を削除しました。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MaxRoles" xml:space="preserve">
+    <value>役割の数は最大40まで許可されています。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.RemovePrimaryGroup" xml:space="preserve">
+    <value>メイングループを削除</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateEnemy" xml:space="preserve">
+    <value>敵を作成</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoMembersInRole" xml:space="preserve">
+    <value>この役割のグループメンバーはいません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ViewStatus" xml:space="preserve">
+    <value>グループ告知を表示</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Amount" xml:space="preserve">
+    <value>価格</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.ExileUserWarning" xml:space="preserve">
+    <value>警告</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DeclineJoinRequest" xml:space="preserve">
+    <value>参加リクエストを却下</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GroupFunds" xml:space="preserve">
+    <value>グループ資金：</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.JoinRequirements" xml:space="preserve">
+    <value>参加条件</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DistributeBy" xml:space="preserve">
+    <value>Robux給付者:</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PostToStatus" xml:space="preserve">
+    <value>グループ告知を投稿</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SpendGroupFund" xml:space="preserve">
+    <value>グループ資金を使う</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AddGroupPlace" xml:space="preserve">
+    <value>{actor} が {game} のバーチャル空間をグループバーチャル空間に追加しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Categories" xml:space="preserve">
+    <value>カテゴリ</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AcceptAllyRequest" xml:space="preserve">
+    <value>同盟リクエストを承認する</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Member" xml:space="preserve">
+    <value>メンバー</value>
+    <comment>Member roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoOne" xml:space="preserve">
+    <value>誰もいません！</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ViewAuditLogs" xml:space="preserve">
+    <value>監査ログを表示</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.RecurringPayout" xml:space="preserve">
+    <value>定期ペイアウト</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Settings" xml:space="preserve">
+    <value>設定</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateItems" xml:space="preserve">
+    <value>{actor} がグループアイテムの {item} を作成しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeclineAllyRequest" xml:space="preserve">
+    <value>{actor} が {group} グループの同盟リクエストを却下しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Delete" xml:space="preserve">
+    <value>{actor} が現在のグループを削除しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ExileUserError" xml:space="preserve">
+    <value>ユーザーを追放できません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MemberNotFound" xml:space="preserve">
+    <value>この役割にメンバーは存在しません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Rank" xml:space="preserve">
+    <value>ランク</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SavePlace" xml:space="preserve">
+    <value>プレースを保存</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SpendGroupFunds" xml:space="preserve">
+    <value>グループ資金を使う</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ClaimOwnershipSuccess" xml:space="preserve">
+    <value>グループの所有権を取得しました。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureItems" xml:space="preserve">
+    <value>{actor} がグループアイテムの {item} を環境設定しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InsufficientRobux" xml:space="preserve">
+    <value>Robuxが不足しているためグループ作成できません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleDescriptionTooLong" xml:space="preserve">
+    <value>役割の詳細が長すぎます。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteGroupPlace" xml:space="preserve">
+    <value>{actor} が {game} のバーチャル空間をグループバーチャル空間から削除しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GetGroupRelationshipsError" xml:space="preserve">
+    <value>グループの仲間をロードできません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupIconTooLarge" xml:space="preserve">
+    <value>アイコンのサイズは最大 {maxSize} mbまでです。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SendGroupShoutError" xml:space="preserve">
+    <value>グループ告知を送信できません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnableToUpdateRole" xml:space="preserve">
+    <value>ユーザーの役割を更新できませんでした。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PendingSales" xml:space="preserve">
+    <value>承認待ちの売却</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PostToWall" xml:space="preserve">
+    <value>グループ掲示板に投稿</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupIconInvalid" xml:space="preserve">
+    <value>アイコンが無効であるか、存在しません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermCharactersLimit" xml:space="preserve">
+    <value>サーチする語句は、2から50文字である必要があります</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ManageGroupCreations" xml:space="preserve">
+    <value>グループアイテムの作成と管理。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoAllies" xml:space="preserve">
+    <value>このグループには仲間がいません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PremiumOnly" xml:space="preserve">
+    <value>プレミアム会員限定</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemainingFunds" xml:space="preserve">
+    <value>資金の残高：</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Rename" xml:space="preserve">
+    <value>名前を変更</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WallPostsUnavailable" xml:space="preserve">
+    <value>掲示板への投稿は一時的に利用できません。しばらくしてからもう一度お試しください。</value>
+    <comment>Displayed in the group wall area when we cannot successfully load wall posts&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.BuyAd" xml:space="preserve">
+    <value>{actor} が {adName} のグループ広告を {bid} で入札</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Member" xml:space="preserve">
+    <value>一般のグループメンバー</value>
+    <comment>Description of the member roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.MakePrimaryGroupWarning" xml:space="preserve">
+    <value>このグループをメイングループにしますか？</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.NoneMaxGroups" xml:space="preserve">
+    <value>他のグループにも参加するには、Robloxプレミアムにアップグレードしてください。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.RemovePrimaryGroupWarning" xml:space="preserve">
+    <value>メイングループを削除しますか？</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AdjustCurrencyAmountsDecreased" xml:space="preserve">
+    <value>{actor} がグループ資金を {amount} 減らしました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AdjustCurrencyAmountsIncreased" xml:space="preserve">
+    <value>{actor} がグループ資金を {amount} 増やしました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotDeleteThisRole" xml:space="preserve">
+    <value>この役割を削除できません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.MaximumExceeded" xml:space="preserve">
+    <value>移動する資格のあるRobuxの最大額は {robux} です</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PermissionUpdateSuccess" xml:space="preserve">
+    <value>権限を更新できました。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.UpgradeToJoin" xml:space="preserve">
+    <value>アップグレードして参加</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.OneTimePayout" xml:space="preserve">
+    <value>1回のペイアウト</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureItems" xml:space="preserve">
+    <value>アイテムの環境設定</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NoLongerModify" xml:space="preserve">
+    <value>この設定をオフにすると、変更ができなくなります</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemoveMembers" xml:space="preserve">
+    <value>低ランクメンバーを追放</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureBadgeDisabled" xml:space="preserve">
+    <value>{actor} が {badge} バッジを無効化しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleNameTooLong" xml:space="preserve">
+    <value>役割名が長すぎます。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SettingsLoadFail" xml:space="preserve">
+    <value>グループ設定をロードできません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AddFundsPrompt" xml:space="preserve">
+    <value>{userName} から {groupName} に転送</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Warning" xml:space="preserve">
+    <value>警告</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.BuildGroupRolesListError" xml:space="preserve">
+    <value>選択した役割のメンバーをロードできません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.JoinGroupError" xml:space="preserve">
+    <value>グループに参加できません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermEmpty" xml:space="preserve">
+    <value>サーチする語句がありません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TransactionBalance" xml:space="preserve">
+    <value>取引後の残高は</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Delete" xml:space="preserve">
+    <value>削除</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RemoveGroupPlace" xml:space="preserve">
+    <value>グループプレースを削除</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Username" xml:space="preserve">
+    <value>ユーザーネーム</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DeleteWallPostsByUserError" xml:space="preserve">
+    <value>ユーザーの掲示板投稿を削除できません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UsersInRole" xml:space="preserve">
+    <value>この役割をしているユーザーがいます。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.AdvertiseGroup" xml:space="preserve">
+    <value>グループを宣伝する</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.CreateRole" xml:space="preserve">
+    <value>役割を作成</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Shout" xml:space="preserve">
+    <value>告知</value>
+    <comment>To be displayed above the group shout (the current status for a group set by admins)&#xA;Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GamesVisible" xml:space="preserve">
+    <value>グループバーチャル空間は、グループホームページで見られます</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CreateAsset" xml:space="preserve">
+    <value>{actor} が {item} のアセットを作成しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleNameExists" xml:space="preserve">
+    <value>役割名はすでに存在しています。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SendPostError" xml:space="preserve">
+    <value>投稿を送信できません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.MembershipPermissions" xml:space="preserve">
+    <value>メンバー</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WallPostPlaceholder" xml:space="preserve">
+    <value>発言してください...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Owner" xml:space="preserve">
+    <value>グループの所有者。</value>
+    <comment>description of the owner roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PaidOutRecently" xml:space="preserve">
+    <value>前回のグループのペイアウトから間隔が短すぎます。しばらくしてからやり直してください。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UpdateRolesetData" xml:space="preserve">
+    <value>{actor} が役割セット {oldName} の名前を {newName} にアップデートし、説明を「{oldDescription}」から「{newDescription}」に変更しました。</value>
+    <comment>Used in auditlog to let admin know that a user has modified a roleset&#39;s name and description&#xA;Created by sshih@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by sshih@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.LeaveGroupWarning" xml:space="preserve">
+    <value>このグループを抜けますか？</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AllowDeclarations " xml:space="preserve">
+    <value>敵宣言を許可</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.OnlyBcCanJoin" xml:space="preserve">
+    <value>Builders Clubのメンバーだけが参加できます</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.InvalidTargetGroup" xml:space="preserve">
+    <value>ターゲットグループが無効、または存在しません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PurchaseRole" xml:space="preserve">
+    <value>新しい役割の購入の費用は {cost}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RankReserved" xml:space="preserve">
+    <value>ランクは {minRankPlusOne} と {maxRankMinusOne} の間でなければなりません。 {minRank} と {maxRank} は、ゲストと所有者限定です。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Admin" xml:space="preserve">
+    <value>管理者</value>
+    <comment>Admin roleset&#xA;Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupFee" xml:space="preserve">
+    <value>グループ作成手数料</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Delete" xml:space="preserve">
+    <value>削除</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PermDeleteRole" xml:space="preserve">
+    <value>この役割を永久に削除</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotUpdateOwner" xml:space="preserve">
+    <value>所有者の役割ランクを更新できません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.KickFromClan" xml:space="preserve">
+    <value>{actor} がユーザーの {user} をクランから追放しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.NameFieldEmpty" xml:space="preserve">
+    <value>名前の欄は空白にできません</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Rename" xml:space="preserve">
+    <value>{actor} が現在のグループ名を {newName} に変更しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigureGameDeveloperProduct" xml:space="preserve">
+    <value>{actor} が開発者製品 {id} を更新しました: {actions}</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.GroupCannotDeclareEnemies" xml:space="preserve">
+    <value>お持ちのグループは敵宣言を許可していません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermConstraint" xml:space="preserve">
+    <value>サーチする語句の長さは2〜50文字以内にする必要があります。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermFiltered" xml:space="preserve">
+    <value>サーチする語句がRobloxでは適切ではありません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ClaimOwnership" xml:space="preserve">
+    <value>所有権を取得</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.LeaveGroupAsOwnerWarning" xml:space="preserve">
+    <value>グループに所有者がいない状態になります。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.ObcMaxGroups" xml:space="preserve">
+    <value>グループへの参加数が上限に達しました。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroupTooltip" xml:space="preserve">
+    <value>新しいグループを作成</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchGroups" xml:space="preserve">
+    <value>グループを探す</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotChangeOwnRole" xml:space="preserve">
+    <value>自分の役割は変更できません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConfigureBadge" xml:space="preserve">
+    <value>バッジを環境設定する</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.CancelRequest" xml:space="preserve">
+    <value>リクエストをキャンセル</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by ejiang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AcceptJoinRequest" xml:space="preserve">
+    <value>参加リクエストを承認する</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGroup" xml:space="preserve">
+    <value>グループを作成</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.CannotHaveRelationshipWithSelf" xml:space="preserve">
+    <value>お持ちのグループがそのグループ自体と関連性を持つことはできません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.ConfigMetadataLoadFail" xml:space="preserve">
+    <value>グループ環境設定メタデータをロードできませんでした。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadGroupMetadataError" xml:space="preserve">
+    <value>グループ情報をロードできません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RoleUpdateSuccess" xml:space="preserve">
+    <value>役割を更新できました。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SendAllyRequest" xml:space="preserve">
+    <value>{actor} が同盟リクエストを {group} グループに送信しました</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PublicGroup" xml:space="preserve">
+    <value>公開</value>
+    <comment>If group is open for anyone to join&#xA;Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.AddFundsLimitMessage" xml:space="preserve">
+    <value>転送は保留となる可能性があります。あなたのアカウントからこのグループにはRobuxを {limit} 日ごとに1回だけ転送できます</value>
+    <comment>Created by szhang@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by szhang@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.DefaultError" xml:space="preserve">
+    <value>エラーが発生しました。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.PermissionUpdateFail" xml:space="preserve">
+    <value>権限を更新できません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SearchTermFilteredError" xml:space="preserve">
+    <value>サーチする語句が規制対象です</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by vchuri@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TooManyRecipients" xml:space="preserve">
+    <value>あて先が多すぎます。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.UnauthorizedToEditPermissions" xml:space="preserve">
+    <value>この役割の許可レベルを表示/編集する権限がありません。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.BuyAd" xml:space="preserve">
+    <value>広告を買う</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xxu@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Ownership" xml:space="preserve">
+    <value>所有権</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by xueyinwang@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.LoadGroupMembershipsError" xml:space="preserve">
+    <value>ユーザーのメンバーシップ情報をロードできません。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by vchuri@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

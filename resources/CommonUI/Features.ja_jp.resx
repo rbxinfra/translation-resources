@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action.Go" xml:space="preserve">
+    <value>実行</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by wspencer@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.About" xml:space="preserve">
+    <value>情報</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AboutUs" xml:space="preserve">
+    <value>当社について</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LuobuRiderTerms" xml:space="preserve">
+    <value>Luobuライダー利用規約</value>
+    <comment>Used in the CJV version of the app for the Luobu Rider Terms (Luobu specific Terms of Service)&#xA;Created by dgriffin@roblox.com&#xA;Modified by dgriffin@roblox.com&#xA;Created by dgriffin@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RealNameVerified" xml:space="preserve">
+    <value>本名を認証済み</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Send" xml:space="preserve">
+    <value>送信</value>
+    <comment>Button to press to send a debug report to Roblox</comment>
+  </data>
+  <data name="Label.Blog" xml:space="preserve">
+    <value>ブログ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Discover" xml:space="preserve">
+    <value>見つけよう</value>
+    <comment>Created by dli@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by dli@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Forum" xml:space="preserve">
+    <value>フォーラム</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.GooglePlayStore" xml:space="preserve">
+    <value>Google Playストア</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Parents" xml:space="preserve">
+    <value>保護者の方へ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ViewDetails" xml:space="preserve">
+    <value>詳細を見る</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="NavBar.Connect" xml:space="preserve">
+    <value>つながろう</value>
+    <comment>Used in the navbar. Should be very concise, shorter labels are preferred to maintain a readable font size&#xA;Created by mmarinucci@roblox.com&#xA;Modified by mmarinucci@roblox.com</comment>
+  </data>
+  <data name="Action.Ok" xml:space="preserve">
+    <value>OK</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Discussions" xml:space="preserve">
+    <value>ディスカッション</value>
+    <comment>Description of the current page. Will appear on the topbar of the app.&#xA;Created by bbrimeyer@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by bbrimeyer@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.New" xml:space="preserve">
+    <value>New</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="NavBar.Avatar" xml:space="preserve">
+    <value>アバター</value>
+    <comment>Used in the navbar. Should be very concise, shorter labels are preferred to maintain a readable font size&#xA;Created by mmarinucci@roblox.com&#xA;Modified by mmarinucci@roblox.com</comment>
+  </data>
+  <data name="Label.Help" xml:space="preserve">
+    <value>ヘルプ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MyFeed" xml:space="preserve">
+    <value>マイフィード</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="NavBar.Home" xml:space="preserve">
+    <value>ホーム</value>
+    <comment>Used in the navbar. Should be very concise, shorter labels are preferred to maintain a readable font size&#xA;Created by mmarinucci@roblox.com&#xA;Modified by mmarinucci@roblox.com</comment>
+  </data>
+  <data name="NavBar.More" xml:space="preserve">
+    <value>その他</value>
+    <comment>Used in the navbar. Should be very concise, shorter labels are preferred to maintain a readable font size&#xA;Created by mmarinucci@roblox.com&#xA;Modified by mmarinucci@roblox.com</comment>
+  </data>
+  <data name="Prompt.ReportLogsQuestion" xml:space="preserve">
+    <value>ローカルログファイルを Backtrace に送信しますか？</value>
+    <comment>Internal prompt in a dialog to ask user if a report should be sent for debugging. Below is an option for &#34;send&#34; or &#34;close&#34; (the dialog)</comment>
+  </data>
+  <data name="Label.Avatar" xml:space="preserve">
+    <value>アバター</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Messages" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Profile" xml:space="preserve">
+    <value>プロフィール</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Settings" xml:space="preserve">
+    <value>設定</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Chat" xml:space="preserve">
+    <value>チャット</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ConnectionError" xml:space="preserve">
+    <value>接続エラー</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PrivacyPolicy" xml:space="preserve">
+    <value>プライバシーポリシー</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.VisibleAgeOver13" xml:space="preserve">
+    <value> 13+</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Close" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>Label for a close button of a Dialog</comment>
+  </data>
+  <data name="Label.Careers" xml:space="preserve">
+    <value>採用情報</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DevSubs" xml:space="preserve">
+    <value>サブスクリプション</value>
+    <comment>As in, &#34;Developer Subscriptions.&#34;&#xA;Created by dnurkkala@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by dnurkkala@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Terms" xml:space="preserve">
+    <value>規約</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.VRMode" xml:space="preserve">
+    <value>仮想現実（VR）モード</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.ItemDetails" xml:space="preserve">
+    <value>アイテム詳細</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Inventory" xml:space="preserve">
+    <value>持ち物リスト</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Privacy" xml:space="preserve">
+    <value>プライバシー</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Version" xml:space="preserve">
+    <value>バージョン</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.Roblox.NormalCase" xml:space="preserve">
+    <value>Roblox（ロブロックス）</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.VisibleAgeUnder13" xml:space="preserve">
+    <value> &lt;13</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Events" xml:space="preserve">
+    <value>イベント</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Groups" xml:space="preserve">
+    <value>グループ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="NavBar.Discover" xml:space="preserve">
+    <value>見つけよう</value>
+    <comment>Used in the navbar. Should be very concise, shorter labels are preferred to maintain a readable font size&#xA;Created by mmarinucci@roblox.com&#xA;Modified by mmarinucci@roblox.com</comment>
+  </data>
+  <data name="Label.Friends" xml:space="preserve">
+    <value>友達</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Game" xml:space="preserve">
+    <value>バーチャル空間</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by lchang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LegalText" xml:space="preserve">
+    <value>TM &amp; © 2006-2019 ROBLOX、Roblox、Robloxロゴ、Powering Imaginationは、米国並びにその他の国において、登録商標および非登録商標です。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SettingLanguage" xml:space="preserve">
+    <value>言語を設定中...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TermsOfUse" xml:space="preserve">
+    <value>利用規約</value>
+    <comment>terms of use link label&#xA;Created by &lt;Unknown&gt;&#xA;Modified by hkim@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Deny" xml:space="preserve">
+    <value>却下</value>
+    <comment>Deny action in response to an accept/deny prompt, e.g a permissions prompt&#xA;Created by dgriffin@roblox.com&#xA;Modified by dgriffin@roblox.com&#xA;Created by dgriffin@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.ReportAbuse" xml:space="preserve">
+    <value>規約違反を報告</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.BuildersClub" xml:space="preserve">
+    <value>メンバーシップ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Catalog" xml:space="preserve">
+    <value>Robloxカタログ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LoadingDot" xml:space="preserve">
+    <value>.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Notifications" xml:space="preserve">
+    <value>通知</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SearchGames" xml:space="preserve">
+    <value>バーチャル空間をサーチ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by lchang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.GameDetails" xml:space="preserve">
+    <value>バーチャル空間の詳細</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by lchang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.VRWord" xml:space="preserve">
+    <value>仮想現実（VR）</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Home" xml:space="preserve">
+    <value>ホーム</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Menu" xml:space="preserve">
+    <value>メニュー</value>
+    <comment>The label from the Menu tab of the IA system nav bar&#xA;Created by eli@roblox.com&#xA;Modified by eli@roblox.com&#xA;Created by eli@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.Url" xml:space="preserve">
+    <value>URL</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Character" xml:space="preserve">
+    <value>キャラクター</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PrivacyGuidelinesChildren" xml:space="preserve">
+    <value>子供向けプライバシーガイドライン</value>
+    <comment>Used in the CJV app for the Luobu privacy policy for Children&#xA;Created by dgriffin@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by dgriffin@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ReportLogs" xml:space="preserve">
+    <value>報告ログ</value>
+    <comment>Button label for the &#34;Report Logs&#34; button to dump debug logs to backtrace.</comment>
+  </data>
+  <data name="Label.AmazonAppStore" xml:space="preserve">
+    <value>Amazonアプリストア</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Trade" xml:space="preserve">
+    <value>取引</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="ReportLogs" xml:space="preserve">
+    <value>報告ログ</value>
+    <comment>Label for a Report Logs button that allows clients to send their logs to Roblox for debugging.</comment>
+  </data>
+  <data name="Action.Done" xml:space="preserve">
+    <value>完了</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.GetNow" xml:space="preserve">
+    <value>今すぐ入手</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.CreateGames" xml:space="preserve">
+    <value>制作</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.More" xml:space="preserve">
+    <value>その他</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Prompt.ReportLogsResult" xml:space="preserve">
+    <value>報告を送信しました。</value>
+    <comment>Displays in a dialog when a report was successfully sent to Roblox for debugging</comment>
+  </data>
+</root>

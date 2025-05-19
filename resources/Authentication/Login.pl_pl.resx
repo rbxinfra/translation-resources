@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WeChat.ReputationScoreInfo" xml:space="preserve">
+    <value>Dowiedz się więcej</value>
+    <comment>Created by hkim@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by hkim@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ForgotPassword" xml:space="preserve">
+    <value>Nie pamiętam hasła</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TencentAuthenticating" xml:space="preserve">
+    <value>Uwierzytelnianie...</value>
+    <comment>Created by amikhailov@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by amikhailov@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TencentPleaseWait" xml:space="preserve">
+    <value>Czekaj.</value>
+    <comment>Created by amikhailov@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by amikhailov@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SystemErrorTryLaterContactSupport" xml:space="preserve">
+    <value>Błąd systemu. Spróbuj ponownie później. Jeśli problem nie ustąpi, skontaktuj się z działem wsparcia.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.TooManyAttemptsMessageForPhone" xml:space="preserve">
+    <value>Twoje hasło lub numer telefonu są nieprawidłowe. Poczekaj chwilę, zanim zalogujesz się ponownie.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Tencent.RealNameUnVerified" xml:space="preserve">
+    <value>Twoje konto {var1} nie zostało zweryfikowane pod kątem imienia i nazwiska. Użyj konta {var1} ze zweryfikowanym imieniem i nazwiskiem, a następnie spróbuj ponownie. {var2}</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="WeChat.RealNameUnVerified" xml:space="preserve">
+    <value>Twoje konto WeChat nie zostało zweryfikowane pod kątem imienia i nazwiska. Użyj konta ze zweryfikowanym imieniem i nazwiskiem, a następnie spróbuj ponownie. {var1}</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.LogInCapitalized" xml:space="preserve">
+    <value>Zaloguj się</value>
+    <comment>login button label. please note this is different from &#39;Login&#39; or &#39;Log in&#39;.&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.LoginButtonContentDesc" xml:space="preserve">
+    <value>loginLoginButton</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.AcceptTermsOfUseAndPrivacyPolicy" xml:space="preserve">
+    <value>Klikając „Zgadzam się”, wyrażasz zgodę na następujące dokumenty: {var1} i {var2}.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.IAgree" xml:space="preserve">
+    <value>ZGADZAM SIĘ</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LoggingInSpinnerText" xml:space="preserve">
+    <value>Logowanie...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UnverifiedEmailLoginWithUsername" xml:space="preserve">
+    <value>Twój adres e-mail nie jest zweryfikowany. Zaloguj się za pomocą nazwy użytkownika.</value>
+    <comment>error message shown when user attempts to login with unverified email&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="WeChat.PleaseWait" xml:space="preserve">
+    <value>Czekaj.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Login" xml:space="preserve">
+    <value>Zaloguj się</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.FloodCheckError" xml:space="preserve">
+    <value>Przekroczono limit prób. Spróbuj ponownie później.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.IncorrectEmailPassword" xml:space="preserve">
+    <value>Nieprawidłowy adres e-mail lub hasło.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.InvalidPassword" xml:space="preserve">
+    <value>Nazwa użytkownika lub hasło są nieprawidłowe. Sprawdź je i spróbuj ponownie.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Tencent.Authenticating" xml:space="preserve">
+    <value>Uwierzytelnianie...</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Tencent.ReputationScoreInfo" xml:space="preserve">
+    <value>Dowiedz się więcej</value>
+    <comment>Created by hkim@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by hkim@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Tencent.UserCancel" xml:space="preserve">
+    <value>Wylogowano się z aplikacji {var1}. Zaloguj się do aplikacji {var1}.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Continue" xml:space="preserve">
+    <value>Kontynuuj</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Login" xml:space="preserve">
+    <value>Zaloguj się</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TermsOfService" xml:space="preserve">
+    <value>Warunki korzystania z usługi</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.WeChat" xml:space="preserve">
+    <value>WeChat</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.WeChatLogin" xml:space="preserve">
+    <value>Logowanie – WeChat</value>
+    <comment>button text for logging in with WeChat&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LoggingIn" xml:space="preserve">
+    <value>Logowanie</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.QQ" xml:space="preserve">
+    <value>QQ</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UsernameEmail" xml:space="preserve">
+    <value>Nazwa użytkownika / adres e-mail</value>
+    <comment>placeholder text for input field that accepts username or email&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.AccountAlreadyConnected" xml:space="preserve">
+    <value>To konto jest już powiązane z kontem Roblox.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.MissingUsernamePasswordError" xml:space="preserve">
+    <value>Brakująca nazwa użytkownika lub hasło.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.MultipleAccountEmailLoginWithUsername" xml:space="preserve">
+    <value>Twój adres e-mail jest powiązany z więcej niż 1 nazwą użytkownika. Zaloguj się za pomocą nazwy użytkownika.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SessionExpiredLoginAgain" xml:space="preserve">
+    <value>Sesja wygasła. Zaloguj się ponownie.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.QQLogin" xml:space="preserve">
+    <value>Logowanie – QQ</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TermsOfServiceAndPrivacyPolicyText" xml:space="preserve">
+    <value>{var1} i {var2} firmy Tencent Games są dla mnie zrozumiałe i wyrażam na nie zgodę.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UsernamePhone" xml:space="preserve">
+    <value>Nazwa użytkownika / numer telefonu</value>
+    <comment>placeholder text for input field that accepts username or phone&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PleaseAcceptTerms" xml:space="preserve">
+    <value>Przed kontynuowaniem zaakceptuj poniższe warunki.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PleaseEnterPassword" xml:space="preserve">
+    <value>Wprowadź hasło.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.TencentLoginFailurePleaseTryAgain" xml:space="preserve">
+    <value>Logowanie nieudane. Spróbuj ponownie.</value>
+    <comment>Created by amikhailov@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by amikhailov@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.TooManyAttemptsMessageForUsername" xml:space="preserve">
+    <value>Twoje hasło lub nazwa użytkownika są nieprawidłowe. Poczekaj chwilę, zanim zalogujesz się ponownie.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UnableToLogIn" xml:space="preserve">
+    <value>Nie można się zalogować.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Cancel" xml:space="preserve">
+    <value>Anuluj</value>
+    <comment>Cancel button text&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.UsernameContentDescription" xml:space="preserve">
+    <value>loginUsername</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.IncorrectUsernamePassword" xml:space="preserve">
+    <value>Nieprawidłowa nazwa użytkownika lub hasło.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PleaseTryAgain" xml:space="preserve">
+    <value>Spróbuj ponownie</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.TooManyAttemptsMessageForEmail" xml:space="preserve">
+    <value>Twoje hasło lub adres e-mail są nieprawidłowe. Poczekaj chwilę, zanim zalogujesz się ponownie.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="WeChat.Authenticating" xml:space="preserve">
+    <value>Uwierzytelnianie...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="WeChat.UserCancel" xml:space="preserve">
+    <value>Wylogowano się z aplikacji WeChat. Zaloguj się do niej.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.DownloadNow" xml:space="preserve">
+    <value>Pobierz teraz</value>
+    <comment>A button that the user click on to download a new version of Roblox</comment>
+  </data>
+  <data name="Label.LogInCapitalized" xml:space="preserve">
+    <value>Zaloguj się</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ForgotPasswordOrUsername" xml:space="preserve">
+    <value>Nie pamiętam nazwy użytkownika lub hasła</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.IncorrectPhoneOrPasswordMessage" xml:space="preserve">
+    <value>Twoje hasło lub numer telefonu są nieprawidłowe. Sprawdź je i spróbuj ponownie.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.IncorrectUsernameOrPasswordMessage" xml:space="preserve">
+    <value>Twoje hasło lub nazwa użytkownika są nieprawidłowe. Sprawdź je i spróbuj ponownie.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Tencent.NotInstalled" xml:space="preserve">
+    <value>Aplikacja {var1} nie jest zainstalowana.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Url.VngDownloadNowUrl" xml:space="preserve">
+    <value>https://www.roblox.com</value>
+    <comment>URL for downloading the VNGGames version of the Roblox app. NOTE: URL is not finalized yet. Using roblox.com as a placeholder for now.</comment>
+  </data>
+  <data name="WeChat.LoginFailurePleaseTryAgain" xml:space="preserve">
+    <value>Logowanie nieudane. Spróbuj ponownie.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.CancelButtonContentDesc" xml:space="preserve">
+    <value>loginCancelButton</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RealNameAuthentication" xml:space="preserve">
+    <value>Uwierzytelnianie imienia i nazwiska</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.GenericError" xml:space="preserve">
+    <value>Coś poszło nie tak. Spróbuj ponownie.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UnverifiedEmailPhoneWithUsername" xml:space="preserve">
+    <value>Twój numer telefonu nie jest zweryfikowany. Zaloguj się za pomocą nazwy użytkownika.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Tencent.AccountInconsistent" xml:space="preserve">
+    <value>Konto, którego obecnie używasz, nie pasuje do konta, na które już się zalogowano. Czy chcesz przełączyć konto na nowe?</value>
+    <comment>Created by wyao@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by wyao@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Tencent.ReputationScoreTooLow" xml:space="preserve">
+    <value>Nie możesz korzystać z funkcji logowania, ponieważ twój wynik Game Credit jest zbyt niski.</value>
+    <comment>Created by hkim@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by hkim@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="WeChat.AntiAddictionText" xml:space="preserve">
+    <value>Bojkotuj szkodliwe projekty i odmawiaj dołączenia do projektów pirackich. Dbaj o własne bezpieczeństwo i uważaj na oszustwa. Odwiedzanie projektów pozytywnie wpływa na mózg, ale gdy robisz to zbyt często, możesz sobie zaszkodzić. Dobrze zarządzaj czasem i prowadź zdrowy tryb życia.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TermsOfUseChanged" xml:space="preserve">
+    <value>WARUNKI UŻYTKOWANIA ULEGŁY ZMIANIE</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Username" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.TooManyAttemptsMessage" xml:space="preserve">
+    <value>Przekroczono limit prób. Spróbuj ponownie później lub zresetuj hasło.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Tencent.LoginFailurePleaseTryAgain" xml:space="preserve">
+    <value>Logowanie nieudane. Spróbuj ponownie.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="WeChat.ReputationScoreTooLow" xml:space="preserve">
+    <value>Nie możesz korzystać z funkcji logowania, ponieważ twój wynik Game Credit jest zbyt niski.</value>
+    <comment>Created by hkim@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by hkim@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ForgotPasswordOrUsernameQuestion" xml:space="preserve">
+    <value>Nie pamiętasz hasła lub nazwy użytkownika?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DontHaveAnAccount" xml:space="preserve">
+    <value>Nie masz konta?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Login.Uppercase" xml:space="preserve">
+    <value>ZALOGUJ SIĘ</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.LuoBuAccount" xml:space="preserve">
+    <value>Nie można się zalogować na to konto.</value>
+    <comment>Created by mvlasyuk@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by mvlasyuk@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.TencentReputationScoreTooLow" xml:space="preserve">
+    <value>Twój wynik Game Credit wynosi &lt; {var1} pkt. Biorąc pod uwagę twoje zachowanie w grze, obecnie nie możesz się zalogować do aplikacji.</value>
+    <comment>Created by hkim@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by hkim@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Tencent.PleaseWait" xml:space="preserve">
+    <value>Czekaj.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ForgotUsernamePassword" xml:space="preserve">
+    <value>Nie pamiętam nazwy użytkownika lub hasła</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.PasswordContentDescription" xml:space="preserve">
+    <value>loginPassword</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Password" xml:space="preserve">
+    <value>Hasło</value>
+    <comment>Password&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TencentAntiAddictionText" xml:space="preserve">
+    <value>Bojkotuj szkodliwe gry i odmawiaj dołączenia do gier pirackich. Dbaj o własne bezpieczeństwo i uważaj na oszustwa. Granie w gry pozytywnie wpływa na mózg, ale gdy robisz to zbyt często, możesz sobie zaszkodzić. Dobrze zarządzaj czasem i prowadź zdrowy tryb życia.</value>
+    <comment>Created by amikhailov@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by amikhailov@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TencentNotInstalled" xml:space="preserve">
+    <value>Aplikacja {var1} nie jest zainstalowana.</value>
+    <comment>Created by amikhailov@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by amikhailov@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TencentUserCancel" xml:space="preserve">
+    <value>Wylogowano się z aplikacji {var1}. Zaloguj się do aplikacji {var1}.</value>
+    <comment>Created by amikhailov@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by amikhailov@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ThankYou" xml:space="preserve">
+    <value>Dziękujemy za korzystanie z naszej gry.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.IncorrectEmailOrPasswordMessage" xml:space="preserve">
+    <value>Twoje hasło lub adres e-mail są nieprawidłowe. Sprawdź je i spróbuj ponownie.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Heading.NewAppAvailable" xml:space="preserve">
+    <value>Dostępna jest nowa aplikacja</value>
+    <comment>Heading to inform the user that a new version of the Roblox app is available.</comment>
+  </data>
+  <data name="Response.IncorrectPhonePassword" xml:space="preserve">
+    <value>Nieprawidłowy numer telefonu lub hasło.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SystemError" xml:space="preserve">
+    <value>Błąd systemu. Spróbuj ponownie później.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.TencentRealNameUnVerified" xml:space="preserve">
+    <value>Twoje konto {var1} nie zostało zweryfikowane pod kątem imienia i nazwiska. Użyj konta {var1} ze zweryfikowanym imieniem i nazwiskiem, a następnie spróbuj ponownie. {var2}</value>
+    <comment>Created by amikhailov@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by amikhailov@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Tencent.AntiAddictionText" xml:space="preserve">
+    <value>Bojkotuj szkodliwe gry i odmawiaj dołączenia do gier pirackich. Dbaj o własne bezpieczeństwo i uważaj na oszustwa. Granie w gry pozytywnie wpływa na mózg, ale gdy robisz to zbyt często, możesz sobie zaszkodzić. Dobrze zarządzaj czasem i prowadź zdrowy tryb życia.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="WeChat.VersionNotSupported" xml:space="preserve">
+    <value>Wersja aplikacji WeChat nie jest obsługiwana</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.NotAMember" xml:space="preserve">
+    <value>Nie jesteś członkiem?</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.UsernameEmailPhone" xml:space="preserve">
+    <value>Nazwa użytkownika / adres e-mail / numer telefonu</value>
+    <comment>placeholder text for input fields that accept username, email or phone&#xA;Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ErrorLoginWithUsername" xml:space="preserve">
+    <value>Coś poszło nie tak. Zaloguj się za pomocą nazwy użytkownika.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.AccountIssueErrorContactSupport" xml:space="preserve">
+    <value>Problem z kontem. Skontaktuj się z działem wsparcia.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.GlobalAppAccessError" xml:space="preserve">
+    <value>Nie można się zalogować na to konto.</value>
+    <comment>Created by jack.liu@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by jack.liu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.IncorrectCredentialsForgotPasswordMessage" xml:space="preserve">
+    <value>Dane dostępu są nieprawidłowe. Sprawdź je i spróbuj ponownie.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PleaseEnterUsername" xml:space="preserve">
+    <value>Wprowadź nazwę użytkownika.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Tencent.VersionNotSupported" xml:space="preserve">
+    <value>Wersja aplikacji {var1} nie jest obsługiwana.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="WeChat.NotInstalled" xml:space="preserve">
+    <value>Aplikacja WeChat nie jest zainstalowana</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="WeChat.RealNameNotVerified" xml:space="preserve">
+    <value>Twoje konto WeChat nie zostało zweryfikowane pod kątem imienia i nazwiska. Użyj konta ze zweryfikowanym imieniem i nazwiskiem, a następnie spróbuj ponownie. Odwiedź stronę https://jiazhang.qq.com/zk/home.html</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.PlayNow" xml:space="preserve">
+    <value>Zagraj teraz</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.SignUp" xml:space="preserve">
+    <value>Zarejestruj się</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Description.DownloadNewVersion" xml:space="preserve">
+    <value>Ta wersja aplikacji nie jest już dostępna w twoim regionie. Aby kontynuować grę, pobierz nową wersję aplikacji Roblox.</value>
+    <comment>Description text to inform the user that the version of Roblox they are using is no longer available, and to encourage them to download a newer version of Roblox by clicking on a button provided in the same UI.</comment>
+  </data>
+  <data name="Label.RealNameVerification" xml:space="preserve">
+    <value>Informacje dotyczące uwierzytelniania twojego imienia i nazwiska są już przechowywane w bazie danych firmy Tencent. Teraz możesz się zalogować i grać w gry firmy Tencent Games.</value>
+    <comment>Created by ashajgotra@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by ashajgotra@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TencentVersionNotSupported" xml:space="preserve">
+    <value>Wersja aplikacji {var1} nie jest obsługiwana.</value>
+    <comment>Created by amikhailov@roblox.com&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by amikhailov@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.LoginIssueErrorContactSupport" xml:space="preserve">
+    <value>Problem z logowaniem. Skontaktuj się z działem wsparcia.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationProviderSynchronizer&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

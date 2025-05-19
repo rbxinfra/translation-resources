@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Response.ClearAppAndRestart" xml:space="preserve">
+    <value>请将此 App 从“最近使用的 App“菜单中清除，然后重新启动此 App。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.NoOpenLinkAppInstalled" xml:space="preserve">
+    <value>你没有可以打开此链接的 App。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.RobloxSupport" xml:space="preserve">
+    <value>罗布乐思支持</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SSLHandshakeException" xml:space="preserve">
+    <value>无法连接至服务器：SSL握手异常！</value>
+    <comment>SSL Handshake Exception error message&#xA;Created by dgriffin@roblox.com&#xA;Modified by dgriffin@roblox.com&#xA;Created by dgriffin@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ServiceNotAvailable" xml:space="preserve">
+    <value>服务不可用，请稍后重试。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UnsupportedDevice" xml:space="preserve">
+    <value>抱歉，你的设备未满足最低要求，无法开始体验。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by lchang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Password" xml:space="preserve">
+    <value>密码</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by hkim@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.TextWasModerated" xml:space="preserve">
+    <value>文本已被过滤。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SettingsSavedTitle" xml:space="preserve">
+    <value>设置已保存</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="VR_Application_Upgrade_Label" xml:space="preserve">
+    <value>你的 Roblox 版本已经过时，将无法正常运行。</value>
+    <comment>A shorter version of the upgrade text for VR notification where expanded text is not available.&#xA;Created by jzhao@roblox.com&#xA;Modified by jzhao@roblox.com&#xA;Created by jzhao@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Working.InProgress" xml:space="preserve">
+    <value>正在运作...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.RequestSizeOverLimit" xml:space="preserve">
+    <value>请求大小超出限制。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.99.Plus" xml:space="preserve">
+    <value>99+</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.ConnectionError" xml:space="preserve">
+    <value>无法连接至服务器。请检查你的网络连接！</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.RequiresNEONInstructions" xml:space="preserve">
+    <value>需要 NEON 指令</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.SystemErrorTryLater" xml:space="preserve">
+    <value>系统错误。请稍后重试。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.TooManyAttemptsText" xml:space="preserve">
+    <value>尝试次数过多</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UnexpectedErrorFormatted" xml:space="preserve">
+    <value>抱歉！发生意外错误：{var1}。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Close" xml:space="preserve">
+    <value>关闭</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Validating" xml:space="preserve">
+    <value>正在验证</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Loading" xml:space="preserve">
+    <value>正在加载</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Roblox" xml:space="preserve">
+    <value>罗布乐思</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Working" xml:space="preserve">
+    <value>正在运作...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.CheckingMessage" xml:space="preserve">
+    <value>正在检查...</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.InstallEmailClient" xml:space="preserve">
+    <value>未启动电子邮件应用程序。</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.RestartRequiredTitle" xml:space="preserve">
+    <value>需要重新启动 App</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ActionNotAvailableOnVRHeadsetDevice" xml:space="preserve">
+    <value>头戴式设备尚未支持此操作，请使用其他装备尝试。</value>
+    <comment>A toast text to show user when certain actions (e.g opening a webpage) is not available for VR head set device.&#xA;Created by jzhao@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by jzhao@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.OperationUnavailable" xml:space="preserve">
+    <value>此操作暂时不可用。请稍后重试。</value>
+    <comment>Created by crobinson@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by crobinson@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

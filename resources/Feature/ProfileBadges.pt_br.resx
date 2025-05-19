@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VerifiedBadgeInfoLink" xml:space="preserve">
+    <value>Saiba mais</value>
+    <comment>Text for a link to “Learn More” about Verified Badges&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by czhang@roblox.com&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="action.close" xml:space="preserve">
+    <value>Fechar</value>
+    <comment>A button that can be clicked to close a modal&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by czhang@roblox.com&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="2SVWithVerifiedBadge" xml:space="preserve">
+    <value>Informações</value>
+    <comment>A warning displayed to users telling them turning off 2FA verification will result in them losing their verified badges&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by ccui@roblox.com&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Creator.VerifiedBadgeIconAccessibilityText" xml:space="preserve">
+    <value>Ícone do emblema verificado</value>
+    <comment>Text that will be read by screen readers when a verified badge is present next to a name.&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by czhang@roblox.com&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="DisplayNameChangeWithVerifiedBadge" xml:space="preserve">
+    <value>Importante: Esta mudança resultará na perda de seu emblema verificado.\n\nO seu nome de exibição só pode ser alterado uma vez a cada 7 dias.</value>
+    <comment>Text explaining to the user if they change their display name they will lose their Verified Badge&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by czhang@roblox.com&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="VerifiedBadgeInfoTitle" xml:space="preserve">
+    <value>Emblema verificado</value>
+    <comment>Text that will be displayed as the title for a modal that gives the user more information about what the Verified Badge is&#xA;Created by dminnerly@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by dminnerly@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Creator.PremiumBadgeIconAccessibilityText" xml:space="preserve">
+    <value>Ícone de emblema Premium</value>
+    <comment>This is text that will be read by screen readers when the premium badge is present next to a creators name&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by czhang@roblox.com&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="GroupNameChangeWithVerifiedBadge" xml:space="preserve">
+    <value>o emblema verificado será removido.</value>
+    <comment>A warning to a user if they try to change their group name that they will lose the verified badge.&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by czhang@roblox.com&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="ThisActionWillRemoveTheVerifiedBadge" xml:space="preserve">
+    <value>O emblema verificado será removido.</value>
+    <comment>Warning displayed to users in a confirmation modal that taking this action will remove their verified badge.&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by czhang@roblox.com&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="TwoSVWithVerifiedBadge" xml:space="preserve">
+    <value>Desabilitar a verificação em duas etapas resultará na perda de seu emblema verificado e tornará sua conta menos segura. Tem certeza de que deseja continuar?</value>
+    <comment>A warning displayed to users telling them turning off 2FA verification will result in them losing their verified badges&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by czhang@roblox.com&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="UsernameChangeWithVerifiedBadge" xml:space="preserve">
+    <value>Importante: Esta mudança resultará na perda do emblema verificado.\n\nA data de criação da conta original será transferida para o seu novo nome de usuário.</value>
+    <comment>Text warning a user if they change their username they will lose the verified badge&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by czhang@roblox.com&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="VerifiedBadgeInfo" xml:space="preserve">
+    <value>Este distintivo verifica que o titular é um criador(a), marca ou figura pública notável e autêntico(a).</value>
+    <comment>Info that will be displayed in a modal if the verified badge is clicked&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by czhang@roblox.com&#xA;Created by DLOUIE@ROBLOX.COM&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

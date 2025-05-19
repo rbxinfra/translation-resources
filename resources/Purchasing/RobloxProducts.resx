@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Response.PurchaseCancelledV2" xml:space="preserve">
+    <value>You have cancelled this purchase.</value>
+    <comment>Created by esauer@roblox.com&#xA;Modified by esauer@roblox.com&#xA;Created by esauer@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchaseUpdateAndroidVersion" xml:space="preserve">
+    <value>Please upgrade your Android Version to allow Purchasing.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchaseValidateLimit" xml:space="preserve">
+    <value>Sorry, your transaction cannot be completed at this time as you have reached a transaction limit. Need help? Please contact {var1}.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RobuxBalance" xml:space="preserve">
+    <value>Balance: {var1} Robux</value>
+    <comment>Balance : [quantity] Robux&#xA;Created by &lt;Unknown&gt;&#xA;Modified by ptrethewey@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PendingPurchaseWithUser" xml:space="preserve">
+    <value>There is a pending Purchase with Roblox User Name. Please login with User Name: {var1}</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchaseNotCompletedV2" xml:space="preserve">
+    <value>This purchase was not completed.</value>
+    <comment>Created by esauer@roblox.com&#xA;Modified by esauer@roblox.com&#xA;Created by esauer@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchaseSetupGooglePlay" xml:space="preserve">
+    <value>Please setup Google Play Store to make purchases.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchasingInvalidPurchase" xml:space="preserve">
+    <value>Sorry, your transaction could not be completed.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UserCancelled" xml:space="preserve">
+    <value>You have cancelled this purchase.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Robux" xml:space="preserve">
+    <value>Robux</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchaseInProcess" xml:space="preserve">
+    <value>Purchase in process, please try again later.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchaseIsEmulator" xml:space="preserve">
+    <value>Purchase not supported. Need help? Please contact {var1}.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchaseIsEmulatorV2" xml:space="preserve">
+    <value>Purchase not supported.</value>
+    <comment>Created by esauer@roblox.com&#xA;Modified by esauer@roblox.com&#xA;Created by esauer@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchaseSuccessfulBodyAndroid" xml:space="preserve">
+    <value>The bonus item has been added to your inventory.</value>
+    <comment>Android successful purchase confirmation body</comment>
+  </data>
+  <data name="Response.ExistingSubscription" xml:space="preserve">
+    <value>This Google Play account has already subscribed to Roblox Premium on another Roblox account.</value>
+    <comment>Created by esauer@roblox.com&#xA;Modified by esauer@roblox.com&#xA;Created by esauer@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchaseIncomplete" xml:space="preserve">
+    <value>This purchase was not completed.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchaseSuccessfulAndroid" xml:space="preserve">
+    <value>Purchase successful, your product will be delivered shortly.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchaseSuccessfulTitleAndroid" xml:space="preserve">
+    <value>Purchase successful</value>
+    <comment>Android successful purchase confirmation title</comment>
+  </data>
+  <data name="Response.PurchaseValidateLimitV2" xml:space="preserve">
+    <value>Sorry, your transaction cannot be completed at this time as you have reached a transaction limit.</value>
+    <comment>Created by esauer@roblox.com&#xA;Modified by esauer@roblox.com&#xA;Created by esauer@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchasingLimitUnder13" xml:space="preserve">
+    <value>Sorry, your transaction cannot be completed as you have reached a purchasing limit. Please try your transaction again in 24-72 hours. If unsuccessful, you may need to wait up to 30 days to make a new purchase. Purchasing limits cannot be changed or removed.</value>
+    <comment>Shown to user under 13 when hitting a limit check.&#xA;Created by esauer@roblox.com&#xA;Modified by esauer@roblox.com&#xA;Created by esauer@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchaseNotCompleted" xml:space="preserve">
+    <value>This purchase was not completed. Need help? Please contact {var1}.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.BillingUnavailableTryLater" xml:space="preserve">
+    <value>Billing service is currently unavailable. Please try again later.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.NeedLogin" xml:space="preserve">
+    <value>Please login and try again.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.PurchaseCancelled" xml:space="preserve">
+    <value>You have cancelled this purchase. Need help? Please contact {var1}.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

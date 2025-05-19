@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label.Right" xml:space="preserve">
+    <value>Der.</value>
+    <comment>First letter of &#34;Right&#34;&#xA;Created by dbanks@roblox.com&#xA;Modified by dbanks@roblox.com&#xA;Created by dbanks@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.RightInitial" xml:space="preserve">
+    <value>Der.</value>
+    <comment>First letter of &#34;Right&#34; as in &#34;turn right&#34;&#xA;Created by dbanks@roblox.com&#xA;Modified by dbanks@roblox.com&#xA;Created by dbanks@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.Emote" xml:space="preserve">
+    <value>Emote</value>
+    <comment>Header for the subsection of Profile Picture Editor where you pick an emote to pose your avatar&#xA;Created by dbanks@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by dbanks@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.SelectEmote" xml:space="preserve">
+    <value>Selecciona un emote para hacer una pose</value>
+    <comment>Created by dbanks@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by dbanks@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.EditProfilePicture" xml:space="preserve">
+    <value>Editar foto de perfil</value>
+    <comment>The user is going to enter a wizard where they can edit their profile picture.&#xA;Created by dbanks@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by dbanks@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ProfilePictureEditor" xml:space="preserve">
+    <value>Editor de foto de perfil</value>
+    <comment>Title for screens in the Profile Picture Editor wizard&#xA;Created by dbanks@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by dbanks@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.Equip" xml:space="preserve">
+    <value>Equipar</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="ProfilePictureEditor.NoEmotes" xml:space="preserve">
+    <value>Sin emotes</value>
+    <comment>The user has no Emotes to apply to their Profile Picture.&#xA;Created by dbanks@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by dbanks@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="TrackerPrompt.VideoNoPermission" xml:space="preserve">
+    <value>El chat facial requiere cámara</value>
+    <comment>The Face Chat feature requires a camera to track the user&#39;s facial expressions.&#xA;Created by avamatheva@roblox.com&#xA;Modified by goesnowhere@roblox.com&#xA;Created by avamatheva@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.ProfilePicturePreview" xml:space="preserve">
+    <value>Previsualizar imagen de perfil</value>
+    <comment>Title for final page of profile picture editor where you can preview your edited picture&#xA;Created by dbanks@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by dbanks@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Save" xml:space="preserve">
+    <value>Guardar</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by srajasekar@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.LeftInitial" xml:space="preserve">
+    <value>Izq.</value>
+    <comment>First letter of &#34;left&#34;&#xA;Created by dbanks@roblox.com&#xA;Modified by dbanks@roblox.com&#xA;Created by dbanks@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.PPEEmoteR15Warning" xml:space="preserve">
+    <value>Cambia tu tipo de cuerpo a R15 para activar los emotes y posar tu avatar.</value>
+    <comment>User is in profile picture editor and they have an R6 model.  They have selected an emote to pose the avatar for a picture.  We want them to convert to R15 before proceeding.&#xA;Created by dbanks@roblox.com&#xA;Modified by srajasekar@roblox.com&#xA;Created by dbanks@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

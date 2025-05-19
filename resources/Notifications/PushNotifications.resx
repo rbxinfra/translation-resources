@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label.NewPrivateMessages" xml:space="preserve">
+    <value>You have {var1} new private messages</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ThreeFriendsAcceptedRequests" xml:space="preserve">
+    <value>{var1}, {var2} and one other user accepted your friend requests.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Accept" xml:space="preserve">
+    <value>ACCEPT</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Decline" xml:space="preserve">
+    <value>DECLINE</value>
+    <comment>Created by joshuali@roblox.com&#xA;Modified by joshuali@roblox.com&#xA;Created by joshuali@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Ignore" xml:space="preserve">
+    <value>IGNORE</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DirectChatReplyMsgModerated" xml:space="preserve">
+    <value>Your message was moderated and not sent to {var1}</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MoreThanThreeFriendsAcceptedRequests" xml:space="preserve">
+    <value>{var1}, {var2} and others accepted your friend requests.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.VirtualEventOngoingBody" xml:space="preserve">
+    <value>Join the event now</value>
+    <comment>Message displayed on virtual event notification body when there is a live virtual event ongoing.&#xA;Created by bxu@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by bxu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Action.Reply" xml:space="preserve">
+    <value>REPLY</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.ThreeFriendsSentRequests" xml:space="preserve">
+    <value>{var1}, {var2} and one other user sent you friend requests.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Messages.SingleFriendSentRequest" xml:space="preserve">
+    <value>{var1} sent you a friend request.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Settings.ChannelNameCalling" xml:space="preserve">
+    <value>Call Notifications</value>
+    <comment>Used to describe a grouping for notifications that are calling related. Calling someone triggers a notification and notification will be associated with this group.&#xA;Created by joshuali@roblox.com&#xA;Modified by joshuali@roblox.com</comment>
+  </data>
+  <data name="Settings.ChannelNameDefault" xml:space="preserve">
+    <value>Default Importance Notifications</value>
+    <comment>Android device notification category label. Found under the user&#39;s device settings. Settings-&gt;Applications-&gt;Roblox-&gt;Notifications&#xA;Created by vmunoz@roblox.com&#xA;Modified by vmunoz@roblox.com&#xA;Created by vmunoz@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Settings.ChannelNameGeneral" xml:space="preserve">
+    <value>General Notifications</value>
+    <comment>Android device notification category label. Found under the user&#39;s device settings. Settings-&gt;Applications-&gt;Roblox-&gt;Notifications&#xA;Created by &lt;Unknown&gt;&#xA;Modified by lchang@roblox.com&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com&#xA;Modified by joshuali@roblox.com</comment>
+  </data>
+  <data name="Settings.ChannelNameMedium" xml:space="preserve">
+    <value>Medium Importance Notifications</value>
+    <comment>Android device notification category label. Found under the user&#39;s device settings. Settings-&gt;Applications-&gt;Roblox-&gt;Notifications&#xA;Created by vmunoz@roblox.com&#xA;Modified by vmunoz@roblox.com&#xA;Created by vmunoz@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Settings.ChannelNameUrgent" xml:space="preserve">
+    <value>Urgent Notifications</value>
+    <comment>Android device notification category label. Found under the user&#39;s device settings. Settings-&gt;Applications-&gt;Roblox-&gt;Notifications&#xA;Created by vmunoz@roblox.com&#xA;Modified by vmunoz@roblox.com&#xA;Created by vmunoz@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SentPrivateMessage" xml:space="preserve">
+    <value>{var1} sent you a new private message</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.SingleFriendAcceptedRequest" xml:space="preserve">
+    <value>{var1} accepted your friend request.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DirectChatReplySendingFailed" xml:space="preserve">
+    <value>There was an error in sending your message to {var1}</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.FriendRequestIgnored" xml:space="preserve">
+    <value>FRIEND REQUEST IGNORED</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.MoreThanThreeFriendsSentRequests" xml:space="preserve">
+    <value>{var1}, {var2} and others sent you friend requests.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TwoFriendsAcceptedRequests" xml:space="preserve">
+    <value>{var1} and {var2} accepted your friend requests.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.TwoFriendsSentRequests" xml:space="preserve">
+    <value>{var1} and {var2} sent you friend requests.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Message.VirtualEventOngoingTitle" xml:space="preserve">
+    <value>Happening Now: {title}</value>
+    <comment>Message displayed on virtual event notification title when there is a live virtual event ongoing.&#xA;Created by bxu@roblox.com&#xA;Modified by czhang@roblox.com&#xA;Created by bxu@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Label.DirectChatReplyMessageNotDelivered" xml:space="preserve">
+    <value>Message Not Delivered</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UnableToCompleteAction" xml:space="preserve">
+    <value>Unable to complete request. Please try again.</value>
+    <comment>Push notifications error warning.&#xA;Created by dgriffin@roblox.com&#xA;Modified by dgriffin@roblox.com&#xA;Created by dgriffin@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Response.UnableToRegisterForPushNotifications" xml:space="preserve">
+    <value>Unable to register for push notifications. Please try again.</value>
+    <comment>Created by &lt;Unknown&gt;&#xA;Modified by &lt;TranslationMigrator&gt;&#xA;Created by &lt;Unknown&gt;&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+  <data name="Settings.ChannelNameMinimum" xml:space="preserve">
+    <value>Minimum Importance Notifications</value>
+    <comment>Android device notification category label. Found under the user&#39;s device settings. Settings-&gt;Applications-&gt;Roblox-&gt;Notifications&#xA;Created by vmunoz@roblox.com&#xA;Modified by vmunoz@roblox.com&#xA;Created by vmunoz@roblox.com&#xA;Modified by bdeng@roblox.com</comment>
+  </data>
+</root>

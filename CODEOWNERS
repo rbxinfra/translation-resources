@@ -1,0 +1,7 @@
+/.github/ @rbxinfra/platform-ci
+/scripts/ @rbxinfra/platform-ci
+/tools/ @rbxinfra/platform-ci
+
+CODEOWNERS @rbxinfra/library-maintainers
+
+/src/ @rbxinfra/internationalization-team
