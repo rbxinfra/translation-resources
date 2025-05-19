@@ -63,9 +63,9 @@ jobs:
 
       - name: Generate translation resources
         run: >-
-          ./tools/translation-resource-generator \
-          --from-resx \
-          --configuration-directory ./resources \
+          ./tools/translation-resource-generator
+          --from-resx
+          --configuration-directory ./resources
           --output-directory ./src
 
       # Build
@@ -75,23 +75,23 @@ jobs:
 
       - name: Build Solution
         run: >-
-          dotnet build \
-          --no-restore \
+          dotnet build
+          --no-restore
           -c Release
 
       - name: Run Tests
         run: >-
-          dotnet test \
-          --no-build \
+          dotnet test
+          --no-build
           --no-restore
           -c Release
 
       - name: Pack NuGet Packages
         run: >-
-          dotnet pack \
-          --no-build \
-          --no-restore \
-          --output ./dist \
+          dotnet pack
+          --no-build
+          --no-restore
+          --output ./dist
           -c Release
 
       # Finish
@@ -128,10 +128,10 @@ jobs:
 
       - name: Publish NuGet Packages
         run: >-
-          dotnet nuget push \
-          dist/*.nupkg \
-          --skip-duplicate \
-          --source ${{ vars.NUGET_SOURCE }} \
+          dotnet nuget push
+          dist/*.nupkg
+          --skip-duplicate
+          --source ${{ vars.NUGET_SOURCE }}
           --api-key ${{ secrets.NUGET_API_KEY }}
 
       - name: Clean up
